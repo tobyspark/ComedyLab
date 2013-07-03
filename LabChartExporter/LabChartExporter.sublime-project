@@ -1,0 +1,15 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.pyc",
+				"*.tmp",
+				"*.log"
+			],
+			"follow_symlinks": true,
+			"path": "."
+		}
+	]
+}

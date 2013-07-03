@@ -1,0 +1,62 @@
+{
+    "filename": "performance1-breathingbelts.log",
+    "granularity": 0.1,
+    "mapping":  [
+                    {
+                        "audience": 1,
+                        "column index": 1
+                    },
+                    {
+                        "audience": 5,
+                        "column index": 2
+                    },
+                    {
+                        "audience": 9,
+                        "column index": 3
+                    },
+                    {
+                        "audience": 13,
+                        "column index": 4
+                    },
+                    {
+                        "audience": 2,
+                        "column index": 5
+                    },
+                    {
+                        "audience": 6,
+                        "column index": 6
+                    },
+                    {
+                        "audience": 10,
+                        "column index": 7
+                    },
+                    {
+                        "audience": 14,
+                        "column index": 8
+                    },
+                    {
+                        "audience": 3,
+                        "column index": 9
+                    },
+                    {
+                        "audience": 7,
+                        "column index": 10
+                    },
+                    {
+                        "audience": 11,
+                        "column index": 11
+                    },
+                    {
+                        "audience": 15,
+                        "column index": 12
+                    },
+                    {
+                        "audience": 8,
+                        "column index": 13
+                    },
+                    {
+                        "audience": 12,
+                        "column index": 14
+                    }
+                ]
+}

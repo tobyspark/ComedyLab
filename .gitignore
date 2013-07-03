@@ -3,3 +3,4 @@
 
 # Shore Log
 *.log
+.DS_Store
