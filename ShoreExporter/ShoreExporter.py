@@ -29,6 +29,11 @@ def parseLine(line):
         # get the key and value from the item
         key, value = parseItem(item)
 
+        # cast value based on the key
+        # TODO: Add more keys here if you need them (e.g. Uptime, Score etc)
+        if (key in ['Left', 'Top', 'Right', 'Bottom']):
+            value = float(value)
+
         # add to the dictionary
         dictionary[key] = value
 
@@ -36,7 +41,7 @@ def parseLine(line):
 
 
 def parseItem(item):
-    '''Parse the item and return key, value'''
+    '''Parse the item and return key, value (in string)'''
 
     itemList = item.split('=')
 
