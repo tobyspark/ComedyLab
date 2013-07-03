@@ -9,9 +9,12 @@ def parseFile(file, configuration):
 
     # parse each line
     for line in source:
+
+        # get dictionary from line
         dict_line = parseLine(line)
 
-        export(dict_line, configuration)
+        # export the line based on the configuration
+        export(dict_line, line, configuration)
 
 
 def parseLine(line):
@@ -49,6 +52,35 @@ def parseItem(item):
         sys.exit('Error: structure of input file is invalid. Item: ' + item)
 
 
+def openFilesInConfiguration(configuration):
+    '''Open files in configuration'''
+
+    # iterate items
+    for item in configuration:
+
+        # open file for writing
+        output = open(item['filename'], 'w')
+
+        # add output file object into the dictionary
+        item['output'] = output
+
+
+def closeFilesInConfiguration(configuration):
+    '''Close files in configuration'''
+
+    # iterate items
+    for item in configuration:
+
+        # close the output object
+        item['output'].close()
+
+
+def export(dict_line, line, configuration):
+    '''export the line based on the given configuration'''
+
+    pass
+
+
 ''' main '''
 if __name__ == '__main__':
 
@@ -71,9 +103,13 @@ if __name__ == '__main__':
     # convert json file to python object
     configuration = json.loads(conf_source.read())
 
+    # open files in configuration
+    openFilesInConfiguration(configuration)
+
     # parse the file with given configuration
     parseFile(source, configuration)
 
     # close files
     source.close()
     conf_source.close()
+    closeFilesInConfiguration(configuration)
