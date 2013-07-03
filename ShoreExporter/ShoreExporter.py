@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 
 import sys
+import json
 
-
-def parseFile(file):
+def parseFile(file, configuration):
     '''Parse the file'''
 
     # parse each line
     for line in source:
-        parseLine(line)
+        dict_line = parseLine(line)
 
 
 def parseLine(line):
@@ -49,18 +49,28 @@ def parseItem(item):
 ''' main '''
 if __name__ == '__main__':
     
-    # check if the the filename exists as a parameter
+    # check if the the input filename exists as a parameter
     if (len(sys.argv) < 2):
         sys.exit('Missing input file')
 
-    # read the filename from the 1st argument
-    filename = sys.argv[1]
+    # check if the the configuration filename exists as a parameter
+    if (len(sys.argv) < 3):
+        sys.exit('Missing configuration file')
 
-    # open the file
-    source = open(filename, 'r')
+    # read files from arguments
+    inputFile = sys.argv[1]
+    confFile = sys.argv[2]
 
-    # parse the file
-    parseFile(source)
+    # open files
+    source = open(inputFile, 'r')
+    conf_source = open(confFile, 'r')
 
-    # close the file
+    # convert json file to python object
+    configuration = json.loads(conf_source.read())
+
+    # parse the file with given configuration
+    parseFile(source, configuration)
+
+    # close files
     source.close()
+    conf_source.close()
