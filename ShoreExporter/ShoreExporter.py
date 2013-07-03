@@ -3,12 +3,15 @@
 import sys
 import json
 
+
 def parseFile(file, configuration):
     '''Parse the file'''
 
     # parse each line
     for line in source:
         dict_line = parseLine(line)
+
+        export(dict_line, configuration)
 
 
 def parseLine(line):
@@ -18,7 +21,7 @@ def parseLine(line):
     dictionary = {}
 
     # iterate through items
-    for item in line.split(" "):
+    for item in line.split(' '):
 
         # get the key and value from the item
         key, value = parseItem(item)
@@ -32,7 +35,7 @@ def parseLine(line):
 def parseItem(item):
     '''Parse the item and return key, value'''
 
-    itemList = item.split("=")
+    itemList = item.split('=')
 
     # normal case (key=value)
     if len(itemList) == 2:
@@ -43,12 +46,12 @@ def parseItem(item):
         return itemList[0], None
 
     else:
-        sys.exit('Error: structure of the input file is invalid. Item: ' + item)
+        sys.exit('Error: structure of input file is invalid. Item: ' + item)
 
 
 ''' main '''
 if __name__ == '__main__':
-    
+
     # check if the the input filename exists as a parameter
     if (len(sys.argv) < 2):
         sys.exit('Missing input file')
