@@ -102,9 +102,9 @@ def export(dict_line, line, configuration):
         line_bottom = dict_line['Bottom']
 
         # debug
-        print '---'
-        print('conf - l: %f t:%f r:%f b:%f' % (conf_left, conf_top, conf_right, conf_bottom))
-        print('line - l: %f t:%f r:%f b:%f' % (line_left, line_top, line_right, line_bottom))
+        # print '---'
+        # print('conf - l: %f t:%f r:%f b:%f' % (conf_left, conf_top, conf_right, conf_bottom))
+        # print('line - l: %f t:%f r:%f b:%f' % (line_left, line_top, line_right, line_bottom))
 
         # check if the line fits the configuration item requirements
         # 0,0 point is Top-Left
