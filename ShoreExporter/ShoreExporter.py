@@ -12,7 +12,7 @@ def parseFile(file):
 
 
 def parseLine(line):
-    '''Parse the line and...'''
+    '''Parse the line and return in dictionary'''
 
     # empty dict
     dictionary = {}
@@ -30,15 +30,16 @@ def parseLine(line):
 
 
 def parseItem(item):
-    ''''''
+    '''Parse the item and return key, value'''
 
     itemList = item.split("=")
 
-    if len(itemList) == 3:
-        return itemList[0], itemList[2]
+    # normal case (key=value)
+    if len(itemList) == 2:
+        return itemList[0], itemList[1]
 
     # handle the case where value is missing (e.g. 'Gender=')
-    elif len(itemList) == 2:
+    elif len(itemList) == 1:
         return itemList[0], None
 
     else:
