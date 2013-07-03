@@ -106,19 +106,19 @@ def export(dict_line, line, configuration):
         print('conf - l: %f t:%f r:%f b:%f' % (conf_left, conf_top, conf_right, conf_bottom))
         print('line - l: %f t:%f r:%f b:%f' % (line_left, line_top, line_right, line_bottom))
 
-        # check if the line feets the configuration item requirements
+        # check if the line fits the configuration item requirements
         if (line_left >= conf_left and
                 line_top >= conf_top and
                 line_right <= conf_right and
                 line_bottom <= conf_bottom):
 
-            # line feets the requirements of the configuration item
+            # line fits the requirements of the configuration item
             # write it on the output and break.
 
             item['output'].write(line)
 
             # by removing break, the script will export the line into
-            # multiple output files when the line feets requirements.
+            # multiple output files when the line fits requirements.
 
             break
 
