@@ -55,7 +55,7 @@ def parseItem(item):
 def openFilesInConfiguration(configuration):
     '''Open files in configuration'''
 
-    # iterate items
+    # iterate through items in configuration
     for item in configuration:
 
         # open file for writing
@@ -68,7 +68,7 @@ def openFilesInConfiguration(configuration):
 def closeFilesInConfiguration(configuration):
     '''Close files in configuration'''
 
-    # iterate items
+    # iterate through items in configuration
     for item in configuration:
 
         # close the output object
@@ -78,7 +78,44 @@ def closeFilesInConfiguration(configuration):
 def export(dict_line, line, configuration):
     '''export the line based on the given configuration'''
 
-    pass
+    # iterate through items in configuration
+    for item in configuration:
+
+        # get frame item from configuration
+        frame = item['frame']
+
+        # get left, top, right, bottom from frame(configuration)
+        conf_left = frame['left']
+        conf_top = frame['top']
+        conf_right = frame['right']
+        conf_bottom = frame['bottom']
+
+        # get left, top, right, bottom from the line(input file)
+        line_left = dict_line['Left']
+        line_top = dict_line['Top']
+        line_right = dict_line['Right']
+        line_bottom = dict_line['Bottom']
+
+        # debug
+        print '---'
+        print('conf - l: %f t:%f r:%f b:%f' % (conf_left, conf_top, conf_right, conf_bottom))
+        print('line - l: %f t:%f r:%f b:%f' % (line_left, line_top, line_right, line_bottom))
+
+        # check if the line feets the configuration item requirements
+        if (line_left >= conf_left and
+                line_top >= conf_top and
+                line_right <= conf_right and
+                line_bottom <= conf_bottom):
+
+            # line feets the requirements of the configuration item
+            # write it on the output and break.
+
+            item['output'].write(line)
+
+            # by removing break, the script will export the line into
+            # multiple output files when the line feets requirements.
+
+            break
 
 
 ''' main '''
