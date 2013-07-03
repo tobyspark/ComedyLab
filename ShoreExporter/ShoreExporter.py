@@ -107,10 +107,14 @@ def export(dict_line, line, configuration):
         print('line - l: %f t:%f r:%f b:%f' % (line_left, line_top, line_right, line_bottom))
 
         # check if the line fits the configuration item requirements
+        # 0,0 point is Top-Left
         if (line_left >= conf_left and
                 line_top >= conf_top and
                 line_right <= conf_right and
                 line_bottom <= conf_bottom):
+
+        # CHECK: Where is 0,0 point? Top-Left or Bottom-Left?
+        # For Bottom-Left change to > < < >
 
             # line fits the requirements of the configuration item
             # write it on the output and break.
