@@ -113,9 +113,6 @@ def export(dict_line, line, configuration):
                 line_right <= conf_right and
                 line_bottom <= conf_bottom):
 
-        # CHECK: Where is 0,0 point? Top-Left or Bottom-Left?
-        # For Bottom-Left change to > < < >
-
             # line fits the requirements of the configuration item
             # write it on the output and break.
 
