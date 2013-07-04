@@ -95,6 +95,10 @@ def openFilesInConfiguration(configuration):
     # add output file object into the dictionary
     configuration['output'] = output
 
+    # write headers into output
+    headers = 'Time {} \n'.format(" ".join("Audience{:02}".format(k) for k in configuration['audienceIDs']))
+    configuration['output'].write(headers)
+
 
 def closeFilesInConfiguration(configuration):
     '''Close files in configuration'''
