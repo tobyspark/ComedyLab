@@ -7,7 +7,7 @@ import json
 def parseFile(file, configuration):
     '''Parse the file'''
 
-    nextTime = None
+    nextTime = 0
     values = {} 
 
     # parse each line
@@ -19,20 +19,15 @@ def parseFile(file, configuration):
         # we only want timestamped lines
         if 'time' in dict_line:
 
-            # initialise nextTime with first time in log
-            if nextTime == None:
-                nextTime = dict_line['time'] + configuration['granularity']
-
             # update our values we will average when reaching an export time
             for key in dict_line:
-                    if key == 'time':
-                        continue
-                    if key not in values.keys():
+                if key[0] == 'audience':
+                    if key not in values:
                         values[key] = [dict_line[key]]
                     else:
                         values[key].append(dict_line[key])
 
-            # have we reached an export time?
+            # have we reached an export time? (beware, float comparison)
             if dict_line['time'] >= nextTime - 0.0001:
                 
                 # average our values and write back into this dict_line
@@ -42,10 +37,12 @@ def parseFile(file, configuration):
                 # export the line based on the configuration
                 export(dict_line, line, configuration)
 
+                # monitor progress
+                print dict_line['time'], nextTime, map(len, values.values())
+
                 # reset and prepare for next export time
                 nextTime = dict_line['time'] + configuration['granularity']
                 values = {}    
-                print nextTime
                 
 
 def parseLine(line):
@@ -72,7 +69,8 @@ def parseLine(line):
 
         except ValueError:
             # value wasn't a number, ie heading text
-            print "Skipping " + value + " in line: " + line
+            print "Skipping line: " + line
+            break
 
         except KeyError:
             # there is no audienceID for this column
@@ -83,6 +81,9 @@ def parseLine(line):
 
 def openFilesInConfiguration(configuration):
     '''Open files in configuration'''
+
+    # create list of audience IDs
+    configuration['audienceIDs'] = range(configuration['audienceIDMin'], configuration['audienceIDMax'] + 1)
 
     # create mapping of audience ID to column index
     for item in configuration['mapping']:
@@ -105,9 +106,21 @@ def closeFilesInConfiguration(configuration):
 def export(dict_line, line, configuration):
     '''export the line based on the given configuration'''
 
-    # write it on the output and break.
+    # construct line from dictionary
 
-    configuration['output'].write(line)
+    audienceOrderLine = str(dict_line['time'])
+
+    for audienceID in configuration['audienceIDs']:
+        audienceOrderLine += " "
+        if ('audience', audienceID) in dict_line:
+            audienceOrderLine += str(dict_line[ 'audience', audienceID ])
+        else:
+            audienceOrderLine += "0"
+
+    audienceOrderLine += "\n"
+
+    # write line to output
+    configuration['output'].write(audienceOrderLine)
 
 
 ''' main '''

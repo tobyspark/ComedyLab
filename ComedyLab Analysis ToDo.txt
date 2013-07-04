@@ -1,0 +1,5 @@
+Use Audience recording as base track
+Combine Performer recordings to correspond with audience recording
+Create BB dataset with 0.1sec granularity
+Sync up Breathing Belt - get time offset
+Tweak Shore dataset for time?

@@ -1,6 +1,8 @@
 {
     "filename": "performance1-breathingbelts.log",
     "granularity": 0.1,
+    "audienceIDMin": 1,
+    "audienceIDMax": 16,
     "mapping":  [
                     {
                         "audience": 1,
