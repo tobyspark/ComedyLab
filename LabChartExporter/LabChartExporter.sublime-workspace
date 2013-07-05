@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"audie",
+				"audienceID"
+			],
+			[
+				"audience",
+				"audienceOrderLine"
+			],
+			[
 				"configuration",
 				"configuration"
 			],
@@ -19,7 +27,7 @@
 			"file": "configuration_labchart.json",
 			"settings":
 			{
-				"buffer_size": 1888,
+				"buffer_size": 1938,
 				"line_ending": "Unix"
 			}
 		},
@@ -27,7 +35,7 @@
 			"file": "LabChartExporter.py",
 			"settings":
 			{
-				"buffer_size": 4069,
+				"buffer_size": 4616,
 				"line_ending": "Unix"
 			}
 		}
@@ -56,6 +64,7 @@
 	},
 	"file_history":
 	[
+		"/Users/tbzphd/Dropbox/3 - The Experiment/ComedyLab/LabChartExporter/LabChartExporter.sublime-project",
 		"/Users/tbzphd/Dropbox/3 - The Experiment/ComedyLab/LabChartExporter/configuration_05.json"
 	],
 	"find":
@@ -74,6 +83,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"audienceIDRange",
 			"none",
 			"\"filename\": \"configuration_05_person\\d\\d\\.log\"",
 			"\"filename\": \"configuration_05_person0\\d\\.log\"",
@@ -86,6 +96,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"audienceIDs",
 			"\"audience\": 1",
 			"\"audience\": 1,",
 			"\"column index\": 0",
@@ -100,7 +111,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -108,15 +119,15 @@
 					"file": "configuration_labchart.json",
 					"settings":
 					{
-						"buffer_size": 1888,
+						"buffer_size": 1938,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1886,
-								1886
+								47,
+								47
 							]
 						],
 						"settings":
@@ -136,15 +147,15 @@
 					"file": "LabChartExporter.py",
 					"settings":
 					{
-						"buffer_size": 4069,
+						"buffer_size": 4616,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3172,
-								3172
+								3044,
+								3044
 							]
 						],
 						"settings":
@@ -154,7 +165,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1024.0,
+						"translation.y": 1060.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

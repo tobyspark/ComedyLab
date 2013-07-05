@@ -64,10 +64,17 @@ def openFilesInConfiguration(configuration):
     for item in configuration:
 
         # open file for writing
-        output = open(item['filename'], 'w')
+        filename = item['filename'].split('.')
+        filename[0] += '-' + "-".join("{}".format(field) for field in exportFields)
+        output = open(filename[0]+"."+filename[1], 'w')
 
         # add output file object into the dictionary
         item['output'] = output
+
+        # write headers to output
+        lineFromDict = ' '.join('{}'.format(field) for field in exportFields)
+        lineFromDict += "\n"
+        item['output'].write(lineFromDict)
 
 
 def closeFilesInConfiguration(configuration):
@@ -116,7 +123,12 @@ def export(dict_line, line, configuration):
             # line fits the requirements of the configuration item
             # write it on the output and break.
 
-            item['output'].write(line)
+            if dict_line['Happy'] == 'nil':
+                break
+
+            lineFromDict = ' '.join('{}'.format(dict_line[field]) for field in exportFields)
+            lineFromDict += "\n"
+            item['output'].write(lineFromDict)
 
             # by removing break, the script will export the line into
             # multiple output files when the line fits requirements.
@@ -126,6 +138,10 @@ def export(dict_line, line, configuration):
 
 ''' main '''
 if __name__ == '__main__':
+
+    # TODO: Put in configuration.
+    # Only have one data series for valid TimeStamp=Value pairs.
+    exportFields = ['TimeStamp', 'Happy']
 
     # check if the the input filename exists as a parameter
     if (len(sys.argv) < 2):
