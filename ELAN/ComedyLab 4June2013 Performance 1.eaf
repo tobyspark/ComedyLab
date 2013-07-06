@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2013-07-06T15:21:06+00:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Video Sync/Performance 1 3pm Live" MIME_TYPE="unknown" RELATIVE_MEDIA_URL="../../../Comedy Lab Share/Data/Video Sync/Performance 1 3pm Live"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/breathing belts/Performance 1 BreathingBelts.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/breathing belts/Performance 1 BreathingBelts.txt" TIME_ORIGIN="37643"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/3 - The Experiment/ComedyLab/ELAN/ComedyLab 4June2013 Performance 1_tsconf.xml" MIME_TYPE="text/xml" RELATIVE_LINK_URL="./ComedyLab 4June2013 Performance 1_tsconf.xml"/>
+        <PROPERTY NAME="lastUsedAnnotationId">2</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="398680"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="401708"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="429080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="440694"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="Audience101" TIER_ID="Audience01"/>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="Performer">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>ClapperBoard</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>Breathing Sync</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

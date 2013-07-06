@@ -96,7 +96,7 @@ def openFilesInConfiguration(configuration):
     configuration['output'] = output
 
     # write headers into output
-    headers = 'Time {} \n'.format(" ".join("Audience{:02}".format(k) for k in configuration['audienceIDs']))
+    headers = 'Time, {} \n'.format(", ".join("Audience{:02}".format(k) for k in configuration['audienceIDs']))
     configuration['output'].write(headers)
 
 
@@ -115,7 +115,7 @@ def export(dict_line, line, configuration):
     audienceOrderLine = str(dict_line['time'])
 
     for audienceID in configuration['audienceIDs']:
-        audienceOrderLine += " "
+        audienceOrderLine += ", "
         if ('audience', audienceID) in dict_line:
             audienceOrderLine += str(dict_line[ 'audience', audienceID ])
         else:
