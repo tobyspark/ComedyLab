@@ -1,6 +1,6 @@
 [
     {
-        "filename": "configuration_06_person02.log",
+        "filename": "configuration_06_person02.txt",
         "frame": {
             "left": 0.23,
             "top": 0.679,
@@ -9,7 +9,7 @@
         }
     },
     {
-        "filename": "configuration_06_person03.log",
+        "filename": "configuration_06_person03.txt",
         "frame": {
             "left": 0.515,
             "top": 0.7,
@@ -18,7 +18,7 @@
         }
     },
     {
-        "filename": "configuration_06_person05.log",
+        "filename": "configuration_06_person05.txt",
         "frame": {
             "left": 0.076,
             "top": 0.464,
@@ -27,7 +27,7 @@
         }
     },
     {
-        "filename": "configuration_06_person06.log",
+        "filename": "configuration_06_person06.txt",
         "frame": {
             "left": 0.282,
             "top": 0.405,
@@ -36,7 +36,7 @@
         }
     },
     {
-        "filename": "configuration_06_person07.log",
+        "filename": "configuration_06_person07.txt",
         "frame": {
             "left": 0.497,
             "top": 0.399,
@@ -45,7 +45,7 @@
         }
     },
     {
-        "filename": "configuration_06_person08.log",
+        "filename": "configuration_06_person08.txt",
         "frame": {
             "left": 0.701,
             "top": 0.394,
@@ -54,7 +54,7 @@
         }
     },
     {
-        "filename": "configuration_06_person09.log",
+        "filename": "configuration_06_person09.txt",
         "frame": {
             "left": 0.153,
             "top": 0.256,
@@ -63,7 +63,7 @@
         }
     },
     {
-        "filename": "configuration_06_person10.log",
+        "filename": "configuration_06_person10.txt",
         "frame": {
             "left": 0.325,
             "top": 0.22,
@@ -72,7 +72,7 @@
         }
     },
     {
-        "filename": "configuration_06_person11.log",
+        "filename": "configuration_06_person11.txt",
         "frame": {
             "left": 0.474,
             "top": 0.22,
@@ -81,7 +81,7 @@
         }
     },
     {
-        "filename": "configuration_06_person12.log",
+        "filename": "configuration_06_person12.txt",
         "frame": {
             "left": 0.656,
             "top": 0.256,
@@ -90,7 +90,7 @@
         }
     },
     {
-        "filename": "configuration_06_person14.log",
+        "filename": "configuration_06_person14.txt",
         "frame": {
             "left": 0.357,
             "top": 0.129,
@@ -99,7 +99,7 @@
         }
     },
     {
-        "filename": "configuration_06_person15.log",
+        "filename": "configuration_06_person15.txt",
         "frame": {
             "left": 0.459,
             "top": 0.077,
