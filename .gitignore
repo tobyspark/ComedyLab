@@ -3,6 +3,7 @@
 
 # Shore Log
 *.log
+*.txt
 
 .DS_Store
 
