@@ -16,7 +16,8 @@ def transformLine(line):
 def parseFile(file, configuration):
     '''Parse the file'''
 
-    start = None
+    exportFields = configuration['exportFields']
+    start = parseDate(configuration['start'])
 
     # parse each line
     for line in source:
@@ -25,13 +26,13 @@ def parseFile(file, configuration):
         line = transformLine(line)
 
         # get dictionary from line
-        dict_line = parseLine(line)
+        dict_line = parseLine(line, start)
 
         # export the line based on the configuration
-        export(dict_line, line, configuration)
+        export(dict_line, line, configuration, exportFields)
 
 
-def parseLine(line):
+def parseLine(line, start):
     '''Parse the line and return in dictionary'''
 
     # empty dict
@@ -53,7 +54,7 @@ def parseLine(line):
             timestamp = parseDate(value)
 
             # find the deltatime
-            deltatime = timestamp - startTimeStamp
+            deltatime = timestamp - start
 
             # string value
             value = str(deltatime.total_seconds())
@@ -97,8 +98,10 @@ def parseItem(item):
 def openFilesInConfiguration(configuration):
     '''Open files in configuration'''
 
+    exportFields = configuration['exportFields']
+
     # iterate through items in configuration
-    for item in configuration:
+    for item in configuration['people']:
 
         # open file for writing
         filename = item['filename'].split('.')
@@ -118,17 +121,17 @@ def closeFilesInConfiguration(configuration):
     '''Close files in configuration'''
 
     # iterate through items in configuration
-    for item in configuration:
+    for item in configuration['people']:
 
         # close the output object
         item['output'].close()
 
 
-def export(dict_line, line, configuration):
+def export(dict_line, line, configuration, exportFields):
     '''export the line based on the given configuration'''
 
     # iterate through items in configuration
-    for item in configuration:
+    for item in configuration['people']:
 
         # get frame item from configuration
         frame = item['frame']
@@ -175,13 +178,6 @@ def export(dict_line, line, configuration):
 
 ''' main '''
 if __name__ == '__main__':
-
-    # TODO: Put in configuration.
-    # Only have one data series for valid TimeStamp=Value pairs.
-    exportFields = ['TimeStamp', 'Happy']
-
-    # TODO: Add to configuration
-    startTimeStamp = parseDate('2013-Jul-02 16:32:46.396849')
 
     # check if the the input filename exists as a parameter
     if (len(sys.argv) < 2):
