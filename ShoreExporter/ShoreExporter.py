@@ -83,7 +83,7 @@ def openFilesInConfiguration(configuration):
         item['output'] = output
 
         # write headers to output
-        lineFromDict = ','.join('{}'.format(field) for field in exportFields)
+        lineFromDict = ', '.join('{}'.format(field) for field in exportFields)
         lineFromDict += "\n"
         item['output'].write(lineFromDict)
 
