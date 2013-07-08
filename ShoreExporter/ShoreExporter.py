@@ -53,7 +53,10 @@ def parseLine(line):
             timestamp = parseDate(value)
 
             # find the deltatime
-            value = timestamp - startTimeStamp
+            deltatime = timestamp - startTimeStamp
+
+            # string value
+            value = str(deltatime.total_seconds())
 
         # add to the dictionary
         dictionary[key] = value
