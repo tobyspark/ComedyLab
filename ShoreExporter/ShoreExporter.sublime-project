@@ -6,7 +6,8 @@
 			[
 				"*.pyc",
 				"*.tmp",
-				"*.log"
+				"*.log",
+				"*.txt"
 			],
 			"follow_symlinks": true,
 			"path": "."
