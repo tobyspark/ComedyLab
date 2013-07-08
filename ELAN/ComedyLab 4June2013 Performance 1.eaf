@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2013-07-08T15:35:28+00:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2013-07-08T16:43:21+00:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/Minos/Dropbox/Comedy Lab Share/data/Video Sync/Performance 1 3pm Live" MIME_TYPE="unknown" RELATIVE_MEDIA_URL="../../../Dropbox/Comedy Lab Share/data/Video Sync/Performance 1 3pm Live"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/Minos/Personal Files/Education/QMUL MAT PhD/Placement in EA/Comedy Lab/Comedy Lab 04Jun13 Audience 05 15h36 720P.mov" MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="../../../Personal Files/Education/QMUL MAT PhD/Placement in EA/Comedy Lab/Comedy Lab 04Jun13 Audience 05 15h36 720P.mov"/>
         <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Minos/Projects/ComedyLab/ELAN/Performance 1 BreathingBelts.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./Performance 1 BreathingBelts.txt" TIME_ORIGIN="37643"/>
         <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Minos/Projects/ComedyLab/ELAN/ComedyLab 4June2013 Performance 1_tsconf.xml" MIME_TYPE="text/xml" RELATIVE_LINK_URL="./ComedyLab 4June2013 Performance 1_tsconf.xml"/>
         <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person02-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./Shore Performance 1/configuration_05_person02-TimeStamp-Happy.txt"/>

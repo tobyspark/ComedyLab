@@ -110,13 +110,13 @@
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
     <prefGroup key="BAS - WebMAUS Basic">
-        <pref key="ServiceName">
-            <String>runMAUSBasic</String>
-        </pref>
+        <prefGroup key="TierUrl"/>
         <pref key="LANGUAGE">
             <String>deu</String>
         </pref>
-        <prefGroup key="TierUrl"/>
+        <pref key="ServiceName">
+            <String>runMAUSBasic</String>
+        </pref>
         <pref key="SignalParamName">
             <String>SIGNAL</String>
         </pref>
@@ -153,7 +153,7 @@
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>1361400</Long>
+        <Long>908440</Long>
     </pref>
     <prefGroup key="TierHighlightColors"/>
     <pref key="SegmentationViewer.ZoomLevel">
@@ -164,7 +164,7 @@
         <String>Performer</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>1264200</Long>
+        <Long>827200</Long>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers"/>
 </preferences>
