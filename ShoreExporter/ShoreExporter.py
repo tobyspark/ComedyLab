@@ -3,6 +3,7 @@
 import sys
 import json
 import re
+from datetime import datetime
 
 
 def transformLine(line):
@@ -44,6 +45,14 @@ def parseLine(line):
         # TODO: Add more keys here if you need them (e.g. Uptime, Score etc)
         if (key in ['Left', 'Top', 'Right', 'Bottom']):
             value = float(value)
+        elif (key == 'TimeStamp'):
+
+            if len(value) == 20:
+                # Datetime format: '2013-Jul-02 16:32:46'
+                value = datetime.strptime(value, '%Y-%b-%d %H:%M:%S')
+            else:
+                # Datetime format: '2013-Jul-02 16:32:46.396849'
+                value = datetime.strptime(value, '%Y-%b-%d %H:%M:%S.%f')
 
         # add to the dictionary
         dictionary[key] = value
