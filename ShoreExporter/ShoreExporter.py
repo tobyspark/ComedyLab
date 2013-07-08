@@ -16,6 +16,8 @@ def transformLine(line):
 def parseFile(file, configuration):
     '''Parse the file'''
 
+    start = None
+
     # parse each line
     for line in source:
 
@@ -47,17 +49,29 @@ def parseLine(line):
             value = float(value)
         elif (key == 'TimeStamp'):
 
-            if len(value) == 20:
-                # Datetime format: '2013-Jul-02 16:32:46'
-                value = datetime.strptime(value, '%Y-%b-%d %H:%M:%S')
-            else:
-                # Datetime format: '2013-Jul-02 16:32:46.396849'
-                value = datetime.strptime(value, '%Y-%b-%d %H:%M:%S.%f')
+            # save it as a datetime object
+            timestamp = parseDate(value)
+
+            # find the deltatime
+            value = timestamp - startTimeStamp
 
         # add to the dictionary
         dictionary[key] = value
 
     return dictionary
+
+
+def parseDate(date):
+    '''Parse a date in string and return a datetime object'''
+
+    if len(date) == 20:
+        # Datetime format: '2013-Jul-02 16:32:46'
+        value = datetime.strptime(date, '%Y-%b-%d %H:%M:%S')
+    else:
+        # Datetime format: '2013-Jul-02 16:32:46.396849'
+        value = datetime.strptime(date, '%Y-%b-%d %H:%M:%S.%f')
+
+    return value
 
 
 def parseItem(item):
@@ -162,6 +176,9 @@ if __name__ == '__main__':
     # TODO: Put in configuration.
     # Only have one data series for valid TimeStamp=Value pairs.
     exportFields = ['TimeStamp', 'Happy']
+
+    # TODO: Add to configuration
+    startTimeStamp = parseDate('2013-Jul-02 16:32:46.396849')
 
     # check if the the input filename exists as a parameter
     if (len(sys.argv) < 2):
