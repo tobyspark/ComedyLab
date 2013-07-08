@@ -9,7 +9,7 @@ def transformLine(line):
     '''Replace space separators with ";"
        and only use space in the TimeStamp'''
 
-    return re.sub(r'[ ]([a-zA-Z])', r';\1', line)
+    return re.sub(r'[ ]([a-zA-Z])', r', \1', line)
 
 
 def parseFile(file, configuration):
@@ -35,7 +35,7 @@ def parseLine(line):
     dictionary = {}
 
     # iterate through items
-    for item in line.split(';'):
+    for item in line.split(', '):
 
         # get the key and value from the item
         key, value = parseItem(item)
@@ -83,7 +83,7 @@ def openFilesInConfiguration(configuration):
         item['output'] = output
 
         # write headers to output
-        lineFromDict = ';'.join('{}'.format(field) for field in exportFields)
+        lineFromDict = ','.join('{}'.format(field) for field in exportFields)
         lineFromDict += "\n"
         item['output'].write(lineFromDict)
 
@@ -137,7 +137,7 @@ def export(dict_line, line, configuration):
             if dict_line['Happy'] == 'nil':
                 break
 
-            lineFromDict = ';'.join('{}'.format(dict_line[field]) for field in exportFields)
+            lineFromDict = ', '.join('{}'.format(dict_line[field]) for field in exportFields)
             lineFromDict += "\n"
             item['output'].write(lineFromDict)
 
