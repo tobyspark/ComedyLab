@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<timeseries date="2013-07-06T15:19:42-00:00" version="1.0">
+<timeseries date="2013-07-08T13:21:27-00:00" version="1.0">
+    <tracksource sample-type="Discontinuous Rate" source-url="file:///Users/tbzphd/Desktop/configuration_05_person07-TimeStamp-Happy 2.txt" time-column="0">
+        <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+        <track derivative="0" name="Happy 07">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="1" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="100.0" min="0.0"/>
+            <color>0,255,0</color>
+        </track>
+        <track name="Audience07 Happy">
+            <property key="derivative" value="0"/>
+            <property key="max" value="100.0"/>
+            <property key="color" value="0,160,0"/>
+            <property key="min" value="0.0"/>
+            <property key="description" value="-"/>
+        </track>
+    </tracksource>
     <tracksource sample-type="Continuous Rate" source-url="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/breathing belts/Performance 1 BreathingBelts.txt" time-column="0" time-origin="37643">
         <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
         <track derivative="0" name="Audience16">

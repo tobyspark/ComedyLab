@@ -63,6 +63,9 @@
     <prefList key="TimeSeriesViewer.Panel-16">
         <String>Audience16</String>
     </prefList>
+    <prefList key="TimeSeriesViewer.Panel-17">
+        <String>Happy 07</String>
+    </prefList>
     <prefList key="TimeSeriesViewer.Panel-2">
         <String>Audience02</String>
     </prefList>
@@ -107,13 +110,13 @@
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
     <prefGroup key="BAS - WebMAUS Basic">
-        <prefGroup key="TierUrl"/>
-        <pref key="LANGUAGE">
-            <String>deu</String>
-        </pref>
         <pref key="ServiceName">
             <String>runMAUSBasic</String>
         </pref>
+        <pref key="LANGUAGE">
+            <String>deu</String>
+        </pref>
+        <prefGroup key="TierUrl"/>
         <pref key="SignalParamName">
             <String>SIGNAL</String>
         </pref>
@@ -122,7 +125,7 @@
         </pref>
     </prefGroup>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>70</Int>
+        <Int>2</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap"/>
     <pref key="LayoutManager.SelectedTabIndex">
@@ -136,7 +139,7 @@
         <Int>1</Int>
     </pref>
     <pref key="TimeSeriesViewer.NumberOfPanels">
-        <Int>16</Int>
+        <Int>17</Int>
     </pref>
     <pref key="TimeSeriesViewer.Detached.Bounds">
         <Object class="java.awt.Rectangle">1440,-150,1680,1050</Object>
@@ -150,7 +153,7 @@
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>41200</Long>
+        <Long>42880</Long>
     </pref>
     <prefGroup key="TierHighlightColors"/>
     <pref key="SegmentationViewer.ZoomLevel">

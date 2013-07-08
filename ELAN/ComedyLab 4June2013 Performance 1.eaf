@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2013-07-06T15:21:06+00:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2013-07-08T13:13:19+00:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Video Sync/Performance 1 3pm Live" MIME_TYPE="unknown" RELATIVE_MEDIA_URL="../../../Comedy Lab Share/Data/Video Sync/Performance 1 3pm Live"/>
         <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/breathing belts/Performance 1 BreathingBelts.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/breathing belts/Performance 1 BreathingBelts.txt" TIME_ORIGIN="37643"/>
         <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/3 - The Experiment/ComedyLab/ELAN/ComedyLab 4June2013 Performance 1_tsconf.xml" MIME_TYPE="text/xml" RELATIVE_LINK_URL="./ComedyLab 4June2013 Performance 1_tsconf.xml"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Desktop/configuration_05_person07-TimeStamp-Happy 2.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../../Desktop/configuration_05_person07-TimeStamp-Happy 2.txt"/>
         <PROPERTY NAME="lastUsedAnnotationId">2</PROPERTY>
     </HEADER>
     <TIME_ORDER>
