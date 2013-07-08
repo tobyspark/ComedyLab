@@ -1,6 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<timeseries date="2013-07-06T15:19:42-00:00" version="1.0">
-    <tracksource sample-type="Continuous Rate" source-url="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/breathing belts/Performance 1 BreathingBelts.txt" time-column="0" time-origin="37643">
+<timeseries date="2013-07-08T16:00:30-00:00" version="1.0">
+    <tracksource sample-type="Discontinuous Rate" source-url="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person10-TimeStamp-Happy.txt" time-column="0">
+        <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+        <track derivative="0" name="Aud10-Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="1" row="0"/>
+            </sample-position>
+            <description>Aud10-Happy</description>
+            <units>%</units>
+            <range max="100.0" min="0.0"/>
+            <color>0,255,0</color>
+        </track>
+    </tracksource>
+    <tracksource sample-type="Discontinuous Rate" source-url="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person05-TimeStamp-Happy.txt" time-column="0">
+        <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+        <track derivative="0" name="Aud05-Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="1" row="0"/>
+            </sample-position>
+            <description>Aud05-Happy</description>
+            <units>%</units>
+            <range max="100.0" min="0.0"/>
+            <color>0,255,0</color>
+        </track>
+    </tracksource>
+    <tracksource sample-type="Discontinuous Rate" source-url="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person03-TimeStamp-Happy.txt" time-column="0">
+        <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+        <track derivative="0" name="Aud03-Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="1" row="0"/>
+            </sample-position>
+            <description>Aud03-Happy</description>
+            <units>%</units>
+            <range max="100.0" min="0.0"/>
+            <color>0,255,0</color>
+        </track>
+    </tracksource>
+    <tracksource sample-type="Discontinuous Rate" source-url="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person06-TimeStamp-Happy.txt" time-column="0">
+        <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+        <track derivative="0" name="Aud06-Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="1" row="0"/>
+            </sample-position>
+            <description>Aud06-Happy</description>
+            <units>%</units>
+            <range max="100.0" min="0.0"/>
+            <color>0,255,0</color>
+        </track>
+    </tracksource>
+    <tracksource sample-type="Discontinuous Rate" source-url="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person13-TimeStamp-Happy.txt" time-column="0">
+        <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+        <track derivative="0" name="Aud13-Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="1" row="0"/>
+            </sample-position>
+            <description>Aud13-Happy</description>
+            <units>%</units>
+            <range max="100.0" min="0.0"/>
+            <color>0,255,0</color>
+        </track>
+    </tracksource>
+    <tracksource sample-type="Discontinuous Rate" source-url="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person08-TimeStamp-Happy.txt" time-column="0">
+        <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+        <track derivative="0" name="Aud08-Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="1" row="0"/>
+            </sample-position>
+            <description>Aud08-Happy</description>
+            <units>%</units>
+            <range max="100.0" min="0.0"/>
+            <color>0,255,0</color>
+        </track>
+    </tracksource>
+    <tracksource sample-type="Continuous Rate" source-url="file:///Users/Minos/Projects/ComedyLab/ELAN/Performance 1 BreathingBelts.txt" time-column="0" time-origin="37643">
         <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
         <track derivative="0" name="Audience16">
             <property key="detect-range" value="false"/>
@@ -160,6 +238,71 @@
             <description/>
             <units/>
             <range max="0.02" min="-0.02"/>
+            <color>0,255,0</color>
+        </track>
+    </tracksource>
+    <tracksource sample-type="Discontinuous Rate" source-url="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person14-TimeStamp-Happy.txt" time-column="0">
+        <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+        <track derivative="0" name="Aud14-Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="1" row="0"/>
+            </sample-position>
+            <description>Aud14-Happy</description>
+            <units>%</units>
+            <range max="100.0" min="0.0"/>
+            <color>0,255,0</color>
+        </track>
+    </tracksource>
+    <tracksource sample-type="Discontinuous Rate" source-url="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person09-TimeStamp-Happy.txt" time-column="0">
+        <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+        <track derivative="0" name="Aud09-Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="1" row="0"/>
+            </sample-position>
+            <description>Aud09-Happy</description>
+            <units>%</units>
+            <range max="100.0" min="0.0"/>
+            <color>0,255,0</color>
+        </track>
+    </tracksource>
+    <tracksource sample-type="Discontinuous Rate" source-url="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person07-TimeStamp-Happy.txt" time-column="0">
+        <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+        <track derivative="0" name="Aud07-Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="1" row="0"/>
+            </sample-position>
+            <description>Aud07-Happy</description>
+            <units>%</units>
+            <range max="100.0" min="0.0"/>
+            <color>0,255,0</color>
+        </track>
+    </tracksource>
+    <tracksource sample-type="Discontinuous Rate" source-url="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person02-TimeStamp-Happy.txt" time-column="0">
+        <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+        <track derivative="0" name="Aud02-Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="1" row="0"/>
+            </sample-position>
+            <description>Aud02-Happy</description>
+            <units>%</units>
+            <range max="100.0" min="0.0"/>
+            <color>0,255,0</color>
+        </track>
+    </tracksource>
+    <tracksource sample-type="Discontinuous Rate" source-url="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person11-TimeStamp-Happy.txt" time-column="0">
+        <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+        <track derivative="0" name="Aud11-Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="1" row="0"/>
+            </sample-position>
+            <description>Aud11-Happy</description>
+            <units>%</units>
+            <range max="100.0" min="0.0"/>
             <color>0,255,0</color>
         </track>
     </tracksource>

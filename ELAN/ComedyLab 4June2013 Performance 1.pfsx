@@ -88,7 +88,7 @@
         <Boolean>false</Boolean>
     </pref>
     <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1436,878</Object>
+        <Object class="java.awt.Dimension">1436,874</Object>
     </pref>
     <pref key="LayoutManager.MediaAreaHeight">
         <Int>545</Int>
@@ -122,7 +122,7 @@
         </pref>
     </prefGroup>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>70</Int>
+        <Int>2</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap"/>
     <pref key="LayoutManager.SelectedTabIndex">
@@ -139,7 +139,7 @@
         <Int>16</Int>
     </pref>
     <pref key="TimeSeriesViewer.Detached.Bounds">
-        <Object class="java.awt.Rectangle">1440,-150,1680,1050</Object>
+        <Object class="java.awt.Rectangle">753,22,691,874</Object>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="Audience01">
