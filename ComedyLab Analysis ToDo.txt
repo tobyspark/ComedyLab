@@ -1,5 +1,24 @@
-Use Audience recording as base track
-Combine Performer recordings to correspond with audience recording
-Create BB dataset with 0.1sec granularity
-Sync up Breathing Belt - get time offset
-Tweak Shore dataset for time?
+DONE / Use Audience recording as base track
+DONE / Combine Performer recordings to correspond with audience recording
+DONE / Create BB dataset with 0.1sec granularity
+DONE / BB into ELAN
+DONE / Sync up Breathing Belt - get time offset
+DONE / Shore into ELAN
+DONE / Tweak Shore dataset for time?
+DONE / Sync up Shore
+DONE / Annotate lit/unlit
+
+annotate overall audience laughter by audio?
+annotate each audience member's visible laughter / stuff [what, exactly?]
+
+Transcribe performer's speech?
+Annotate performer jokes/punchlines
+Annotate performer pauses
+
+Create Vicon dataset
+Vicon into ELAN
+
+Tweak main video so side-by side
+Tweak main video performance 1 performer is ~sec ahead
+
+
