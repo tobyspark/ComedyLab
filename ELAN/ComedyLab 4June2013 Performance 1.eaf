@@ -1,30 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2013-07-08T16:43:21+00:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2013-07-09T12:05:03+00:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/Minos/Dropbox/Comedy Lab Share/data/Video Sync/Performance 1 3pm Live" MIME_TYPE="unknown" RELATIVE_MEDIA_URL="../../../Dropbox/Comedy Lab Share/data/Video Sync/Performance 1 3pm Live"/>
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/Minos/Personal Files/Education/QMUL MAT PhD/Placement in EA/Comedy Lab/Comedy Lab 04Jun13 Audience 05 15h36 720P.mov" MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="../../../Personal Files/Education/QMUL MAT PhD/Placement in EA/Comedy Lab/Comedy Lab 04Jun13 Audience 05 15h36 720P.mov"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Minos/Projects/ComedyLab/ELAN/Performance 1 BreathingBelts.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./Performance 1 BreathingBelts.txt" TIME_ORIGIN="37643"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Minos/Projects/ComedyLab/ELAN/ComedyLab 4June2013 Performance 1_tsconf.xml" MIME_TYPE="text/xml" RELATIVE_LINK_URL="./ComedyLab 4June2013 Performance 1_tsconf.xml"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person02-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./Shore Performance 1/configuration_05_person02-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person03-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./Shore Performance 1/configuration_05_person03-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person05-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./Shore Performance 1/configuration_05_person05-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person06-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./Shore Performance 1/configuration_05_person06-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person07-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./Shore Performance 1/configuration_05_person07-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person08-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./Shore Performance 1/configuration_05_person08-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person09-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./Shore Performance 1/configuration_05_person09-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person10-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./Shore Performance 1/configuration_05_person10-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person11-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./Shore Performance 1/configuration_05_person11-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person13-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./Shore Performance 1/configuration_05_person13-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Minos/Projects/ComedyLab/ELAN/Shore Performance 1/configuration_05_person14-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./Shore Performance 1/configuration_05_person14-TimeStamp-Happy.txt"/>
-        <PROPERTY NAME="lastUsedAnnotationId">2</PROPERTY>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Video Sync/Performance 1 3pm Live" MIME_TYPE="unknown" RELATIVE_MEDIA_URL="../../../Comedy Lab Share/Data/Video Sync/Performance 1 3pm Live"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/Minos/Personal Files/Education/QMUL MAT PhD/Placement in EA/Comedy Lab/Comedy Lab 04Jun13 Audience 05 15h36 720P.mov" MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="../../../../../Minos/Personal Files/Education/QMUL MAT PhD/Placement in EA/Comedy Lab/Comedy Lab 04Jun13 Audience 05 15h36 720P.mov"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/breathing belts/Performance 1 BreathingBelts.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/breathing belts/Performance 1 BreathingBelts.txt" TIME_ORIGIN="37643"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/3 - The Experiment/ComedyLab/ELAN/ComedyLab 4June2013 Performance 1_tsconf.xml" MIME_TYPE="text/xml" RELATIVE_LINK_URL="./ComedyLab 4June2013 Performance 1_tsconf.xml"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person02-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person02-TimeStamp-Happy.txt"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person03-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person03-TimeStamp-Happy.txt"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person05-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person05-TimeStamp-Happy.txt"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person06-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person06-TimeStamp-Happy.txt"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person07-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person07-TimeStamp-Happy.txt"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person08-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person08-TimeStamp-Happy.txt"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person09-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person09-TimeStamp-Happy.txt"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person10-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person10-TimeStamp-Happy.txt"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person11-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person11-TimeStamp-Happy.txt"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person13-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person13-TimeStamp-Happy.txt"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person14-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person14-TimeStamp-Happy.txt"/>
+        <PROPERTY NAME="lastUsedAnnotationId">308</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="398680"/>
         <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="401708"/>
         <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="429080"/>
         <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="440694"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="473128"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="581000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="581000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="605960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="605960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="630900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="630900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="656100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="656100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="681000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="681000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="781360"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="781360"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="881300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="881300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="906500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="906500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="931400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="931400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="956300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="956300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="981400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="981400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="1081400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="1081400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="1181700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="1181700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="1206600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="1206600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="1231800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="1231800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="1256600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="1256600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="1281600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="1281600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="1365480"/>
     </TIME_ORDER>
-    <TIER LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="Audience101" TIER_ID="Audience01"/>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="Lighting">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11" TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14" TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15" TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16" TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17" TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18" TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19" TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20" TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE></ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
     <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="Performer">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
@@ -37,9 +164,1486 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Audience 01" TIER_ID="01 Lit">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a21" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a22" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a23" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a24" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a25" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a26" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a27" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a28" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a29" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a30" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a31" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a32" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a33" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a34" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a35" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a36" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a37" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a38" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Audience 02" TIER_ID="02 Lit">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a39" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a40" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a64" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a65" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a66" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a67" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a68" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a69" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a70" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a71" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a72" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a73" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a74" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a75" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a76" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a77" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a78" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a79" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" TIER_ID="03 Lit">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a41" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a42" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a80" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a81" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a82" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a83" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a84" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a85" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a86" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a87" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a88" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a89" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a90" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a91" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a92" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a93" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a94" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a95" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Empty" TIER_ID="04 Lit">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a43" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a44" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a96" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a97" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a98" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a99" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a100" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a101" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a102" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a103" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a104" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a105" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a106" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a107" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a108" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a109" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a110" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a111" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Audience 05" TIER_ID="05 Lit">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a45" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a46" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a112" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a113" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a114" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a115" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a116" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a117" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a118" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a119" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a120" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a121" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a122" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a123" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a124" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a125" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a126" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a127" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" TIER_ID="06 Lit">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a47" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a48" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a128" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a129" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a130" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a131" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a132" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a133" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a134" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a135" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a136" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a137" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a138" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a139" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a140" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a141" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a142" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a143" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Audience 07" TIER_ID="07 Lit">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a49" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a50" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a144" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a145" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a146" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a147" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a148" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a149" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a150" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a151" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a152" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a153" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a154" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a155" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a156" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a157" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a158" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a159" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Audience 08" TIER_ID="08 Lit">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a51" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a52" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a160" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a161" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a162" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a163" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a164" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a165" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a166" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a167" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a168" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a169" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a170" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a171" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a172" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a173" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a174" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a175" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Audience 09" TIER_ID="09 Lit">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a53" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a54" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a176" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a177" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a178" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a179" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a180" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a181" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a182" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a183" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a184" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a185" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a186" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a187" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a188" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a189" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a190" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a191" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Audience 10" TIER_ID="10 Lit">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a55" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a56" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a192" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a193" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a194" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a195" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a196" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a197" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a198" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a199" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a200" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a201" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a202" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a203" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a204" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a205" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a206" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a207" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Audience 11" TIER_ID="11 Lit">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a57" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a58" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a208" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a209" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a210" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a211" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a212" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a213" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a214" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a215" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a216" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a217" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a218" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a219" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a220" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a221" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a222" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a223" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Audience 13" TIER_ID="13 Lit">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a59" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a224" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a225" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a226" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a227" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a228" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a229" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a230" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a231" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a232" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a233" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a234" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a235" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a236" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a237" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a238" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a239" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a240" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Audience 14" TIER_ID="14 Lit">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a60" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a241" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a242" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a243" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a244" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a245" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a246" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a247" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a248" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a249" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a250" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a251" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a252" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a253" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a254" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a255" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a256" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a257" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Empty" TIER_ID="15 Lit">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a61" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a258" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a259" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a260" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a261" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a262" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a263" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a264" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a265" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a266" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a267" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a268" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a269" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a270" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a271" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a272" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a273" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a274" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Empty" TIER_ID="12 Lit">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a62" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a63" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a275" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a276" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a277" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a278" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a279" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a280" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a281" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a282" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a283" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a284" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a285" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a286" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a287" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a288" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a289" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a290" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Empty" TIER_ID="16 Lit">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a291" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a292" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a293" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a294" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a295" ANNOTATION_REF="a7">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a296" ANNOTATION_REF="a8">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a297" ANNOTATION_REF="a9">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a298" ANNOTATION_REF="a10">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a299" ANNOTATION_REF="a11">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a300" ANNOTATION_REF="a12">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a301" ANNOTATION_REF="a13">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a302" ANNOTATION_REF="a14">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a303" ANNOTATION_REF="a15">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a304" ANNOTATION_REF="a16">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a305" ANNOTATION_REF="a17">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a306" ANNOTATION_REF="a18">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a307" ANNOTATION_REF="a19">
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a308" ANNOTATION_REF="a20">
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" CONTROLLED_VOCABULARY_REF="Lit/Unlit" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Lighting State" TIME_ALIGNABLE="false"/>
     <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
     <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
     <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
     <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+    <CONTROLLED_VOCABULARY CV_ID="Lit/Unlit" DESCRIPTION="">
+        <CV_ENTRY DESCRIPTION="">Lit</CV_ENTRY>
+        <CV_ENTRY DESCRIPTION="">Unlit</CV_ENTRY>
+    </CONTROLLED_VOCABULARY>
 </ANNOTATION_DOCUMENT>

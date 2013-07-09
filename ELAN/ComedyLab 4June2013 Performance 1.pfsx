@@ -11,7 +11,7 @@
         <Float>10.0</Float>
     </pref>
     <prefGroup key="TierColors">
-        <pref key="Audience01">
+        <pref key="Lighting">
             <Object class="java.awt.Color">0,0,90</Object>
         </pref>
         <pref key="Performer">
@@ -19,7 +19,7 @@
         </pref>
     </prefGroup>
     <pref key="FrameLocation">
-        <Object class="java.awt.Point">4,22</Object>
+        <Object class="java.awt.Point">1440,-150</Object>
     </pref>
     <prefList key="TimeSeriesViewer.Panel-9">
         <String>Audience09</String>
@@ -28,7 +28,7 @@
         <String>Performer</String>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>0</Long>
+        <Long>1281600</Long>
     </pref>
     <pref key="TimeSeriesViewer.ZoomLevel">
         <Float>10.0</Float>
@@ -85,38 +85,54 @@
         <String>Audience15</String>
     </prefList>
     <pref key="MediaControlRate">
-        <Float>1.0</Float>
+        <Float>2.0</Float>
     </pref>
     <pref key="GridViewer.MultiTierMode">
         <Boolean>false</Boolean>
     </pref>
     <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1436,874</Object>
+        <Object class="java.awt.Dimension">1680,1050</Object>
     </pref>
     <pref key="LayoutManager.MediaAreaHeight">
-        <Int>545</Int>
+        <Int>309</Int>
     </pref>
     <pref key="ActiveAudioRecognizerName">
         <String>BAS - WebMAUS Basic</String>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>0</Long>
+        <Long>1365480</Long>
     </pref>
     <prefList key="MultiTierViewer.TierOrder">
         <String>Performer</String>
-        <String>Audience01</String>
+        <String>Lighting</String>
+        <String>01 Lit</String>
+        <String>02 Lit</String>
+        <String>03 Lit</String>
+        <String>04 Lit</String>
+        <String>05 Lit</String>
+        <String>06 Lit</String>
+        <String>07 Lit</String>
+        <String>08 Lit</String>
+        <String>09 Lit</String>
+        <String>10 Lit</String>
+        <String>11 Lit</String>
+        <String>12 Lit</String>
+        <String>13 Lit</String>
+        <String>14 Lit</String>
+        <String>15 Lit</String>
+        <String>16 Lit</String>
     </prefList>
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
     <prefGroup key="BAS - WebMAUS Basic">
-        <prefGroup key="TierUrl"/>
-        <pref key="LANGUAGE">
-            <String>deu</String>
-        </pref>
         <pref key="ServiceName">
             <String>runMAUSBasic</String>
         </pref>
+        <pref key="LANGUAGE">
+            <String>deu</String>
+        </pref>
+        <prefGroup key="TierUrl"/>
         <pref key="SignalParamName">
             <String>SIGNAL</String>
         </pref>
@@ -125,7 +141,7 @@
         </pref>
     </prefGroup>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>2</Int>
+        <Int>70</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap"/>
     <pref key="LayoutManager.SelectedTabIndex">
@@ -133,7 +149,7 @@
     </pref>
     <prefGroup key="TierFonts"/>
     <pref key="TimeSeriesViewer.Detached">
-        <Boolean>true</Boolean>
+        <Boolean>false</Boolean>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
@@ -142,7 +158,7 @@
         <Int>17</Int>
     </pref>
     <pref key="TimeSeriesViewer.Detached.Bounds">
-        <Object class="java.awt.Rectangle">753,22,691,874</Object>
+        <Object class="java.awt.Rectangle">1653,13,1005,873</Object>
     </pref>
     <prefGroup key="TranscriptionMode.Temp.TierColors">
         <pref key="Audience01">
@@ -153,7 +169,7 @@
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>908440</Long>
+        <Long>1281600</Long>
     </pref>
     <prefGroup key="TierHighlightColors"/>
     <pref key="SegmentationViewer.ZoomLevel">
@@ -161,10 +177,10 @@
     </pref>
     <prefList key="TranscriptionTable.HiddenTiers"/>
     <pref key="MultiTierViewer.ActiveTierName">
-        <String>Performer</String>
+        <String>Lighting</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>827200</Long>
+        <Long>398740</Long>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers"/>
 </preferences>
