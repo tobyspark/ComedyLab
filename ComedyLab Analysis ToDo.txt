@@ -20,5 +20,6 @@ Vicon into ELAN
 
 Tweak main video so side-by side
 Tweak main video performance 1 performer is ~sec ahead
+Tweak main video so pert audio and audience audio sep L/R as much as possible
 
 
