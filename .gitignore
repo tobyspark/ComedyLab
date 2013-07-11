@@ -5,6 +5,8 @@
 *.log
 *.txt
 
+*.mov
+
 .DS_Store
 
 *.sublime-workspace

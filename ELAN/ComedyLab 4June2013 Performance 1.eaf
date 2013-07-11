@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2013-07-09T17:12:35+00:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2013-07-11T10:53:36+00:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Video Sync/Performance 1 3pm Live" MIME_TYPE="unknown" RELATIVE_MEDIA_URL="../../../Comedy Lab Share/Data/Video Sync/Performance 1 3pm Live"/>
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/Minos/Personal Files/Education/QMUL MAT PhD/Placement in EA/Comedy Lab/Comedy Lab 04Jun13 Audience 05 15h36 720P.mov" MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="../../../../../Minos/Personal Files/Education/QMUL MAT PhD/Placement in EA/Comedy Lab/Comedy Lab 04Jun13 Audience 05 15h36 720P.mov"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/breathing belts/Performance 1 BreathingBelts.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/breathing belts/Performance 1 BreathingBelts.txt" TIME_ORIGIN="37643"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/3 - The Experiment/ComedyLab/ELAN/ComedyLab 4June2013 Performance 1_tsconf.xml" MIME_TYPE="text/xml" RELATIVE_LINK_URL="./ComedyLab 4June2013 Performance 1_tsconf.xml"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person02-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person02-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person03-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person03-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person05-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person05-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person06-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person06-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person07-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person07-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person08-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person08-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person09-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person09-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person10-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person10-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person11-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person11-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person13-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person13-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/tbzphd/Dropbox/Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person14-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="../../../Comedy Lab Share/Data/Shore/Performance 1/configuration_05_person14-TimeStamp-Happy.txt"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/Performance 1 3pm Live.mov" MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="./ELAN Data Performance 1/Performance 1 3pm Live.mov"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/Performance 1 BreathingBelts.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/Performance 1 BreathingBelts.txt" TIME_ORIGIN="37643"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ComedyLab 4June2013 Performance 1_tsconf.xml" MIME_TYPE="text/xml" RELATIVE_LINK_URL="./ComedyLab 4June2013 Performance 1_tsconf.xml"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person02-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person02-TimeStamp-Happy.txt"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person03-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person03-TimeStamp-Happy.txt"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person05-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person05-TimeStamp-Happy.txt"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person06-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person06-TimeStamp-Happy.txt"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person07-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person07-TimeStamp-Happy.txt"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person08-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person08-TimeStamp-Happy.txt"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person09-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person09-TimeStamp-Happy.txt"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person10-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person10-TimeStamp-Happy.txt"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person11-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person11-TimeStamp-Happy.txt"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person13-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person13-TimeStamp-Happy.txt"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person14-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person14-TimeStamp-Happy.txt"/>
         <PROPERTY NAME="lastUsedAnnotationId">387</PROPERTY>
     </HEADER>
     <TIME_ORDER>
@@ -24,7 +23,7 @@
         <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="429080"/>
         <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="440694"/>
         <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="460200"/>
-        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="473128"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="471500"/>
         <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="474000"/>
         <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="474700"/>
         <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="479000"/>
@@ -49,19 +48,19 @@
         <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="570002"/>
         <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="572471"/>
         <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="578964"/>
-        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="581000"/>
-        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="581000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="579500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="579500"/>
         <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="581331"/>
         <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="586619"/>
         <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="589230"/>
         <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="597845"/>
         <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="602119"/>
-        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="605960"/>
-        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="605960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="604400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="604400"/>
         <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="616583"/>
         <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="620202"/>
-        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="630900"/>
-        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="630900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="629400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="629400"/>
         <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="631706"/>
         <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="633144"/>
         <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="637535"/>
@@ -70,16 +69,16 @@
         <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="648312"/>
         <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="652000"/>
         <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="654264"/>
-        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="655250"/>
-        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="656100"/>
-        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="656100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="654500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="654500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="655250"/>
         <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="657214"/>
         <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="662166"/>
         <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="664678"/>
         <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="675059"/>
         <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="676916"/>
-        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="681000"/>
-        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="681000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="679500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="679500"/>
         <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="701023"/>
         <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="703357"/>
         <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="713285"/>
@@ -94,8 +93,8 @@
         <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="760204"/>
         <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="770952"/>
         <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="772523"/>
-        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="781360"/>
-        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="781360"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="779800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="779800"/>
         <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="786096"/>
         <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="793446"/>
         <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="821119"/>
@@ -107,33 +106,33 @@
         <TIME_SLOT TIME_SLOT_ID="ts86" TIME_VALUE="870224"/>
         <TIME_SLOT TIME_SLOT_ID="ts87" TIME_VALUE="874922"/>
         <TIME_SLOT TIME_SLOT_ID="ts88" TIME_VALUE="877381"/>
-        <TIME_SLOT TIME_SLOT_ID="ts89" TIME_VALUE="879904"/>
-        <TIME_SLOT TIME_SLOT_ID="ts90" TIME_VALUE="881166"/>
-        <TIME_SLOT TIME_SLOT_ID="ts91" TIME_VALUE="881300"/>
-        <TIME_SLOT TIME_SLOT_ID="ts92" TIME_VALUE="881300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts89" TIME_VALUE="879700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts90" TIME_VALUE="879700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts91" TIME_VALUE="879904"/>
+        <TIME_SLOT TIME_SLOT_ID="ts92" TIME_VALUE="881166"/>
         <TIME_SLOT TIME_SLOT_ID="ts93" TIME_VALUE="883750"/>
         <TIME_SLOT TIME_SLOT_ID="ts94" TIME_VALUE="896675"/>
         <TIME_SLOT TIME_SLOT_ID="ts95" TIME_VALUE="901386"/>
-        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="906500"/>
-        <TIME_SLOT TIME_SLOT_ID="ts97" TIME_VALUE="906500"/>
-        <TIME_SLOT TIME_SLOT_ID="ts98" TIME_VALUE="931400"/>
-        <TIME_SLOT TIME_SLOT_ID="ts99" TIME_VALUE="931400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="904700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts97" TIME_VALUE="904700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts98" TIME_VALUE="929700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts99" TIME_VALUE="929700"/>
         <TIME_SLOT TIME_SLOT_ID="ts100" TIME_VALUE="939595"/>
         <TIME_SLOT TIME_SLOT_ID="ts101" TIME_VALUE="940952"/>
         <TIME_SLOT TIME_SLOT_ID="ts102" TIME_VALUE="942083"/>
         <TIME_SLOT TIME_SLOT_ID="ts103" TIME_VALUE="943619"/>
         <TIME_SLOT TIME_SLOT_ID="ts104" TIME_VALUE="953000"/>
-        <TIME_SLOT TIME_SLOT_ID="ts105" TIME_VALUE="955059"/>
-        <TIME_SLOT TIME_SLOT_ID="ts106" TIME_VALUE="956300"/>
-        <TIME_SLOT TIME_SLOT_ID="ts107" TIME_VALUE="956300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts105" TIME_VALUE="954700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts106" TIME_VALUE="954700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts107" TIME_VALUE="955059"/>
         <TIME_SLOT TIME_SLOT_ID="ts108" TIME_VALUE="957773"/>
         <TIME_SLOT TIME_SLOT_ID="ts109" TIME_VALUE="959023"/>
         <TIME_SLOT TIME_SLOT_ID="ts110" TIME_VALUE="969666"/>
         <TIME_SLOT TIME_SLOT_ID="ts111" TIME_VALUE="972190"/>
         <TIME_SLOT TIME_SLOT_ID="ts112" TIME_VALUE="972500"/>
         <TIME_SLOT TIME_SLOT_ID="ts113" TIME_VALUE="973726"/>
-        <TIME_SLOT TIME_SLOT_ID="ts114" TIME_VALUE="981400"/>
-        <TIME_SLOT TIME_SLOT_ID="ts115" TIME_VALUE="981400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts114" TIME_VALUE="979500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts115" TIME_VALUE="979500"/>
         <TIME_SLOT TIME_SLOT_ID="ts116" TIME_VALUE="986369"/>
         <TIME_SLOT TIME_SLOT_ID="ts117" TIME_VALUE="988309"/>
         <TIME_SLOT TIME_SLOT_ID="ts118" TIME_VALUE="1014607"/>
@@ -152,8 +151,8 @@
         <TIME_SLOT TIME_SLOT_ID="ts131" TIME_VALUE="1072452"/>
         <TIME_SLOT TIME_SLOT_ID="ts132" TIME_VALUE="1075924"/>
         <TIME_SLOT TIME_SLOT_ID="ts133" TIME_VALUE="1077979"/>
-        <TIME_SLOT TIME_SLOT_ID="ts134" TIME_VALUE="1081400"/>
-        <TIME_SLOT TIME_SLOT_ID="ts135" TIME_VALUE="1081400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts134" TIME_VALUE="1079600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts135" TIME_VALUE="1079600"/>
         <TIME_SLOT TIME_SLOT_ID="ts136" TIME_VALUE="1084510"/>
         <TIME_SLOT TIME_SLOT_ID="ts137" TIME_VALUE="1087679"/>
         <TIME_SLOT TIME_SLOT_ID="ts138" TIME_VALUE="1111011"/>
@@ -162,30 +161,30 @@
         <TIME_SLOT TIME_SLOT_ID="ts141" TIME_VALUE="1123345"/>
         <TIME_SLOT TIME_SLOT_ID="ts142" TIME_VALUE="1135381"/>
         <TIME_SLOT TIME_SLOT_ID="ts143" TIME_VALUE="1144142"/>
-        <TIME_SLOT TIME_SLOT_ID="ts144" TIME_VALUE="1181700"/>
-        <TIME_SLOT TIME_SLOT_ID="ts145" TIME_VALUE="1181700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts144" TIME_VALUE="1180100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts145" TIME_VALUE="1180100"/>
         <TIME_SLOT TIME_SLOT_ID="ts146" TIME_VALUE="1184821"/>
         <TIME_SLOT TIME_SLOT_ID="ts147" TIME_VALUE="1189119"/>
-        <TIME_SLOT TIME_SLOT_ID="ts148" TIME_VALUE="1206600"/>
-        <TIME_SLOT TIME_SLOT_ID="ts149" TIME_VALUE="1206600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts148" TIME_VALUE="1204700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts149" TIME_VALUE="1204700"/>
         <TIME_SLOT TIME_SLOT_ID="ts150" TIME_VALUE="1208916"/>
         <TIME_SLOT TIME_SLOT_ID="ts151" TIME_VALUE="1213023"/>
         <TIME_SLOT TIME_SLOT_ID="ts152" TIME_VALUE="1215982"/>
         <TIME_SLOT TIME_SLOT_ID="ts153" TIME_VALUE="1218321"/>
-        <TIME_SLOT TIME_SLOT_ID="ts154" TIME_VALUE="1231300"/>
-        <TIME_SLOT TIME_SLOT_ID="ts155" TIME_VALUE="1231800"/>
-        <TIME_SLOT TIME_SLOT_ID="ts156" TIME_VALUE="1231800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts154" TIME_VALUE="1229700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts155" TIME_VALUE="1229700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts156" TIME_VALUE="1231300"/>
         <TIME_SLOT TIME_SLOT_ID="ts157" TIME_VALUE="1234700"/>
         <TIME_SLOT TIME_SLOT_ID="ts158" TIME_VALUE="1236904"/>
         <TIME_SLOT TIME_SLOT_ID="ts159" TIME_VALUE="1238809"/>
         <TIME_SLOT TIME_SLOT_ID="ts160" TIME_VALUE="1240702"/>
         <TIME_SLOT TIME_SLOT_ID="ts161" TIME_VALUE="1242285"/>
-        <TIME_SLOT TIME_SLOT_ID="ts162" TIME_VALUE="1256600"/>
-        <TIME_SLOT TIME_SLOT_ID="ts163" TIME_VALUE="1256600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts162" TIME_VALUE="1254500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts163" TIME_VALUE="1254500"/>
         <TIME_SLOT TIME_SLOT_ID="ts164" TIME_VALUE="1264154"/>
         <TIME_SLOT TIME_SLOT_ID="ts165" TIME_VALUE="1266345"/>
-        <TIME_SLOT TIME_SLOT_ID="ts166" TIME_VALUE="1281600"/>
-        <TIME_SLOT TIME_SLOT_ID="ts167" TIME_VALUE="1281600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts166" TIME_VALUE="1279500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts167" TIME_VALUE="1279500"/>
         <TIME_SLOT TIME_SLOT_ID="ts168" TIME_VALUE="1283500"/>
         <TIME_SLOT TIME_SLOT_ID="ts169" TIME_VALUE="1286700"/>
         <TIME_SLOT TIME_SLOT_ID="ts170" TIME_VALUE="1290547"/>
@@ -213,9 +212,9 @@
         <TIME_SLOT TIME_SLOT_ID="ts192" TIME_VALUE="1355857"/>
         <TIME_SLOT TIME_SLOT_ID="ts193" TIME_VALUE="1358131"/>
         <TIME_SLOT TIME_SLOT_ID="ts194" TIME_VALUE="1361357"/>
-        <TIME_SLOT TIME_SLOT_ID="ts195" TIME_VALUE="1363797"/>
-        <TIME_SLOT TIME_SLOT_ID="ts196" TIME_VALUE="1364559"/>
-        <TIME_SLOT TIME_SLOT_ID="ts197" TIME_VALUE="1365480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts195" TIME_VALUE="1363300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts196" TIME_VALUE="1363797"/>
+        <TIME_SLOT TIME_SLOT_ID="ts197" TIME_VALUE="1364559"/>
         <TIME_SLOT TIME_SLOT_ID="ts198" TIME_VALUE="1373666"/>
     </TIME_ORDER>
     <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="Lighting">
@@ -235,12 +234,12 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts53">
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts52">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts54" TIME_SLOT_REF2="ts60">
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts53" TIME_SLOT_REF2="ts60">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -250,12 +249,12 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts77" TIME_SLOT_REF2="ts91">
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts77" TIME_SLOT_REF2="ts89">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" TIME_SLOT_REF1="ts92" TIME_SLOT_REF2="ts96">
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" TIME_SLOT_REF1="ts90" TIME_SLOT_REF2="ts96">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -265,12 +264,12 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" TIME_SLOT_REF1="ts99" TIME_SLOT_REF2="ts106">
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" TIME_SLOT_REF1="ts99" TIME_SLOT_REF2="ts105">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" TIME_SLOT_REF1="ts107" TIME_SLOT_REF2="ts114">
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" TIME_SLOT_REF1="ts106" TIME_SLOT_REF2="ts114">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -290,12 +289,12 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17" TIME_SLOT_REF1="ts149" TIME_SLOT_REF2="ts155">
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17" TIME_SLOT_REF1="ts149" TIME_SLOT_REF2="ts154">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18" TIME_SLOT_REF1="ts156" TIME_SLOT_REF2="ts162">
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18" TIME_SLOT_REF1="ts155" TIME_SLOT_REF2="ts162">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -305,7 +304,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20" TIME_SLOT_REF1="ts167" TIME_SLOT_REF2="ts197">
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20" TIME_SLOT_REF1="ts167" TIME_SLOT_REF2="ts195">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -1896,7 +1895,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a329" TIME_SLOT_REF1="ts52" TIME_SLOT_REF2="ts55">
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a329" TIME_SLOT_REF1="ts54" TIME_SLOT_REF2="ts55">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -1971,12 +1970,12 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a344" TIME_SLOT_REF1="ts88" TIME_SLOT_REF2="ts89">
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a344" TIME_SLOT_REF1="ts88" TIME_SLOT_REF2="ts91">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a345" TIME_SLOT_REF1="ts90" TIME_SLOT_REF2="ts93">
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a345" TIME_SLOT_REF1="ts92" TIME_SLOT_REF2="ts93">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -1996,7 +1995,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a349" TIME_SLOT_REF1="ts104" TIME_SLOT_REF2="ts105">
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a349" TIME_SLOT_REF1="ts104" TIME_SLOT_REF2="ts107">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -2096,7 +2095,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a369" TIME_SLOT_REF1="ts154" TIME_SLOT_REF2="ts157">
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a369" TIME_SLOT_REF1="ts156" TIME_SLOT_REF2="ts157">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -2181,12 +2180,12 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a386" TIME_SLOT_REF1="ts194" TIME_SLOT_REF2="ts195">
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a386" TIME_SLOT_REF1="ts194" TIME_SLOT_REF2="ts196">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a387" TIME_SLOT_REF1="ts196" TIME_SLOT_REF2="ts198">
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a387" TIME_SLOT_REF1="ts197" TIME_SLOT_REF2="ts198">
                 <ANNOTATION_VALUE></ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>

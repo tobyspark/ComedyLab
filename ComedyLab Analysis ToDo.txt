@@ -8,6 +8,11 @@ DONE / Tweak Shore dataset for time?
 DONE / Sync up Shore
 DONE / Annotate lit/unlit
 DONE / annotate overall audience laughter by audio?
+DONE / Tweak main video so side-by side
+DONE / Tweak main video performance 1 performer is BACK IN SYNC (currently ~sec ahead)
+DONE / Tweak main video so pert audio and audience audio sep L/R as much as possible
+
+DONE / Sort out ELAN so paths are the same. Hard links into the ELAN directory? (Symlinks were resolved when tried a while back)
 
 annotate each audience member's visible laughter / stuff [what, exactly?]
 
@@ -15,11 +20,6 @@ Transcribe performer's speech?
 Annotate performer jokes/punchlines
 Annotate performer pauses
 
-Create Vicon dataset
+Create Vicon dataset (index of movement - just plot one axis? or velocity)
 Vicon into ELAN
 
-NEXT: Tweak main video so side-by side
-NEXT: Tweak main video performance 1 performer is BACK IN SYNC (currently ~sec ahead)
-NEXT: Tweak main video so pert audio and audience audio sep L/R as much as possible
-
-Sort out ELAN so paths are the same. Hard links into the ELAN directory? (Symlinks were resolved when tried a while back)
