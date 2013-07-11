@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2013-07-11T10:53:36+00:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2013-07-11T17:25:44+00:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/Performance 1 3pm Live.mov" MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="./ELAN Data Performance 1/Performance 1 3pm Live.mov"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/Minos/Dropbox/Comedy Lab Share/data/Video Sync/Performance 1 3pm Live 720P.mov" MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="../../../Minos/Dropbox/Comedy Lab Share/data/Video Sync/Performance 1 3pm Live 720P.mov"/>
         <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/Performance 1 BreathingBelts.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/Performance 1 BreathingBelts.txt" TIME_ORIGIN="37643"/>
         <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ComedyLab 4June2013 Performance 1_tsconf.xml" MIME_TYPE="text/xml" RELATIVE_LINK_URL="./ComedyLab 4June2013 Performance 1_tsconf.xml"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person02-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person02-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person03-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person03-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person05-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person05-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person06-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person06-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person07-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person07-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person08-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person08-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person09-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person09-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person10-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person10-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person11-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person11-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person13-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person13-TimeStamp-Happy.txt"/>
-        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_person14-TimeStamp-Happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_person14-TimeStamp-Happy.txt"/>
+        <LINKED_FILE_DESCRIPTOR LINK_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_happy.txt" MIME_TYPE="text/plain" RELATIVE_LINK_URL="./ELAN Data Performance 1/configuration_05_happy.txt"/>
         <PROPERTY NAME="lastUsedAnnotationId">387</PROPERTY>
     </HEADER>
     <TIME_ORDER>
