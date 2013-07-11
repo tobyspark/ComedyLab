@@ -1,113 +1,114 @@
 {
-    "exportFields": ["TimeStamp", "Happy"],
-    "start": "2013-Jul-02 17:36:03.993642",
+    "exportFields": ["Happy", "Sad", "MouthOpen"],
+    "start_date": "2013-Jul-02 17:36:03.993642",
+    "filename": "configuration_06_happy.txt",
     "people": [
         {
-            "filename": "configuration_06_person02.txt",
+            "name": "Person_02",
             "frame": {
                 "left": 0.23,
                 "top": 0.679,
                 "right": 0.339,
-                "bottom": 0.874 
+                "bottom": 0.874
             }
         },
         {
-            "filename": "configuration_06_person03.txt",
+            "name": "Person_03",
             "frame": {
                 "left": 0.515,
                 "top": 0.7,
                 "right": 0.626,
-                "bottom": 0.882 
+                "bottom": 0.882
             }
         },
         {
-            "filename": "configuration_06_person05.txt",
+            "name": "Person_05",
             "frame": {
                 "left": 0.076,
                 "top": 0.464,
                 "right": 0.163,
-                "bottom": 0.584 
+                "bottom": 0.584
             }
         },
         {
-            "filename": "configuration_06_person06.txt",
+            "name": "Person_06",
             "frame": {
                 "left": 0.282,
                 "top": 0.405,
                 "right": 0.37,
-                "bottom": 0.528 
+                "bottom": 0.528
             }
         },
         {
-            "filename": "configuration_06_person07.txt",
+            "name": "Person_07",
             "frame": {
                 "left": 0.497,
                 "top": 0.399,
                 "right": 0.589,
-                "bottom": 0.545 
+                "bottom": 0.545
             }
         },
         {
-            "filename": "configuration_06_person08.txt",
+            "name": "Person_08",
             "frame": {
                 "left": 0.701,
                 "top": 0.394,
                 "right": 0.799,
-                "bottom": 0.574 
+                "bottom": 0.574
             }
         },
         {
-            "filename": "configuration_06_person09.txt",
+            "name": "Person_09",
             "frame": {
                 "left": 0.153,
                 "top": 0.256,
                 "right": 0.229,
-                "bottom": 0.356 
+                "bottom": 0.356
             }
         },
         {
-            "filename": "configuration_06_person10.txt",
+            "name": "Person_10",
             "frame": {
                 "left": 0.325,
                 "top": 0.22,
                 "right": 0.399,
-                "bottom": 0.326 
+                "bottom": 0.326
             }
         },
         {
-            "filename": "configuration_06_person11.txt",
+            "name": "Person_11",
             "frame": {
                 "left": 0.474,
                 "top": 0.22,
                 "right": 0.568,
-                "bottom": 0.356 
+                "bottom": 0.356
             }
         },
         {
-            "filename": "configuration_06_person12.txt",
+            "name": "Person_12",
             "frame": {
                 "left": 0.656,
                 "top": 0.256,
                 "right": 0.728,
-                "bottom": 0.366 
+                "bottom": 0.366
             }
         },
         {
-            "filename": "configuration_06_person14.txt",
+            "name": "Person_14",
             "frame": {
                 "left": 0.357,
                 "top": 0.129,
                 "right": 0.426,
-                "bottom": 0.241 
+                "bottom": 0.241
             }
         },
         {
-            "filename": "configuration_06_person15.txt",
+            "name": "Person_15",
             "frame": {
                 "left": 0.459,
                 "top": 0.077,
                 "right": 0.538,
-                "bottom": 0.197 
+                "bottom": 0.197
             }
         }
     ]
