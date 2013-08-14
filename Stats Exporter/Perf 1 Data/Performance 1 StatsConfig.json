@@ -16,7 +16,8 @@
 			},
 		"shore": {
 			"filename": "configuration_05_happy.txt", 
-			"offset": 0
+			"offset": 0,
+			"columns": ["TimeStamp", "Frame", "Audience 02 Happiness", "Audience 02 MouthOpen", "Audience 03 Happiness", "Audience 03 MouthOpen", "Audience 05 Happiness", "Audience 05 MouthOpen", "Audience 06 Happiness", "Audience 06 MouthOpen", "Audience 07 Happiness", "Audience 07 MouthOpen", "Audience 08 Happiness", "Audience 08 MouthOpen", "Audience 09 Happiness", "Audience 09 MouthOpen", "Audience 10 Happiness", "Audience 10 MouthOpen", "Audience 11 Happiness", "Audience 11 MouthOpen", "Audience 13 Happiness", "Audience 13 MouthOpen", "Audience 14 Happiness", "Audience 14 MouthOpen"]
 			}
 		},
 	"subjects": [
@@ -29,7 +30,7 @@
 	    "timeStart": 472,
 	    "timeEnd": 1366,
 	    "filename": "Comedy Lab 4Jun Performance 1 Data.txt",
-	    "fields": ["Light State", "Laugh State", "Breathing Belt"],
+	    "fields": ["Light State", "Laugh State", "Breathing Belt", "Happiness"],
 	    "missingValuePlaceholder": "n/a"
 	}
 }

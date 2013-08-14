@@ -11,11 +11,16 @@ def parseFile(configuration):
     exportConfig = configuration['export']
     elanConfig = configuration['source']['elan']
     bbConfig = configuration['source']['bb']
+    shoreConfig = configuration['source']['shore']
+
+    timeStepSearch = float(exportConfig['timeStep']) / 2
 
     for subject in configuration['subjects']:
 
-        # for each subject, start at beginning of bb file
+        # for each subject, start at beginning of time linear files
         bbConfig['file'].seek(0)
+        shoreConfig['file'].seek(0)
+        currentShoreTime = exportConfig['timeStart'] - exportConfig['timeStep']
 
         for time in np.arange(exportConfig['timeStart'], exportConfig['timeEnd'], exportConfig['timeStep']):
 
@@ -65,6 +70,7 @@ def parseFile(configuration):
                 # get data from line by stripping new line character from end and then splitting by comma
                 lineSplit = line.rstrip().split(', ')
 
+                # get time from line data
                 try:
                     lineTime = float(lineSplit[0])
                 except ValueError:
@@ -72,6 +78,7 @@ def parseFile(configuration):
                     print "Skipping line: " + line
                     continue
 
+                # extract field if correct time and add to infodict
                 if lineTime == time: # beware, float compare. have verified works for our data/purposes here.
                     subjectIdx = bbConfig['columns'].index(subject)
                     infoDict['Breathing Belt'] = lineSplit[subjectIdx]
@@ -81,7 +88,38 @@ def parseFile(configuration):
             
             # shore -----------
 
-            # TODO
+            # scan the bb file, advancing to the next line only if we're behind
+
+            while currentShoreTime < time - timeStepSearch:
+
+                line = shoreConfig['file'].readline()
+
+                # get data from line by stripping new line character from end and then splitting by comma
+                lineSplit = line.rstrip().split(', ')
+
+                # get time from line data
+                try:
+                    currentShoreTime = float(lineSplit[0])
+                except ValueError:
+                    # value wasn't a number, ie heading text
+                    print "Skipping line: " + line
+                    continue
+
+                # extract field if correct time and add to infodict
+                if abs(currentShoreTime - time) < timeStepSearch: # shore data isn't regular, this should pick a near-enough value from potentially more than one reading if shore was processing faster than the step time
+                    for field in ['Happiness', 'MouthOpen']:
+
+                        columnHeader = subject + " " + field
+                        subjectIdx = shoreConfig['columns'].index(columnHeader)
+                        value = lineSplit[subjectIdx]
+                        
+                        # shore data is processed to have 'none' or -10 for missing person and -5 for missing value, we should ignore these
+                        if value not in ['None', '-10', '-5']:
+                            infoDict[field] = value
+
+                    # break here so file position doesn't run through to end
+                    break
+
 
             # handle parsed data for this subject and time --------
 
