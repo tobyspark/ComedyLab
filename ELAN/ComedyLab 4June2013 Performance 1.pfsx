@@ -20,11 +20,11 @@
         <pref key="02 Laughing">
             <Object class="java.awt.Color">160,0,0</Object>
         </pref>
-        <pref key="Audience Response">
-            <Object class="java.awt.Color">0,160,90</Object>
-        </pref>
         <pref key="03 Laughing">
             <Object class="java.awt.Color">0,90,160</Object>
+        </pref>
+        <pref key="Audience Response">
+            <Object class="java.awt.Color">0,160,90</Object>
         </pref>
         <pref key="01 Laughing">
             <Object class="java.awt.Color">90,0,0</Object>
@@ -46,7 +46,7 @@
         <String>Person_09_Happy</String>
     </prefList>
     <pref key="FrameLocation">
-        <Object class="java.awt.Point">1440,-180</Object>
+        <Object class="java.awt.Point">1716,-145</Object>
     </pref>
     <prefList key="TimeSeriesViewer.Panel-9">
         <String>Audience10</String>
@@ -55,7 +55,7 @@
         <String>Performer</String>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>525760</Long>
+        <Long>1366000</Long>
     </pref>
     <pref key="TimeSeriesViewer.ZoomLevel">
         <Float>10.0</Float>
@@ -120,6 +120,9 @@
     <prefList key="TimeSeriesViewer.Panel-15">
         <String>Person_05_Happy</String>
     </prefList>
+    <pref key="ExportTabDialog.SelectTiersMode">
+        <String>Tier</String>
+    </pref>
     <pref key="MediaControlRate">
         <Float>1.0</Float>
     </pref>
@@ -127,7 +130,7 @@
         <Boolean>false</Boolean>
     </pref>
     <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1920,1080</Object>
+        <Object class="java.awt.Dimension">1436,878</Object>
     </pref>
     <pref key="SubTitleViewer.TierName-1">
         <String>03 Laughing</String>
@@ -136,15 +139,27 @@
         <Boolean>false</Boolean>
     </pref>
     <pref key="LayoutManager.MediaAreaHeight">
-        <Int>616</Int>
+        <Int>377</Int>
     </pref>
     <pref key="ActiveAudioRecognizerName">
         <String>BAS - WebMAUS Basic</String>
     </pref>
+    <prefList key="ExportTabDialog.HiddenTiers">
+        <String>Lighting</String>
+        <String>Performer</String>
+        <String>Audience Response</String>
+    </prefList>
     <pref key="SelectionEndTime">
-        <Long>529240</Long>
+        <Long>1366100</Long>
     </pref>
     <prefList key="MultiTierViewer.TierOrder">
+        <String>Performer</String>
+        <String>Audience Response</String>
+        <String>Lighting</String>
+        <String>01 Laughing</String>
+        <String>02 Laughing</String>
+        <String>03 Laughing</String>
+        <String>05 Laughing</String>
         <String>01 Lit</String>
         <String>02 Lit</String>
         <String>03 Lit</String>
@@ -161,13 +176,6 @@
         <String>12 Lit</String>
         <String>15 Lit</String>
         <String>16 Lit</String>
-        <String>Performer</String>
-        <String>Audience Response</String>
-        <String>Lighting</String>
-        <String>01 Laughing</String>
-        <String>02 Laughing</String>
-        <String>03 Laughing</String>
-        <String>05 Laughing</String>
     </prefList>
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
@@ -188,7 +196,7 @@
         </pref>
     </prefGroup>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>2</Int>
+        <Int>70</Int>
     </pref>
     <prefGroup key="TranscriptionTable.TierMap"/>
     <prefList key="SegmentationViewer.HiddenTiers"/>
@@ -226,7 +234,7 @@
         </pref>
     </prefGroup>
     <pref key="MediaTime">
-        <Long>544520</Long>
+        <Long>0</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>3</Int>
@@ -239,6 +247,53 @@
     <pref key="TimeLineViewer.ReducedTierHeight">
         <Boolean>false</Boolean>
     </pref>
+    <prefList key="ExportTabDialog.TierOrder">
+        <String>Lighting</String>
+        <String>Performer</String>
+        <String>01 Lit</String>
+        <String>02 Lit</String>
+        <String>03 Lit</String>
+        <String>04 Lit</String>
+        <String>05 Lit</String>
+        <String>06 Lit</String>
+        <String>07 Lit</String>
+        <String>08 Lit</String>
+        <String>09 Lit</String>
+        <String>10 Lit</String>
+        <String>11 Lit</String>
+        <String>13 Lit</String>
+        <String>14 Lit</String>
+        <String>15 Lit</String>
+        <String>12 Lit</String>
+        <String>16 Lit</String>
+        <String>Audience Response</String>
+        <String>01 Laughing</String>
+        <String>02 Laughing</String>
+        <String>03 Laughing</String>
+        <String>05 Laughing</String>
+    </prefList>
+    <prefList key="ExportTabDialog.selectedTiers">
+        <String>01 Lit</String>
+        <String>02 Lit</String>
+        <String>03 Lit</String>
+        <String>04 Lit</String>
+        <String>05 Lit</String>
+        <String>06 Lit</String>
+        <String>07 Lit</String>
+        <String>08 Lit</String>
+        <String>09 Lit</String>
+        <String>10 Lit</String>
+        <String>11 Lit</String>
+        <String>13 Lit</String>
+        <String>14 Lit</String>
+        <String>15 Lit</String>
+        <String>12 Lit</String>
+        <String>16 Lit</String>
+        <String>01 Laughing</String>
+        <String>02 Laughing</String>
+        <String>03 Laughing</String>
+        <String>05 Laughing</String>
+    </prefList>
     <pref key="MultiTierViewer.ActiveTierName">
         <String>07 Laugh</String>
     </pref>
@@ -252,34 +307,12 @@
         <String>Person_14_Happy</String>
     </prefList>
     <pref key="TimeScaleBeginTime">
-        <Long>427400</Long>
+        <Long>0</Long>
     </pref>
     <prefList key="TimeSeriesViewer.Panel-21">
         <String>Person_11_Happy</String>
     </prefList>
-    <prefList key="MultiTierViewer.HiddenTiers">
-        <String>01 Lit</String>
-        <String>02 Lit</String>
-        <String>03 Lit</String>
-        <String>06 Lit</String>
-        <String>07 Lit</String>
-        <String>08 Lit</String>
-        <String>09 Lit</String>
-        <String>10 Lit</String>
-        <String>11 Lit</String>
-        <String>13 Lit</String>
-        <String>14 Lit</String>
-        <String>04 Lit</String>
-        <String>12 Lit</String>
-        <String>15 Lit</String>
-        <String>16 Lit</String>
-        <String>Performer</String>
-        <String>Audience Response</String>
-        <String>Lighting</String>
-        <String>01 Laughing</String>
-        <String>02 Laughing</String>
-        <String>03 Laughing</String>
-    </prefList>
+    <prefList key="MultiTierViewer.HiddenTiers"/>
     <prefList key="TimeSeriesViewer.Panel-22">
         <String>Person_13_Happy</String>
     </prefList>

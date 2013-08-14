@@ -1,0 +1,26 @@
+{
+	"source": {
+		"elan": {
+			"filename": "ComedyLab 4June2013 Performance 1 Elan Export.txt", 
+			"offset": 0
+			},
+		"bb": {
+			"filename": "Performance 1 BreathingBelts.txt", 
+			"offset": -37.643,
+			"columns": ["time", "Audience 01", "Audience 02", "Audience 03", "Audience 04", "Audience 05", "Audience 06", "Audience 07", "Audience 08", "Audience 09", "Audience 10", "Audience 11", "Audience 12", "Audience 13", "Audience 14", "Audience 15", "Audience 16"]  
+			},
+		"shore": {
+			"filename": "configuration_05_happy.txt", 
+			"offset": 0
+			}
+		},
+	"subjects": [
+		"Audience 02",
+		"Audience 03",
+		"Audience 05"
+		],
+	"timeStep": 0.1,
+    "timeStart": 472,
+    "timeEnd": 1366,
+    "filename": "Comedy Lab 4Jun Performance 1 Data.txt"
+}
