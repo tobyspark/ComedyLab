@@ -1,5 +1,19 @@
 #!/usr/bin/env python
 
+# For every subject, list the state at every timestep between start and end
+# We're going for something that looks like...
+# 
+# AudienceID, TimeStamp, Light State, Laugh State, Breathing Belt, Happiness
+# Audience 02, 472.0, Unlit, n/a, -0.00885, n/a
+# Audience 02, 472.1, Unlit, n/a, -0.00818, n/a
+# Audience 02, 472.2, Unlit, Not Laughing, -0.00781, n/a
+# Audience 02, 472.3, Unlit, Not Laughing, -0.00735, 71.111
+# Audience 03, 472.0, Unlit, Not Laughing, 0.0016, 84.667
+# Audience 03, 472.1, Unlit, Not Laughing, -7e-05, 80.222
+# Audience 03, 472.2, Unlit, Not Laughing, -0.00165, 92.444
+# Audience 03, 472.3, Unlit, Not Laughing, -0.00303, 92.444
+
+
 import sys
 import json
 import numpy as np
@@ -15,13 +29,16 @@ def parseFile(configuration):
 
     timeStepSearch = float(exportConfig['timeStep']) / 2
 
+    # parse for each subject
     for subject in configuration['subjects']:
 
         # for each subject, start at beginning of time linear files
         bbConfig['file'].seek(0)
+        currentBBTime = exportConfig['timeStart'] - exportConfig['timeStep']
         shoreConfig['file'].seek(0)
         currentShoreTime = exportConfig['timeStart'] - exportConfig['timeStep']
 
+        # within each subject, parse for time
         for time in np.arange(exportConfig['timeStart'], exportConfig['timeEnd'], exportConfig['timeStep']):
 
             # convert to float and ensure value is precisely x.xx and not x.xx000000000xyz
@@ -32,7 +49,8 @@ def parseFile(configuration):
 
             # elan -------
             
-            # scan the complete elan file line by line, as tiers are listed sequentially, so the same time has multiple occurences in the file
+            # scan the complete elan file for each timestep pass. 
+            # as tiers are listed sequentially, the same time has multiple occurences in the file
             
             elanConfig['file'].seek(0)
             for line in elanConfig['file']:
@@ -63,32 +81,32 @@ def parseFile(configuration):
 
             # breathing belts -----------
 
-            # scan the bb file line by line starting where we last finished
+            # partial scan the bb file, starting where last timestep left off and advancing to the next line only if timestep has caught up to last read line
             
-            for line in bbConfig['file']:
+            while currentBBTime < time - timeStepSearch:
+
+                line = bbConfig['file'].readline()
 
                 # get data from line by stripping new line character from end and then splitting by comma
                 lineSplit = line.rstrip().split(', ')
 
                 # get time from line data
                 try:
-                    lineTime = float(lineSplit[0])
+                    currentBBTime = float(lineSplit[0])
                 except ValueError:
                     # value wasn't a number, ie heading text
                     print "Skipping line: " + line
                     continue
 
                 # extract field if correct time and add to infodict
-                if lineTime == time: # beware, float compare. have verified works for our data/purposes here.
+                if abs(currentBBTime - time) < timeStepSearch:
                     subjectIdx = bbConfig['columns'].index(subject)
                     infoDict['Breathing Belt'] = lineSplit[subjectIdx]
 
-                    #break here so file position doesn't run through to end
-                    break
             
             # shore -----------
 
-            # scan the bb file, advancing to the next line only if we're behind
+            # partial scan the shore file, starting where last timestep left off and advancing to the next line only if timestep has caught up to last read line
 
             while currentShoreTime < time - timeStepSearch:
 
@@ -106,7 +124,7 @@ def parseFile(configuration):
                     continue
 
                 # extract field if correct time and add to infodict
-                if abs(currentShoreTime - time) < timeStepSearch: # shore data isn't regular, this should pick a near-enough value from potentially more than one reading if shore was processing faster than the step time
+                if abs(currentShoreTime - time) < timeStepSearch: 
                     for field in ['Happiness', 'MouthOpen']:
 
                         columnHeader = subject + " " + field
@@ -116,9 +134,6 @@ def parseFile(configuration):
                         # shore data is processed to have 'none' or -10 for missing person and -5 for missing value, we should ignore these
                         if value not in ['None', '-10', '-5']:
                             infoDict[field] = value
-
-                    # break here so file position doesn't run through to end
-                    break
 
 
             # handle parsed data for this subject and time --------
@@ -158,7 +173,7 @@ def openFilesInConfiguration(configuration):
         source[key]['file'] = open(filename, 'r')
 
     # write the header row
-    header = 'AudienceID, TimeStamp, ' + ','.join(configuration['export']['fields'])
+    header = 'AudienceID, TimeStamp, ' + ', '.join(configuration['export']['fields'])
 
     # new line and write the header
     header += "\n"
@@ -186,7 +201,6 @@ if __name__ == '__main__':
     # check if the the input filename exists as a parameter
     if (len(sys.argv) < 2):
         sys.exit('Missing configuration file')
-
 
     # read files from arguments
     confFile = sys.argv[1]
