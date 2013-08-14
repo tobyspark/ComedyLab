@@ -8,6 +8,7 @@ import numpy as np
 def parseFile(configuration):
     '''Parse the file'''
 
+    exportConfig = configuration['export']
     elanConfig = configuration['source']['elan']
     bbConfig = configuration['source']['bb']
 
@@ -16,21 +17,16 @@ def parseFile(configuration):
         # for each subject, start at beginning of bb file
         bbConfig['file'].seek(0)
 
-        for time in np.arange(configuration['timeStart'], configuration['timeEnd'], configuration['timeStep']):
+        for time in np.arange(exportConfig['timeStart'], exportConfig['timeEnd'], exportConfig['timeStep']):
 
+            # convert to float and ensure value is precisely x.xx and not x.xx000000000xyz
+            # could replace np.arange and this round line if hardcoding step to 0.1 like so [round(x / 10.0, 1) for x in range(configuration['timeStart']*10, configuration['timeEnd']*10)]
             time = round(time, 1)
 
             infoDict = {}
 
             # elan -------
             
-            subjectIdx = 1 # TODO: config
-            timeStartIdx = 2
-            timeEndIdx = 4
-            annotationIdx = 8
-            lightStateSet = set(['Lit', 'Unlit'])
-            laughStateSet = set(['Not Laughing', 'Smiling', 'Laughing'])
-
             # scan the complete elan file line by line, as tiers are listed sequentially, so the same time has multiple occurences in the file
             
             elanConfig['file'].seek(0)
@@ -40,20 +36,23 @@ def parseFile(configuration):
                 lineSplit = line.rstrip().split('\t')
 
                 # is this line's data for the current subject?
+                subjectIdx = elanConfig['columns'].index('subject')
                 if lineSplit[subjectIdx] == subject:
                     
                     # and if so, is the current time within the time range for this annotation?
-                    timeStart = float(lineSplit[timeStartIdx])
-                    timeEnd = float(lineSplit[timeEndIdx])
+                    timeStart = float(lineSplit[elanConfig['columns'].index('timeStart')])
+                    timeEnd = float(lineSplit[elanConfig['columns'].index('timeEnd')])
                     if timeStart <= time < timeEnd:
                         
                         # classify annotation and add to current infoDict
-                        annotation = lineSplit[annotationIdx]
-                        if annotation in lightStateSet:
-                            infoDict['lightState'] = annotation
-                        elif annotation in laughStateSet:
-                            infoDict['laughState'] = annotation
-                        else:
+                        annotation = lineSplit[elanConfig['columns'].index('annotation')]
+                        matched = False
+                        for key, value in elanConfig['annotationSets'].items():
+                            if (annotation in value):
+                                infoDict[key] = annotation
+                                matched = True
+
+                        if not matched:
                             print 'Unclassified elan annotation: {} at time: {}'.format(annotation, time)
 
 
@@ -75,7 +74,7 @@ def parseFile(configuration):
 
                 if lineTime == time: # beware, float compare. have verified works for our data/purposes here.
                     subjectIdx = bbConfig['columns'].index(subject)
-                    infoDict['bb'] = lineSplit[subjectIdx]
+                    infoDict['Breathing Belt'] = lineSplit[subjectIdx]
 
                     #break here so file position doesn't run through to end
                     break
@@ -90,11 +89,14 @@ def parseFile(configuration):
                 infoDict['subject'] = subject
                 infoDict['time'] = time
                 
-                #TODO: config
-                for field in ['lightState', 'laughState', 'bb']:
-                    if field not in infoDict: infoDict[field] = 'n/a'
+                # put in placeholder for missing values
+                for field in configuration['export']['fields']:
+                    if field not in infoDict: infoDict[field] = configuration['export']['missingValuePlaceholder']
 
-                exportLine = '{}, {}, {}, {}, {}'.format(infoDict['subject'], infoDict['time'], infoDict['lightState'], infoDict['laughState'], infoDict['bb'])
+                exportFields = ['subject', 'time'] + configuration['export']['fields']
+
+                exportLine = ", ".join([str(infoDict[x]) for x in exportFields])
+
                 print exportLine
                 # write line to output
                 configuration['output'].write(exportLine + '\n')
@@ -105,7 +107,7 @@ def openFilesInConfiguration(configuration):
     '''Open files in configuration and write the header'''
 
     # open file for writing
-    filename = configuration['filename']
+    filename = configuration['export']['filename']
     output = open(filename, 'w')
 
     # add output to the dictionary
@@ -118,7 +120,7 @@ def openFilesInConfiguration(configuration):
         source[key]['file'] = open(filename, 'r')
 
     # write the header row
-    header = 'AudienceID, TimeStamp, Light State, Laugh State, Breathing Belt' # TODO: config
+    header = 'AudienceID, TimeStamp, ' + ','.join(configuration['export']['fields'])
 
     # new line and write the header
     header += "\n"

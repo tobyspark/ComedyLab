@@ -2,7 +2,12 @@
 	"source": {
 		"elan": {
 			"filename": "ComedyLab 4June2013 Performance 1 Elan Export.txt", 
-			"offset": 0
+			"offset": 0,
+			"columns": ["tier", "subject", "timeStart", "timeStartMS", "timeEnd", "timeEndMS", "duration", "durationMS", "annotation"],
+            "annotationSets": {
+            	"Light State" : ["Lit", "Unlit"],
+            	"Laugh State" : ["Not Laughing", "Smiling", "Laughing"]
+            	}
 			},
 		"bb": {
 			"filename": "Performance 1 BreathingBelts.txt", 
@@ -19,8 +24,12 @@
 		"Audience 03",
 		"Audience 05"
 		],
-	"timeStep": 0.1,
-    "timeStart": 472,
-    "timeEnd": 1366,
-    "filename": "Comedy Lab 4Jun Performance 1 Data.txt"
+	"export": {
+		"timeStep": 0.1,
+	    "timeStart": 472,
+	    "timeEnd": 1366,
+	    "filename": "Comedy Lab 4Jun Performance 1 Data.txt",
+	    "fields": ["Light State", "Laugh State", "Breathing Belt"],
+	    "missingValuePlaceholder": "n/a"
+	}
 }
