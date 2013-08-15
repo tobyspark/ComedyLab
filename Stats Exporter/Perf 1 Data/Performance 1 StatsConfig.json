@@ -6,7 +6,7 @@
 			"columns": ["tier", "subject", "timeStart", "timeStartMS", "timeEnd", "timeEndMS", "duration", "durationMS", "annotation"],
             "annotationSets": {
             	"Light State" : ["Lit", "Unlit"],
-            	"Laugh State" : ["Not Laughing", "Smiling", "Laughing"]
+            	"Laugh State" : ["Indeterminate", "Not Laughing", "Smiling", "Laughing"]
             	}
 			},
 		"bb": {
@@ -23,7 +23,9 @@
 	"subjects": [
 		"Audience 02",
 		"Audience 03",
-		"Audience 05"
+		"Audience 05",
+		"Audience 06",
+		"Audience 07"
 		],
 	"export": {
 		"timeStep": 0.1,
