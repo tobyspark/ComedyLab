@@ -16,7 +16,79 @@
 
 import sys
 import json
+import math
 import numpy as np
+
+
+class SeatMeasures():
+    
+    #        P
+    #
+    #    4  3  2  1
+    #    8  7  6  5
+    #    12 11 10 9
+    #    16 15 14 13
+
+    # seating plan geometry in meters
+    columnSpacing = 0.9
+    rowSpacing = 1.2
+    rowSpacePerformer = 2.0
+
+    # calculate maximum distance for 4x4 seating configuration
+    maxDistance = math.hypot( 3 * rowSpacing, 3 * columnSpacing )
+
+    # create base lists for use in methods
+    seats = [x+1 for x in range(16)] # ie. 1-16
+    seatIndexes = range(16) # ie. 0-15
+
+    def row(self, seat): 
+        '''Return row of supplied seat, as per theatre seating rows (actually y coord by above diagram)'''
+        return (seat - 1) / 4 # integer division
+
+    def column(self, seat): 
+        '''Return column of supplied seat'''
+        return (seat - 1) % 4
+
+    def vectorFromPerformer(self, seat):
+        '''Return r,c vector from performer to supplied seat'''
+
+        r = self.rowSpacePerformer + self.row(seat)*self.rowSpacing
+        c = (self.column(seat) - 1.5) * self.columnSpacing
+
+        return (r,c)
+
+    def vectorFromSeatToSeat(self, seat1, seat2):
+        '''Return x,y vector from seat1 to seat2'''
+
+        r = ( self.row(seat2) - self.row(seat1) ) * self.rowSpacing
+        c = ( self.column(seat2) - self.column(seat1) ) * self.columnSpacing
+
+        return (r,c)
+
+    def vectorsToSeats(self, seat):
+        '''Return list of distance vectors to every seat from supplied seat'''
+        return [self.vectorFromSeatToSeat(seat, x) for x in self.seats]
+
+    def seatMeasure(self, seat, seatMultipliers):
+        '''Return a measure of how enclosed the supplied seat is by others'''
+
+        # calculate closeness, where most distant seat has value of 1
+        closenessToSeats = [self.maxDistance - math.hypot(r,c) + 1 for r,c in self.vectorsToSeats(seat)]
+
+        # modify closeness by seatMultiplers
+        if len(self.seats) is len(seatMultipliers):
+            for index in self.seatIndexes:
+                closenessToSeats[index] *= seatMultipliers[index]
+        else: 
+            print 'seatMultipliers not valid: length {} should be {}'.format( len(seatMultipliers), len(self.seats) )
+
+        # remove seat from list, we don't want to sum ourselves just those around us
+
+        del closenessToSeats[self.seats.index(seat)]
+
+        # sum closeness to return enclosedMeasure
+
+        return sum(closenessToSeats)
 
 
 def parseFile(configuration):
@@ -28,6 +100,8 @@ def parseFile(configuration):
     shoreConfig = configuration['source']['shore']
 
     timeStepSearch = float(exportConfig['timeStep']) / 2
+
+    seatMeasures = SeatMeasures()
 
     # parse for each subject
     for subject in configuration['subjects']:
@@ -49,35 +123,45 @@ def parseFile(configuration):
 
             # elan -------
             
-            # scan the complete elan file for each timestep pass. 
-            # as tiers are listed sequentially, the same time has multiple occurences in the file
+            # scan the complete elan file, pulling out each annotation line that encompasses the current timestep
             
             elanConfig['file'].seek(0)
+            lineSplitsForTime = []
+
             for line in elanConfig['file']:
 
                 # get data from line by stripping new line character from end and then splitting by tabs
                 lineSplit = line.rstrip().split('\t')
 
+                #is the current time within the time range for this annotation?
+                timeStart = float(lineSplit[elanConfig['columns'].index('timeStart')])
+                timeEnd = float(lineSplit[elanConfig['columns'].index('timeEnd')])
+                if timeStart <= time + float(elanConfig['offset']) < timeEnd:
+                    lineSplitsForTime.append(lineSplit)
+
+            # do what needs to be done from the annotations
+            lightStateForTime = {}
+            for lineSplit in lineSplitsForTime:
+
+                annotation = lineSplit[elanConfig['columns'].index('annotation')]
+
                 # is this line's data for the current subject?
                 subjectIdx = elanConfig['columns'].index('subject')
                 if lineSplit[subjectIdx] == subject:
                     
-                    # and if so, is the current time within the time range for this annotation?
-                    timeStart = float(lineSplit[elanConfig['columns'].index('timeStart')])
-                    timeEnd = float(lineSplit[elanConfig['columns'].index('timeEnd')])
-                    if timeStart <= time < timeEnd:
-                        
-                        # classify annotation and add to current infoDict
-                        annotation = lineSplit[elanConfig['columns'].index('annotation')]
-                        matched = False
-                        for key, value in elanConfig['annotationSets'].items():
-                            if (annotation in value):
-                                infoDict[key] = annotation
-                                matched = True
+                    # classify annotation and add to current infoDict
+                    matched = False
+                    for key, value in elanConfig['annotationSets'].items():
+                        if annotation in value:
+                            infoDict[key] = annotation
+                            matched = True
 
-                        if not matched:
-                            print 'Unclassified elan annotation: {} at time: {}'.format(annotation, time)
+                    if not matched:
+                        print 'Unclassified elan annotation: {} at time: {}'.format(annotation, time)
 
+                # is the annotation needed for seat measures, ie. light state?
+                if annotation in elanConfig['annotationSets']['Light State']:
+                    lightStateForTime[lineSplit[subjectIdx]] = annotation
 
             # breathing belts -----------
 
@@ -93,6 +177,7 @@ def parseFile(configuration):
                 # get time from line data
                 try:
                     currentBBTime = float(lineSplit[0])
+                    currentBBTime += float(bbConfig['offset'])
                 except ValueError:
                     # value wasn't a number, ie heading text
                     print "Skipping line: " + line
@@ -118,6 +203,7 @@ def parseFile(configuration):
                 # get time from line data
                 try:
                     currentShoreTime = float(lineSplit[0])
+                    currentShoreTime += float(shoreConfig['offset'])
                 except ValueError:
                     # value wasn't a number, ie heading text
                     print "Skipping line: " + line
@@ -134,6 +220,41 @@ def parseFile(configuration):
                         # shore data is processed to have 'none' or -10 for missing person and -5 for missing value, we should ignore these
                         if value not in ['None', '-10', '-5']:
                             infoDict[field] = value
+
+            # seat measures --------------
+
+            seatSubjectNames = ['Audience {:02}'.format(x) for x in seatMeasures.seats]
+
+            seat = seatMeasures.seats[configuration['subjects'].index(subject)]
+
+            performerSeatVector = seatMeasures.vectorFromPerformer(seat)
+
+            infoDict['Distance from Performer'] = math.hypot(*performerSeatVector)
+            infoDict['Angle from Performer'] = abs( math.atan(performerSeatVector[1] / performerSeatVector[0]) )
+
+            presenceMultiplier = 1.0
+            noPresenceMultiplier = 0.0
+            presenceSeatMultipliers = [presenceMultiplier if name in configuration['subjects'] else noPresenceMultiplier for name in seatSubjectNames]
+
+            forwardMultiplier = 1.0
+            rearMultiplier = 0.0
+            forwardSeatMultipliers = [forwardMultiplier if r <= 0 else rearMultiplier for r,c in seatMeasures.vectorsToSeats(seat)]
+
+            measuresDict = {}
+            measuresDict['Enclosed Measure NoBias'] = [1.0 for x in seatMeasures.seats]
+            measuresDict['Enclosed Measure PresenceBias'] = presenceSeatMultipliers
+            measuresDict['Enclosed Measure ForwardBias'] = forwardSeatMultipliers
+            
+            if len(lightStateForTime):
+                
+                litMultiplier = 1.0
+                unlitMultiplier = 0.0
+                lightStateSeatMultipliers = [litMultiplier if name in lightStateForTime and lightStateForTime[name] == 'Lit' else unlitMultiplier for name in seatSubjectNames]
+
+                measuresDict['Enclosed Measure LightStateBias'] = lightStateSeatMultipliers
+
+            for key, value in measuresDict.items():
+                infoDict[key] = seatMeasures.seatMeasure(seat, value)
 
 
             # handle parsed data for this subject and time --------
