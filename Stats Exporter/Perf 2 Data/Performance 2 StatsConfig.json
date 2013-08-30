@@ -17,7 +17,7 @@
 		"shore": {
 			"filename": "configuration_06_happy.txt", 
 			"offset": 0,
-			"columns": ["TimeStamp", "Frame", "Audience 02 Happiness", "Audience 02 MouthOpen", "Audience 03 Happiness", "Audience 03 MouthOpen", "Audience 05 Happiness", "Audience 05 MouthOpen", "Audience 06 Happiness", "Audience 06 MouthOpen", "Audience 07 Happiness", "Audience 07 MouthOpen", "Audience 08 Happiness", "Audience 08 MouthOpen", "Audience 09 Happiness", "Audience 09 MouthOpen", "Audience 10 Happiness", "Audience 10 MouthOpen", "Audience 11 Happiness", "Audience 11 MouthOpen", "Audience 13 Happiness", "Audience 13 MouthOpen", "Audience 14 Happiness", "Audience 14 MouthOpen"]
+			"columns": ["TimeStamp", "Frame", "Audience 02 Happiness", "Audience 02 MouthOpen", "Audience 03 Happiness", "Audience 03 MouthOpen", "Audience 05 Happiness", "Audience 05 MouthOpen", "Audience 06 Happiness", "Audience 06 MouthOpen", "Audience 07 Happiness", "Audience 07 MouthOpen", "Audience 08 Happiness", "Audience 08 MouthOpen", "Audience 09 Happiness", "Audience 09 MouthOpen", "Audience 10 Happiness", "Audience 10 MouthOpen", "Audience 11 Happiness", "Audience 11 MouthOpen", "Audience 12 Happiness", "Audience 12 MouthOpen", "Audience 14 Happiness", "Audience 14 MouthOpen", "Audience 15 Happiness", "Audience 15 MouthOpen"]
 			}
 		},
 	"subjects": [
@@ -30,13 +30,14 @@
 		"Audience 09",
 		"Audience 10",
 		"Audience 11",
-		"Audience 13",
-		"Audience 14"
+		"Audience 12",
+		"Audience 14",
+		"Audience 15"
 		],
 	"export": {
 		"timeStep": 0.1,
-	    "timeStart": 472,
-	    "timeEnd": 1366,
+	    "timeStart": 298,
+	    "timeEnd": 1202,
 	    "filename": "Comedy Lab 4Jun Performance 2 Data.txt",
 	    "fields": ["Light State", "Laugh State", "Breathing Belt", "Happiness", "Distance from Performer", "Angle from Performer", "Enclosed Measure NoBias", "Enclosed Measure PresenceBias", "Enclosed Measure ForwardBias", "Enclosed Measure LightStateBias"],
 	    "missingValuePlaceholder": "n/a"
