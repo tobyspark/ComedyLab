@@ -141,6 +141,7 @@ def parseFile(configuration):
 
             # do what needs to be done from the annotations
             lightStateForTime = {}
+            laughStateForTime = {}
             for lineSplit in lineSplitsForTime:
 
                 annotation = lineSplit[elanConfig['columns'].index('annotation')]
@@ -162,6 +163,8 @@ def parseFile(configuration):
                 # is the annotation needed for seat measures, ie. light state?
                 if annotation in elanConfig['annotationSets']['Light State']:
                     lightStateForTime[lineSplit[subjectIdx]] = annotation
+                if annotation in elanConfig['annotationSets']['Laugh State']:
+                    laughStateForTime[lineSplit[subjectIdx]] = annotation
 
             # breathing belts -----------
 
@@ -240,10 +243,15 @@ def parseFile(configuration):
             rearMultiplier = 0.0
             forwardSeatMultipliers = [forwardMultiplier if r <= 0 else rearMultiplier for r,c in seatMeasures.vectorsToSeats(seat)]
 
+            laughterMultiplier = 1.0
+            noLaughterMultiplier = 0.0
+            laughterSeatMultipliers = [laughterMultiplier if name in laughStateForTime and laughStateForTime[name] == 'Laughing' else noLaughterMultiplier for name in seatSubjectNames]
+
             measuresDict = {}
             measuresDict['Enclosed Measure NoBias'] = [1.0 for x in seatMeasures.seats]
             measuresDict['Enclosed Measure PresenceBias'] = presenceSeatMultipliers
             measuresDict['Enclosed Measure ForwardBias'] = forwardSeatMultipliers
+            measuresDict['Enclosed Measure LaughterBias'] = laughterSeatMultipliers
             
             if len(lightStateForTime):
                 
