@@ -1,12 +1,11 @@
-# Python
-*.py[cod]
-
-# Shore Log
-*.log
-*.txt
-
+# Ignore source movies, these need to remain private as per ethics approval
 *.mov
 
+# Python (compiled)
+*.py[cod]
+
+# OS X
 .DS_Store
 
+# Dev misc
 *.sublime-workspace
