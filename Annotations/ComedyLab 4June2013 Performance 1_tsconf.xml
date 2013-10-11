@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timeseries date="2013-07-11T17:24:00-00:00" version="1.0">
+    <tracksource sample-type="Continuous Rate" source-url="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/Performance 1 BreathingBelts.txt" time-column="0" time-origin="37643">
+        <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+        <track derivative="0" name="Audience16">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="16" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="0.02" min="-0.02"/>
+            <color>0,255,0</color>
+        </track>
+        <track derivative="0" name="Audience15">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="15" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="0.02" min="-0.02"/>
+            <color>0,255,0</color>
+        </track>
+        <track derivative="0" name="Audience09">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="9" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="0.02" min="-0.02"/>
+            <color>0,255,0</color>
+        </track>
+        <track derivative="0" name="Audience08">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="8" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="0.02" min="-0.02"/>
+            <color>0,255,0</color>
+        </track>
+        <track derivative="0" name="Audience07">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="7" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="0.02" min="-0.02"/>
+            <color>0,255,0</color>
+        </track>
+        <track derivative="0" name="Audience06">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="6" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="0.02" min="-0.02"/>
+            <color>0,255,0</color>
+        </track>
+        <track derivative="0" name="Audience05">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="5" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="0.02" min="-0.02"/>
+            <color>0,255,0</color>
+        </track>
+        <track derivative="0" name="Audience04">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="4" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="0.02" min="-0.02"/>
+            <color>0,255,0</color>
+        </track>
+        <track derivative="0" name="Audience03">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="3" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="0.02" min="-0.02"/>
+            <color>0,255,0</color>
+        </track>
+        <track derivative="0" name="Audience02">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="2" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="0.02" min="-0.02"/>
+            <color>0,255,0</color>
+        </track>
+        <track derivative="0" name="Audience01">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="1" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="0.02" min="-0.02"/>
+            <color>0,255,0</color>
+        </track>
+        <track derivative="0" name="Audience10">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="10" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="0.02" min="-0.02"/>
+            <color>0,255,0</color>
+        </track>
+        <track derivative="0" name="Audience12">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="12" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="0.02" min="-0.02"/>
+            <color>0,255,0</color>
+        </track>
+        <track derivative="0" name="Audience11">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="11" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="0.02" min="-0.02"/>
+            <color>0,255,0</color>
+        </track>
+        <track derivative="0" name="Audience14">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="14" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="0.02" min="-0.02"/>
+            <color>0,255,0</color>
+        </track>
+        <track derivative="0" name="Audience13">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="13" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="0.02" min="-0.02"/>
+            <color>0,255,0</color>
+        </track>
+    </tracksource>
+    <tracksource sample-type="Discontinuous Rate" source-url="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 1/configuration_05_happy.txt" time-column="0">
+        <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+        <track derivative="0" name="Person_03_Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="4" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="100.0" min="-10.0"/>
+            <color>204,0,0</color>
+        </track>
+        <track derivative="0" name="Person_02_Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="2" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="100.0" min="-10.0"/>
+            <color>204,0,0</color>
+        </track>
+        <track derivative="0" name="Person_13_Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="20" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="100.0" min="-10.0"/>
+            <color>204,0,0</color>
+        </track>
+        <track derivative="0" name="Person_06_Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="8" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="100.0" min="-10.0"/>
+            <color>204,0,0</color>
+        </track>
+        <track derivative="0" name="Person_14_Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="22" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="100.0" min="-10.0"/>
+            <color>204,0,0</color>
+        </track>
+        <track derivative="0" name="Person_09_Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="14" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="100.0" min="-10.0"/>
+            <color>204,0,0</color>
+        </track>
+        <track derivative="0" name="Person_08_Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="12" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="100.0" min="-10.0"/>
+            <color>204,0,0</color>
+        </track>
+        <track derivative="0" name="Person_07_Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="10" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="100.0" min="-10.0"/>
+            <color>204,0,0</color>
+        </track>
+        <track derivative="0" name="Person_05_Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="6" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="100.0" min="-10.0"/>
+            <color>204,0,0</color>
+        </track>
+        <track derivative="0" name="Person_10_Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="16" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="100.0" min="-10.0"/>
+            <color>204,0,0</color>
+        </track>
+        <track derivative="0" name="Person_11_Happy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="18" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="100.0" min="-10.0"/>
+            <color>204,0,0</color>
+        </track>
+    </tracksource>
+</timeseries>

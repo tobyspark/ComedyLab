@@ -1,0 +1,1256 @@
+Offset: 0, Movie: MoviePathHere, DataFile: (null)
+Tracks: 01 Laugh, 02 Laugh, 03 Laugh, 05 Laugh, 06 Laugh, 07 Laugh, 08 Laugh, 09 Laugh, 10 Laugh, 11 Laugh, 12 Laugh, 14 Laugh, 15 Laugh
+Time,Duration,TrackName,comment
+
+1000281,7438,08 Laugh,Laughing
+1000521,5359,05 Laugh,Laughing
+1000560,4520,10 Laugh,Laughing
+1000600,7319,12 Laugh,Smiling
+1000761,3679,09 Laugh,Laughing
+1000800,8200,06 Laugh,Laughing
+1001120,7999,07 Laugh,Laughing
+1001201,3879,03 Laugh,Smiling
+1001761,6958,11 Laugh,Laughing
+1002321,4559,02 Laugh,Smiling
+1004441,3158,09 Laugh,Smiling
+1005000,12520,15 Laugh,Smiling
+1005081,13038,03 Laugh,Not Smiling Laughing
+1005081,9799,10 Laugh,Smiling
+1005120,13200,14 Laugh,Smiling
+1005881,6038,05 Laugh,Smiling
+1006881,11838,02 Laugh,Not Smiling Laughing
+1007600,10800,09 Laugh,Not Smiling Laughing
+1007720,14040,08 Laugh,Not Smiling Laughing
+1007920,10799,12 Laugh,Not Smiling Laughing
+1008720,9519,11 Laugh,Not Smiling Laughing
+1009001,9238,06 Laugh,Not Smiling Laughing
+1009159,4041,07 Laugh,Smiling
+1011920,5720,05 Laugh,Not Smiling Laughing
+1013201,4838,07 Laugh,Not Smiling Laughing
+1014881,12358,10 Laugh,Laughing
+1017521,9558,15 Laugh,Laughing
+1017641,9039,05 Laugh,Laughing
+1018040,3040,07 Laugh,Laughing
+1018120,3960,03 Laugh,Laughing
+1018240,5839,06 Laugh,Laughing
+1018240,6280,11 Laugh,Laughing
+1018321,7599,14 Laugh,Laughing
+1018401,7159,09 Laugh,Smiling
+1018720,7320,02 Laugh,Laughing
+1018720,8340,12 Laugh,Laughing
+1021081,7398,07 Laugh,Smiling
+1021761,5999,08 Laugh,Smiling
+1022081,24118,03 Laugh,Not Smiling Laughing
+1024080,6999,06 Laugh,Smiling
+1024521,20078,11 Laugh,Smiling
+1025561,19439,09 Laugh,Not Smiling Laughing
+1025921,19798,14 Laugh,Not Smiling Laughing
+1026041,19519,02 Laugh,Smiling
+1026681,5359,05 Laugh,Not Smiling Laughing
+1027060,17379,12 Laugh,Smiling
+1027080,74080,15 Laugh,Smiling
+1027280,4760,10 Laugh,Smiling
+1027761,9678,08 Laugh,Not Smiling Laughing
+1028480,8160,07 Laugh,Not Smiling Laughing
+1031080,13320,06 Laugh,Not Smiling Laughing
+1032041,13278,05 Laugh,Smiling
+1032041,4438,10 Laugh,Laughing
+1036520,2120,10 Laugh,Smiling
+1036641,9438,07 Laugh,Smiling
+1037440,5080,08 Laugh,Smiling
+1038641,2078,10 Laugh,Laughing
+1040720,4759,10 Laugh,Smiling
+1042560,3120,08 Laugh,Not Smiling Laughing
+1044401,6798,06 Laugh,Laughing
+1044440,6840,12 Laugh,Laughing
+1044600,6999,11 Laugh,Laughing
+1045001,6118,09 Laugh,Laughing
+1045320,7519,05 Laugh,Laughing
+1045480,8999,10 Laugh,Laughing
+1045561,3999,02 Laugh,Laughing
+1045681,9638,08 Laugh,Laughing
+1045720,8320,14 Laugh,Laughing
+1046080,3557,07 Laugh,Laughing
+1046200,4800,03 Laugh,Laughing
+1049561,18758,02 Laugh,Not Smiling Laughing
+1049637,18123,07 Laugh,Smiling
+1051001,17238,03 Laugh,Not Smiling Laughing
+1051120,16959,09 Laugh,Not Smiling Laughing
+1051239,1960,06 Laugh,Smiling
+1051319,16000,12 Laugh,Smiling
+1051600,16160,11 Laugh,Not Smiling Laughing
+1052840,14720,05 Laugh,Not Smiling Laughing
+1053200,13879,06 Laugh,Not Smiling Laughing
+1054079,18280,14 Laugh,Not Smiling Laughing
+1054520,9799,10 Laugh,Smiling
+1055320,11999,08 Laugh,Not Smiling Laughing
+1064320,3320,10 Laugh,Not Smiling Laughing
+1067080,15440,06 Laugh,Laughing
+1067320,10159,08 Laugh,Laughing
+1067320,8200,12 Laugh,Laughing
+1067561,8878,05 Laugh,Smiling
+1067641,14958,10 Laugh,Laughing
+1067761,14438,07 Laugh,Laughing
+1067761,34519,11 Laugh,Smiling
+1068080,3759,09 Laugh,Laughing
+1068240,1999,03 Laugh,Smiling
+1068320,2879,02 Laugh,Laughing
+1070240,7479,03 Laugh,Not Smiling Laughing
+1071200,4119,02 Laugh,Smiling
+1071880,3479,09 Laugh,Smiling
+1072360,13640,14 Laugh,Smiling
+1075320,13399,02 Laugh,Not Smiling Laughing
+1075360,4440,09 Laugh,Laughing
+1075521,1479,12 Laugh,Smiling
+1076440,4200,05 Laugh,Laughing
+1077001,3958,12 Laugh,Indeterminate
+1077520,10199,08 Laugh,Not Smiling Laughing
+1077720,2639,03 Laugh,Smiling
+1079839,10041,09 Laugh,Not Smiling Laughing
+1080360,8640,03 Laugh,Not Smiling Laughing
+1080641,3078,05 Laugh,Not Smiling Laughing
+1080960,18440,12 Laugh,Smiling
+1082200,6600,07 Laugh,Smiling
+1082560,5759,06 Laugh,Not Smiling Laughing
+1082600,16960,10 Laugh,Smiling
+1083720,15560,05 Laugh,Smiling
+1086040,3799,14 Laugh,Not Smiling Laughing
+1087720,5359,08 Laugh,Smiling
+1088320,3603,06 Laugh,Laughing
+1088720,4479,02 Laugh,Smiling
+1088801,2798,07 Laugh,Laughing
+1089001,16879,03 Laugh,Smiling
+1089840,5200,14 Laugh,Laughing
+1089881,2679,09 Laugh,Smiling
+1091600,7359,07 Laugh,Smiling
+1091924,1817,06 Laugh,Indeterminate
+1092561,7199,09 Laugh,Not Smiling Laughing
+1093119,6921,08 Laugh,Not Smiling Laughing
+1093200,27159,02 Laugh,Not Smiling Laughing
+1093741,5939,06 Laugh,Not Smiling Laughing
+1095041,5678,14 Laugh,Smiling
+1098960,5560,07 Laugh,Laughing
+1099281,7239,05 Laugh,Laughing
+1099401,5279,12 Laugh,Laughing
+1099561,6199,10 Laugh,Laughing
+1099681,7131,06 Laugh,Laughing
+1099761,3718,09 Laugh,Smiling
+1100041,4879,08 Laugh,Laughing
+1100720,3920,14 Laugh,Laughing
+1101161,4399,15 Laugh,Laughing
+1102281,17719,11 Laugh,Not Smiling Laughing
+1103480,7080,09 Laugh,Not Smiling Laughing
+1104521,15399,07 Laugh,Smiling
+1104680,5880,14 Laugh,Not Smiling Laughing
+1104719,4961,12 Laugh,Smiling
+1104921,4959,08 Laugh,Not Smiling Laughing
+1105561,13839,15 Laugh,(null)
+1105761,3279,10 Laugh,Smiling
+1105880,14319,03 Laugh,Not Smiling Laughing
+1106560,12879,05 Laugh,Not Smiling Laughing
+1106813,3067,06 Laugh,Not Smiling Laughing
+1109041,6398,10 Laugh,Laughing
+1109681,5119,12 Laugh,Laughing
+1109881,4598,06 Laugh,Smiling
+1109881,5718,08 Laugh,Laughing
+1110561,5878,09 Laugh,Laughing
+1110561,8959,14 Laugh,Smiling
+1114480,5280,06 Laugh,Not Smiling Laughing
+1114839,5081,12 Laugh,Smiling
+1115440,4279,10 Laugh,Smiling
+1115600,9040,08 Laugh,Laughing
+1116440,2919,09 Laugh,Not Smiling Laughing
+1119360,5999,09 Laugh,Laughing
+1119401,7239,15 Laugh,Laughing
+1119440,7039,05 Laugh,Laughing
+1119521,6757,14 Laugh,Laughing
+1119720,6840,10 Laugh,Laughing
+1119761,4519,06 Laugh,Laughing
+1119921,3959,07 Laugh,Laughing
+1119921,4678,12 Laugh,Laughing
+1120001,6238,11 Laugh,Laughing
+1120200,1560,03 Laugh,Laughing
+1120360,5072,02 Laugh,Laughing
+1121761,1799,03 Laugh,Indeterminate
+1123599,27240,03 Laugh,Not Smiling Laughing
+1123881,4478,07 Laugh,Not Smiling Laughing
+1124281,3279,06 Laugh,Smiling
+1124600,4879,12 Laugh,Not Smiling Laughing
+1124680,3600,08 Laugh,Not Smiling Laughing
+1125360,27119,09 Laugh,Not Smiling Laughing
+1125432,3608,02 Laugh,Not Smiling Laughing
+1126240,2040,11 Laugh,Smiling
+1126278,1002,14 Laugh,Not Smiling Laughing
+1126520,3760,05 Laugh,Smiling
+1126599,1801,10 Laugh,Smiling
+1126680,17240,15 Laugh,Smiling
+1127281,9239,14 Laugh,Smiling
+1127561,4119,06 Laugh,Laughing
+1128281,2838,11 Laugh,Laughing
+1128281,9879,08 Laugh,Smiling
+1128360,16759,07 Laugh,Smiling
+1128401,4718,10 Laugh,Laughing
+1129040,4120,02 Laugh,Laughing
+1129480,16080,12 Laugh,Smiling
+1130319,4681,05 Laugh,Not Smiling Laughing
+1131120,32079,11 Laugh,Smiling
+1131681,2918,06 Laugh,Smiling
+1133160,2079,10 Laugh,Smiling
+1133161,10558,02 Laugh,Smiling
+1134600,6040,06 Laugh,Laughing
+1135001,10318,05 Laugh,Smiling
+1135240,4839,10 Laugh,Laughing
+1136560,8240,14 Laugh,Not Smiling Laughing
+1138161,7239,08 Laugh,Not Smiling Laughing
+1140080,5239,10 Laugh,Smiling
+1140641,3999,06 Laugh,Not Smiling Laughing
+1143760,20599,02 Laugh,Not Smiling Laughing
+1143921,12850,15 Laugh,Laughing
+1144641,11958,06 Laugh,Laughing
+1144801,4839,14 Laugh,Laughing
+1145120,12999,07 Laugh,Laughing
+1145320,3960,10 Laugh,Laughing
+1145320,5840,05 Laugh,Laughing
+1145401,4678,08 Laugh,Smiling
+1145561,2758,12 Laugh,Laughing
+1148320,4680,12 Laugh,Smiling
+1149319,961,10 Laugh,Smiling
+1149641,3239,14 Laugh,Not Smiling Laughing
+1150080,5999,08 Laugh,Laughing
+1150281,7438,10 Laugh,Laughing
+1150840,5479,03 Laugh,Smiling
+1151161,1719,05 Laugh,Not Smiling Laughing
+1152480,3800,09 Laugh,Smiling
+1152881,1879,05 Laugh,Smiling
+1152881,3759,14 Laugh,Smiling
+1153001,2999,12 Laugh,Laughing
+1154761,8078,05 Laugh,Not Smiling Laughing
+1156001,4399,12 Laugh,Smiling
+1156080,5119,08 Laugh,Not Smiling Laughing
+1156281,7399,09 Laugh,Not Smiling Laughing
+1156320,7840,03 Laugh,Not Smiling Laughing
+1156600,10119,06 Laugh,Smiling
+1156641,3039,14 Laugh,Not Smiling Laughing
+1156772,5707,15 Laugh,Not Smiling Laughing
+1157760,5640,10 Laugh,Smiling
+1158120,5520,07 Laugh,Not Smiling Laughing
+1159681,4359,14 Laugh,Smiling
+1160401,1958,12 Laugh,Not Smiling Laughing
+1161200,4639,08 Laugh,Smiling
+1162360,14774,12 Laugh,Laughing
+1162480,879,15 Laugh,Smiling
+1162840,3279,05 Laugh,Smiling
+1163200,32651,11 Laugh,Laughing
+1163360,22097,15 Laugh,Laughing
+1163401,14265,10 Laugh,Laughing
+1163641,8039,07 Laugh,Laughing
+1163681,3079,09 Laugh,Smiling
+1164041,10959,14 Laugh,Laughing
+1164161,1918,03 Laugh,Laughing
+1164360,12441,02 Laugh,Laughing
+1165840,1519,08 Laugh,Not Smiling Laughing
+1166080,3119,03 Laugh,Smiling
+1166120,11999,05 Laugh,Laughing
+1166720,9680,06 Laugh,Laughing
+1166761,9316,09 Laugh,Laughing
+1167360,5599,08 Laugh,Laughing
+1169200,2159,03 Laugh,Not Smiling Laughing
+1171360,4680,03 Laugh,Smiling
+1171681,16199,07 Laugh,Smiling
+1172960,4879,08 Laugh,Not Smiling Laughing
+1175001,19358,14 Laugh,Smiling
+1176041,3438,03 Laugh,Not Smiling Laughing
+1176077,2963,09 Laugh,Not Smiling Laughing
+1176401,1879,06 Laugh,Not Smiling Laughing
+1176801,8158,02 Laugh,Smiling
+1177134,2065,12 Laugh,Smiling
+1177666,1839,10 Laugh,Smiling
+1177840,9160,08 Laugh,Smiling
+1178120,4079,05 Laugh,Smiling
+1178281,1198,06 Laugh,Smiling
+1179041,4479,09 Laugh,Smiling
+1179200,2800,12 Laugh,Laughing
+1179480,1839,03 Laugh,Laughing
+1179480,3999,06 Laugh,Laughing
+1179505,22734,10 Laugh,Laughing
+1181320,1680,03 Laugh,Smiling
+1182040,6039,12 Laugh,Smiling
+1182239,2080,05 Laugh,Not Smiling Laughing
+1183001,4919,03 Laugh,Not Smiling Laughing
+1183480,1119,06 Laugh,Smiling
+1183521,10558,09 Laugh,Laughing
+1184320,2680,05 Laugh,Smiling
+1184600,6320,06 Laugh,Laughing
+1184960,2720,02 Laugh,Laughing
+1185457,3502,15 Laugh,Smiling
+1187001,4078,08 Laugh,Laughing
+1187001,5999,05 Laugh,Laughing
+1187681,4719,02 Laugh,Smiling
+1187881,4919,07 Laugh,Laughing
+1187921,3359,03 Laugh,Smiling
+1188080,4519,12 Laugh,Laughing
+1188960,4065,15 Laugh,Laughing
+1190959,3120,06 Laugh,Smiling
+1191080,2879,08 Laugh,Indeterminate
+1191281,3239,03 Laugh,Not Smiling Laughing
+1192401,2399,02 Laugh,Not Smiling Laughing
+1192640,2319,12 Laugh,Smiling
+1192801,1599,07 Laugh,Smiling
+1193025,2079,15 Laugh,Smiling
+1193040,5960,05 Laugh,Smiling
+1193960,1119,08 Laugh,Not Smiling Laughing
+1194080,8242,06 Laugh,Laughing
+1194119,1641,09 Laugh,Smiling
+1194360,4640,14 Laugh,Laughing
+1194401,4718,07 Laugh,Laughing
+1194521,2718,03 Laugh,Laughing
+1194801,5158,02 Laugh,Smiling
+1194960,1879,12 Laugh,Laughing
+1195080,1840,08 Laugh,Smiling
+1195104,6975,15 Laugh,Laughing
+1195800,6444,09 Laugh,Laughing
+1195852,3788,11 Laugh,Smiling
+1196840,5342,12 Laugh,Smiling
+1196921,2999,08 Laugh,Not Smiling Laughing
+1197240,2760,03 Laugh,Not Smiling Laughing
+1199001,3238,05 Laugh,Laughing
+1199001,999,14 Laugh,Smiling
+1199120,3199,07 Laugh,Smiling
+1199641,2558,11 Laugh,Laughing
+1199921,2318,08 Laugh,Smiling
+1199960,2239,02 Laugh,Laughing
+1200001,2078,14 Laugh,Laughing
+1200001,2358,03 Laugh,Smiling
+1202200,200,02 Laugh,Smiling
+297519,11440,15 Laugh,Smiling
+297519,2040,12 Laugh,Smiling
+297519,23961,10 Laugh,Smiling
+297519,32961,11 Laugh,Not Smiling Laughing
+297519,5921,14 Laugh,Smiling
+297559,17720,06 Laugh,Not Smiling Laughing
+297559,18560,08 Laugh,Not Smiling Laughing
+297559,26096,02 Laugh,Not Smiling Laughing
+297559,40641,03 Laugh,Not Smiling Laughing
+297559,5881,05 Laugh,Smiling
+297559,6041,09 Laugh,Smiling
+297559,720,07 Laugh,Smiling
+297600,904800,01 Laugh,Indeterminate
+298280,17360,07 Laugh,Not Smiling Laughing
+299560,15640,12 Laugh,Not Smiling Laughing
+303441,10238,14 Laugh,Not Smiling Laughing
+303441,5319,05 Laugh,Not Smiling Laughing
+303601,11439,09 Laugh,Not Smiling Laughing
+308761,1318,05 Laugh,Smiling
+308960,29680,15 Laugh,Not Smiling Laughing
+310080,13400,05 Laugh,Not Smiling Laughing
+313680,2760,14 Laugh,Smiling
+315041,8271,09 Laugh,Smiling
+315201,29198,12 Laugh,Smiling
+315280,5640,06 Laugh,Laughing
+315641,3959,07 Laugh,Smiling
+316120,13040,08 Laugh,Smiling
+316441,5958,14 Laugh,Not Smiling Laughing
+319601,3638,07 Laugh,Laughing
+320921,7918,06 Laugh,Not Smiling Laughing
+321481,1999,10 Laugh,Not Smiling Laughing
+322400,6240,14 Laugh,Smiling
+323240,6719,07 Laugh,Not Smiling Laughing
+323320,4759,09 Laugh,Laughing
+323481,24758,05 Laugh,Smiling
+323481,5358,10 Laugh,Smiling
+323655,2464,02 Laugh,Smiling
+326160,4160,02 Laugh,Not Smiling Laughing
+328080,1920,09 Laugh,Not Smiling Laughing
+328679,21761,14 Laugh,Not Smiling Laughing
+328840,2800,10 Laugh,Not Smiling Laughing
+328840,4679,06 Laugh,Laughing
+329161,5839,08 Laugh,Not Smiling Laughing
+329960,3360,07 Laugh,Smiling
+330001,4719,09 Laugh,Laughing
+330321,5918,02 Laugh,Laughing
+330481,6159,11 Laugh,Smiling
+331641,18359,10 Laugh,Smiling
+333321,11159,07 Laugh,Not Smiling Laughing
+333520,2999,06 Laugh,Smiling
+334721,2159,09 Laugh,Not Smiling Laughing
+335001,3159,08 Laugh,Smiling
+336240,7149,02 Laugh,Not Smiling Laughing
+336520,5999,06 Laugh,Laughing
+336679,7600,11 Laugh,Not Smiling Laughing
+336881,3879,09 Laugh,Laughing
+338161,3279,08 Laugh,Not Smiling Laughing
+338201,2279,03 Laugh,Smiling
+338641,16791,15 Laugh,Smiling
+340519,11040,03 Laugh,Not Smiling Laughing
+340761,3638,09 Laugh,Not Smiling Laughing
+341441,1798,08 Laugh,Smiling
+342520,2039,06 Laugh,Smiling
+343240,2279,08 Laugh,Not Smiling Laughing
+343390,5650,02 Laugh,Smiling
+344280,1702,11 Laugh,Smiling
+344400,10159,09 Laugh,Laughing
+344400,4920,12 Laugh,Laughing
+344481,2638,07 Laugh,Smiling
+344560,4440,06 Laugh,Laughing
+345520,3240,08 Laugh,Laughing
+345982,31577,11 Laugh,Not Smiling Laughing
+347120,3320,07 Laugh,Laughing
+348240,4159,05 Laugh,Laughing
+348761,23879,08 Laugh,Not Smiling Laughing
+349001,15958,06 Laugh,Not Smiling Laughing
+349041,30999,02 Laugh,Not Smiling Laughing
+349359,22801,12 Laugh,Smiling
+350001,3199,10 Laugh,Laughing
+350441,4879,07 Laugh,Smiling
+350441,5982,14 Laugh,Smiling
+351560,1719,03 Laugh,Smiling
+352400,6879,05 Laugh,Smiling
+353201,6078,10 Laugh,Smiling
+353280,25200,03 Laugh,Not Smiling Laughing
+354560,16719,09 Laugh,Not Smiling Laughing
+355321,8599,07 Laugh,Not Smiling Laughing
+355432,8367,15 Laugh,Not Smiling Laughing
+356424,2121,14 Laugh,Not Smiling Laughing
+358545,2325,14 Laugh,Smiling
+359280,5239,10 Laugh,Not Smiling Laughing
+359280,5559,05 Laugh,Not Smiling Laughing
+360871,17359,14 Laugh,Not Smiling Laughing
+363800,7520,15 Laugh,Smiling
+363921,3519,07 Laugh,Smiling
+364520,7360,10 Laugh,Smiling
+364840,10920,05 Laugh,Smiling
+364960,4640,06 Laugh,Smiling
+367441,4518,07 Laugh,Not Smiling Laughing
+369601,2678,06 Laugh,Not Smiling Laughing
+371280,4600,09 Laugh,Laughing
+371321,6159,15 Laugh,Not Smiling Laughing
+371881,16078,10 Laugh,Laughing
+371960,6420,07 Laugh,Smiling
+372161,4559,12 Laugh,Laughing
+372280,4480,06 Laugh,Laughing
+372641,2399,08 Laugh,Smiling
+375041,2198,08 Laugh,Not Smiling Laughing
+375761,2038,05 Laugh,Not Smiling Laughing
+375881,1839,09 Laugh,Not Smiling Laughing
+376760,1319,12 Laugh,Smiling
+376761,1279,06 Laugh,Smiling
+377240,8920,08 Laugh,Laughing
+377481,14839,15 Laugh,Smiling
+377560,7553,11 Laugh,Laughing
+377721,7439,09 Laugh,Laughing
+377800,6719,05 Laugh,Smiling
+378041,7119,06 Laugh,Laughing
+378080,7080,12 Laugh,Laughing
+378239,8160,14 Laugh,Laughing
+378380,8031,07 Laugh,Laughing
+378481,1598,03 Laugh,Laughing
+380041,6238,02 Laugh,Smiling
+380080,2120,03 Laugh,Indeterminate
+382201,2478,03 Laugh,Smiling
+384559,7840,05 Laugh,Not Smiling Laughing
+384680,10800,03 Laugh,Not Smiling Laughing
+385113,7647,11 Laugh,Not Smiling Laughing
+385200,14120,09 Laugh,Not Smiling Laughing
+385200,16280,12 Laugh,Not Smiling Laughing
+385200,7159,06 Laugh,Not Smiling Laughing
+386161,7238,08 Laugh,Not Smiling Laughing
+386280,8839,02 Laugh,Not Smiling Laughing
+386400,6040,14 Laugh,Smiling
+386412,16867,07 Laugh,Not Smiling Laughing
+387960,3599,10 Laugh,Smiling
+391560,5839,10 Laugh,Laughing
+392321,9038,15 Laugh,Laughing
+392360,7080,06 Laugh,Laughing
+392400,16439,05 Laugh,Smiling
+392441,4118,14 Laugh,Laughing
+392761,18038,11 Laugh,Smiling
+393400,3159,08 Laugh,Smiling
+395120,2760,02 Laugh,Smiling
+395481,2439,03 Laugh,Smiling
+396560,2839,08 Laugh,Not Smiling Laughing
+396560,6559,14 Laugh,Not Smiling Laughing
+397440,5560,10 Laugh,Smiling
+397881,4879,02 Laugh,Not Smiling Laughing
+397921,7679,03 Laugh,Not Smiling Laughing
+399321,3719,09 Laugh,Laughing
+399400,2959,08 Laugh,Smiling
+399441,3479,06 Laugh,Not Smiling Laughing
+401360,9319,15 Laugh,Smiling
+401481,7598,12 Laugh,Smiling
+402360,800,08 Laugh,Not Smiling Laughing
+402761,8478,02 Laugh,Smiling
+402921,7679,06 Laugh,Laughing
+403001,6879,10 Laugh,Laughing
+403041,7758,09 Laugh,Smiling
+403120,13200,14 Laugh,Laughing
+403161,3319,08 Laugh,Smiling
+403280,6160,07 Laugh,Laughing
+405601,2958,03 Laugh,Smiling
+406481,4318,08 Laugh,Not Smiling Laughing
+408560,2320,03 Laugh,Not Smiling Laughing
+408840,6200,05 Laugh,Laughing
+409080,1840,12 Laugh,Not Smiling Laughing
+409441,1199,07 Laugh,Not Smiling Laughing
+409920,840,10 Laugh,Smiling
+410601,1599,06 Laugh,Not Smiling Laughing
+410641,3758,07 Laugh,Laughing
+410680,5520,15 Laugh,Laughing
+410761,4478,10 Laugh,Laughing
+410800,1039,09 Laugh,Laughing
+410800,2879,08 Laugh,Smiling
+410800,4719,11 Laugh,Laughing
+410881,1839,03 Laugh,Laughing
+410921,9799,12 Laugh,Smiling
+411240,2439,02 Laugh,Laughing
+411840,1920,09 Laugh,Indeterminate
+412239,3120,06 Laugh,Smiling
+412760,10120,03 Laugh,Not Smiling Laughing
+413680,2839,02 Laugh,Smiling
+413680,5439,08 Laugh,Not Smiling Laughing
+413761,8239,09 Laugh,Not Smiling Laughing
+414400,6640,07 Laugh,Not Smiling Laughing
+415041,1559,05 Laugh,Smiling
+415240,6480,10 Laugh,Smiling
+415360,5840,06 Laugh,Not Smiling Laughing
+415520,5559,11 Laugh,Not Smiling Laughing
+416201,5358,15 Laugh,Not Smiling Laughing
+416321,2839,14 Laugh,Smiling
+416520,4879,02 Laugh,Not Smiling Laughing
+416640,5199,05 Laugh,Not Smiling Laughing
+419120,9839,08 Laugh,Laughing
+419161,1798,14 Laugh,Not Smiling Laughing
+420721,6558,12 Laugh,Laughing
+420960,7319,14 Laugh,Laughing
+421041,8999,07 Laugh,Laughing
+421080,9400,11 Laugh,Laughing
+421201,7239,06 Laugh,Laughing
+421400,14279,02 Laugh,Smiling
+421560,10360,15 Laugh,Laughing
+421721,8398,10 Laugh,Laughing
+421840,7119,05 Laugh,Smiling
+422001,6319,09 Laugh,Laughing
+422881,1678,03 Laugh,Smiling
+424560,2519,03 Laugh,Not Smiling Laughing
+427080,2479,03 Laugh,Laughing
+427280,30665,12 Laugh,Not Smiling Laughing
+428280,12320,14 Laugh,Not Smiling Laughing
+428321,12679,09 Laugh,Not Smiling Laughing
+428480,3680,06 Laugh,Smiling
+428960,15599,05 Laugh,Not Smiling Laughing
+428960,28559,08 Laugh,Not Smiling Laughing
+429560,1440,03 Laugh,Not Smiling Laughing
+430041,2599,07 Laugh,Not Smiling Laughing
+430160,2079,10 Laugh,Smiling
+430519,31320,11 Laugh,Not Smiling Laughing
+431001,4518,03 Laugh,Laughing
+431921,7959,15 Laugh,Not Smiling Laughing
+432200,4359,06 Laugh,Laughing
+432240,3960,10 Laugh,Laughing
+432641,2519,07 Laugh,Smiling
+435161,5958,07 Laugh,Not Smiling Laughing
+435520,27159,03 Laugh,Not Smiling Laughing
+435680,26040,02 Laugh,Not Smiling Laughing
+436239,3361,10 Laugh,Smiling
+436560,6920,06 Laugh,Not Smiling Laughing
+439601,1119,10 Laugh,Not Smiling Laughing
+439881,7638,15 Laugh,Laughing
+440601,3478,14 Laugh,Smiling
+440721,16159,10 Laugh,Smiling
+441001,4159,09 Laugh,Laughing
+441120,3320,07 Laugh,Smiling
+443481,7358,06 Laugh,Laughing
+444119,881,14 Laugh,Not Smiling Laughing
+444441,2958,07 Laugh,Laughing
+444560,1839,05 Laugh,Smiling
+445001,4678,14 Laugh,Laughing
+445200,11280,09 Laugh,Not Smiling Laughing
+446400,10480,05 Laugh,Not Smiling Laughing
+447400,8360,07 Laugh,Not Smiling Laughing
+447559,14481,15 Laugh,Smiling
+449720,6880,14 Laugh,Smiling
+450840,6160,06 Laugh,Not Smiling Laughing
+455761,18318,07 Laugh,Laughing
+456481,3318,09 Laugh,Laughing
+456601,17899,14 Laugh,Laughing
+456881,3918,05 Laugh,Smiling
+456881,4119,10 Laugh,Laughing
+457001,5678,06 Laugh,Smiling
+457520,24460,08 Laugh,Laughing
+457945,3495,12 Laugh,Smiling
+459800,3920,09 Laugh,Not Smiling Laughing
+460800,1080,05 Laugh,Not Smiling Laughing
+461040,1759,10 Laugh,Smiling
+461441,5999,12 Laugh,Laughing
+461721,18358,02 Laugh,Smiling
+461840,14679,11 Laugh,Laughing
+461881,14136,05 Laugh,Laughing
+462041,6318,15 Laugh,Laughing
+462680,3399,03 Laugh,Smiling
+462680,4240,06 Laugh,Laughing
+462800,5039,10 Laugh,Laughing
+463760,10359,09 Laugh,Laughing
+466080,3719,03 Laugh,Not Smiling Laughing
+466921,2239,06 Laugh,Indeterminate
+467480,1639,12 Laugh,Smiling
+467840,2760,10 Laugh,Smiling
+468399,960,15 Laugh,Smiling
+469120,3880,12 Laugh,Laughing
+469161,17439,06 Laugh,Smiling
+469360,5360,15 Laugh,Laughing
+469800,3360,03 Laugh,Smiling
+470640,5400,10 Laugh,Laughing
+473040,3479,12 Laugh,Not Smiling Laughing
+473161,26198,03 Laugh,Not Smiling Laughing
+474080,1479,07 Laugh,Not Smiling Laughing
+474160,3919,09 Laugh,Smiling
+474501,5578,14 Laugh,Smiling
+474760,16594,15 Laugh,Not Smiling Laughing
+475560,10279,07 Laugh,Laughing
+476017,3542,05 Laugh,Not Smiling Laughing
+476041,3478,10 Laugh,Smiling
+476520,10240,12 Laugh,Smiling
+476520,3200,11 Laugh,Smiling
+478080,4999,09 Laugh,Laughing
+479520,4319,10 Laugh,Laughing
+479560,2640,05 Laugh,Laughing
+479721,4279,11 Laugh,Laughing
+480080,3920,14 Laugh,Laughing
+480119,6321,02 Laugh,Not Smiling Laughing
+481981,12059,08 Laugh,Not Smiling Laughing
+482201,2748,05 Laugh,Smiling
+483080,3279,09 Laugh,Not Smiling Laughing
+483880,3679,10 Laugh,Smiling
+484001,2479,11 Laugh,Smiling
+484040,6560,14 Laugh,Smiling
+485040,1000,05 Laugh,Not Smiling Laughing
+485840,1080,07 Laugh,Not Smiling Laughing
+486041,7198,05 Laugh,Laughing
+486360,3280,09 Laugh,Laughing
+486441,4439,02 Laugh,Smiling
+486481,3598,11 Laugh,Laughing
+486601,38558,06 Laugh,Not Smiling Laughing
+486761,2598,12 Laugh,Laughing
+486921,1679,07 Laugh,Smiling
+487600,10679,10 Laugh,Laughing
+488601,4678,07 Laugh,Not Smiling Laughing
+489360,9960,12 Laugh,Not Smiling Laughing
+489641,1999,09 Laugh,Not Smiling Laughing
+490080,7840,11 Laugh,Not Smiling Laughing
+490601,7319,14 Laugh,Laughing
+490881,8238,02 Laugh,Not Smiling Laughing
+491355,5965,15 Laugh,Smiling
+491641,2239,09 Laugh,Laughing
+493240,5719,05 Laugh,Not Smiling Laughing
+493280,10160,07 Laugh,Laughing
+493881,5478,09 Laugh,Not Smiling Laughing
+494041,8839,08 Laugh,Laughing
+497321,3279,15 Laugh,Laughing
+497921,4598,11 Laugh,Laughing
+497959,13130,14 Laugh,Smiling
+498320,3628,10 Laugh,Smiling
+498960,4800,05 Laugh,Smiling
+499120,3679,02 Laugh,Smiling
+499321,2758,12 Laugh,Indeterminate
+499360,2319,03 Laugh,Smiling
+499360,3840,09 Laugh,Smiling
+500601,24159,15 Laugh,Not Smiling Laughing
+501680,52919,03 Laugh,Not Smiling Laughing
+501948,2372,10 Laugh,Laughing
+502080,24320,12 Laugh,Not Smiling Laughing
+502520,23199,11 Laugh,Not Smiling Laughing
+502800,23720,02 Laugh,Not Smiling Laughing
+502881,23718,08 Laugh,Not Smiling Laughing
+503201,22559,09 Laugh,Not Smiling Laughing
+503441,22718,07 Laugh,Not Smiling Laughing
+503761,21798,05 Laugh,Not Smiling Laughing
+504321,21598,10 Laugh,Not Smiling Laughing
+511090,3269,14 Laugh,Not Smiling Laughing
+514360,2319,14 Laugh,Smiling
+516680,8600,14 Laugh,Not Smiling Laughing
+524761,28838,15 Laugh,Smiling
+525160,2879,06 Laugh,Smiling
+525281,8919,14 Laugh,(null)
+525560,5159,05 Laugh,Smiling
+525720,8999,11 Laugh,Laughing
+525761,3478,09 Laugh,Laughing
+525920,12160,10 Laugh,Smiling
+526160,10480,07 Laugh,Laughing
+526401,11359,12 Laugh,Smiling
+526521,8359,02 Laugh,Smiling
+526600,6959,08 Laugh,Laughing
+528040,2160,06 Laugh,Indeterminate
+529240,3799,09 Laugh,Smiling
+530201,3879,06 Laugh,Smiling
+530720,7319,05 Laugh,Not Smiling Laughing
+533080,5200,09 Laugh,Not Smiling Laughing
+533599,4241,08 Laugh,Not Smiling Laughing
+534081,3718,06 Laugh,Not Smiling Laughing
+534201,3999,14 Laugh,Laughing
+534720,3439,11 Laugh,Not Smiling Laughing
+534881,3959,02 Laugh,Not Smiling Laughing
+536641,1078,07 Laugh,Not Smiling Laughing
+537720,7839,07 Laugh,Laughing
+537761,5199,12 Laugh,Laughing
+537800,16960,06 Laugh,Smiling
+537841,9078,08 Laugh,Laughing
+538040,8480,05 Laugh,Smiling
+538081,15559,10 Laugh,Laughing
+538160,9240,11 Laugh,Laughing
+538239,6961,14 Laugh,Smiling
+538281,6039,09 Laugh,Laughing
+538840,5839,02 Laugh,Smiling
+543000,11679,12 Laugh,Smiling
+544359,9320,09 Laugh,Not Smiling Laughing
+544680,10400,02 Laugh,Not Smiling Laughing
+545201,8278,14 Laugh,Not Smiling Laughing
+545560,8840,07 Laugh,Not Smiling Laughing
+546521,7598,05 Laugh,Not Smiling Laughing
+546960,240,08 Laugh,Not Smiling Laughing
+547201,4918,08 Laugh,Laughing
+547401,4359,11 Laugh,Smiling
+551761,2239,11 Laugh,Not Smiling Laughing
+552120,22880,08 Laugh,Not Smiling Laughing
+553480,6319,14 Laugh,Laughing
+553600,5639,15 Laugh,Laughing
+553641,2119,10 Laugh,Smiling
+553680,4600,09 Laugh,Smiling
+554001,4038,11 Laugh,Laughing
+554120,5599,05 Laugh,Laughing
+554401,3479,07 Laugh,Smiling
+554599,2041,03 Laugh,Smiling
+554680,4600,12 Laugh,Laughing
+554761,5038,06 Laugh,Laughing
+555081,2158,02 Laugh,Laughing
+555799,4041,10 Laugh,Laughing
+556641,25679,03 Laugh,Not Smiling Laughing
+557240,18679,02 Laugh,Not Smiling Laughing
+557881,16319,07 Laugh,Not Smiling Laughing
+558040,17079,11 Laugh,Smiling
+558281,16198,09 Laugh,Not Smiling Laughing
+559240,20999,15 Laugh,Smiling
+559320,14839,12 Laugh,Smiling
+559720,15040,05 Laugh,Not Smiling Laughing
+559800,14080,06 Laugh,Not Smiling Laughing
+559840,13360,14 Laugh,Not Smiling Laughing
+559841,14838,10 Laugh,Not Smiling Laughing
+573201,7999,14 Laugh,Smiling
+573881,4838,06 Laugh,Laughing
+574160,5999,12 Laugh,Laughing
+574201,5119,07 Laugh,Smiling
+574480,9385,09 Laugh,Laughing
+574680,12479,10 Laugh,Laughing
+574761,14278,05 Laugh,Smiling
+575001,2839,08 Laugh,Smiling
+575120,11119,11 Laugh,Laughing
+575920,6439,02 Laugh,Smiling
+577841,1878,08 Laugh,Not Smiling Laughing
+578760,1240,06 Laugh,Smiling
+579321,2798,07 Laugh,Not Smiling Laughing
+579720,6199,08 Laugh,Laughing
+580001,5038,06 Laugh,Laughing
+580160,6519,12 Laugh,Smiling
+580240,7080,15 Laugh,Laughing
+581201,5278,14 Laugh,Laughing
+582120,3039,07 Laugh,Smiling
+582321,1959,03 Laugh,Smiling
+582360,3679,02 Laugh,Laughing
+583865,14054,09 Laugh,Smiling
+584281,11198,03 Laugh,Not Smiling Laughing
+585080,10079,06 Laugh,Not Smiling Laughing
+585160,11079,07 Laugh,Not Smiling Laughing
+585920,12119,08 Laugh,Smiling
+586040,10280,02 Laugh,Not Smiling Laughing
+586240,2919,11 Laugh,Smiling
+586520,23959,14 Laugh,Not Smiling Laughing
+586680,24160,12 Laugh,Not Smiling Laughing
+587160,7240,10 Laugh,Smiling
+587321,13999,15 Laugh,Smiling
+589040,5519,05 Laugh,Not Smiling Laughing
+589160,21439,11 Laugh,Not Smiling Laughing
+594401,6278,10 Laugh,Laughing
+594560,5999,05 Laugh,Smiling
+595160,5120,06 Laugh,Smiling
+595480,2199,03 Laugh,Smiling
+596240,1559,07 Laugh,Smiling
+596321,3278,02 Laugh,Smiling
+597680,12799,03 Laugh,Not Smiling Laughing
+597800,12879,07 Laugh,Not Smiling Laughing
+597920,12799,09 Laugh,Not Smiling Laughing
+598040,12439,08 Laugh,Not Smiling Laughing
+599600,51999,02 Laugh,Not Smiling Laughing
+600320,10399,06 Laugh,Not Smiling Laughing
+600560,9840,05 Laugh,Not Smiling Laughing
+600680,3559,10 Laugh,Smiling
+601321,8478,15 Laugh,Not Smiling Laughing
+604240,6280,10 Laugh,Not Smiling Laughing
+609800,4239,15 Laugh,Smiling
+610401,12198,05 Laugh,Laughing
+610480,3759,03 Laugh,Smiling
+610480,4639,14 Laugh,Laughing
+610480,6199,08 Laugh,Laughing
+610521,6718,10 Laugh,Laughing
+610600,5920,11 Laugh,Laughing
+610680,4520,07 Laugh,Laughing
+610720,5600,06 Laugh,Laughing
+610720,7759,09 Laugh,Laughing
+610841,4941,12 Laugh,Laughing
+614040,41040,15 Laugh,Not Smiling Laughing
+614240,16799,03 Laugh,Not Smiling Laughing
+615120,28880,14 Laugh,Not Smiling Laughing
+615201,15079,07 Laugh,Not Smiling Laughing
+615782,5137,12 Laugh,Smiling
+616359,65601,06 Laugh,Not Smiling Laughing
+616559,14160,11 Laugh,Not Smiling Laughing
+616680,61320,08 Laugh,Not Smiling Laughing
+617240,4760,10 Laugh,Smiling
+618480,11559,09 Laugh,Not Smiling Laughing
+620920,16400,12 Laugh,Not Smiling Laughing
+622001,2158,10 Laugh,Not Smiling Laughing
+622600,2759,05 Laugh,Smiling
+624160,6040,10 Laugh,Smiling
+625360,1400,05 Laugh,Not Smiling Laughing
+626761,5759,05 Laugh,Smiling
+630040,4280,09 Laugh,Laughing
+630201,7999,10 Laugh,Not Smiling Laughing
+630281,2359,07 Laugh,Smiling
+630720,2879,11 Laugh,Smiling
+631040,2720,03 Laugh,Smiling
+632521,1759,05 Laugh,Not Smiling Laughing
+632641,12518,07 Laugh,Not Smiling Laughing
+633600,3879,11 Laugh,Not Smiling Laughing
+633761,11199,03 Laugh,Not Smiling Laughing
+634281,1559,05 Laugh,Smiling
+634359,3281,09 Laugh,Not Smiling Laughing
+635841,2878,05 Laugh,Not Smiling Laughing
+637321,13199,12 Laugh,Smiling
+637480,2559,11 Laugh,Smiling
+637641,3439,09 Laugh,Laughing
+638201,7358,10 Laugh,Smiling
+638720,2439,05 Laugh,Smiling
+640040,11519,11 Laugh,Not Smiling Laughing
+641081,5559,09 Laugh,Smiling
+641160,3920,05 Laugh,Not Smiling Laughing
+644001,6038,14 Laugh,Laughing
+644961,2638,03 Laugh,Smiling
+645081,12838,05 Laugh,Smiling
+645160,3199,07 Laugh,Smiling
+645560,4720,10 Laugh,Laughing
+646679,4360,09 Laugh,Not Smiling Laughing
+647600,3559,03 Laugh,Not Smiling Laughing
+648360,3160,07 Laugh,Not Smiling Laughing
+650040,10119,14 Laugh,Smiling
+650320,1599,10 Laugh,Not Smiling Laughing
+650521,5319,12 Laugh,Laughing
+651040,5840,09 Laugh,Laughing
+651160,3639,03 Laugh,Laughing
+651521,8879,07 Laugh,Smiling
+651560,5400,11 Laugh,Laughing
+651600,3360,02 Laugh,Laughing
+651920,6520,10 Laugh,Laughing
+654800,5960,03 Laugh,Not Smiling Laughing
+654961,47268,02 Laugh,Not Smiling Laughing
+655081,4598,15 Laugh,Indeterminate
+655841,4198,12 Laugh,Smiling
+656881,3278,09 Laugh,Not Smiling Laughing
+656961,3598,11 Laugh,Not Smiling Laughing
+657920,2480,05 Laugh,Not Smiling Laughing
+658441,1759,10 Laugh,Smiling
+659680,27320,15 Laugh,Smiling
+660040,3280,12 Laugh,Laughing
+660160,5800,09 Laugh,Laughing
+660160,6280,14 Laugh,Laughing
+660201,4398,10 Laugh,Laughing
+660401,2239,07 Laugh,Laughing
+660401,6919,05 Laugh,Smiling
+660560,44359,11 Laugh,Smiling
+660761,2038,03 Laugh,Laughing
+662641,19639,07 Laugh,Not Smiling Laughing
+662800,33559,03 Laugh,Not Smiling Laughing
+663321,19079,12 Laugh,Not Smiling Laughing
+664600,8439,10 Laugh,Smiling
+665961,27158,09 Laugh,Not Smiling Laughing
+666479,9361,14 Laugh,Not Smiling Laughing
+667321,14319,05 Laugh,Not Smiling Laughing
+673040,5199,10 Laugh,Not Smiling Laughing
+675841,17718,14 Laugh,Smiling
+678001,4118,08 Laugh,Laughing
+678240,5600,10 Laugh,Laughing
+681641,5158,05 Laugh,Laughing
+681961,7398,06 Laugh,Laughing
+682120,1640,08 Laugh,Not Smiling Laughing
+682281,4119,07 Laugh,Laughing
+682401,4919,12 Laugh,Smiling
+683761,2278,08 Laugh,Smiling
+683880,9239,10 Laugh,Smiling
+686040,9439,08 Laugh,Not Smiling Laughing
+686401,4158,07 Laugh,Smiling
+686800,5319,05 Laugh,Smiling
+687001,5918,15 Laugh,Not Smiling Laughing
+687321,6158,12 Laugh,Not Smiling Laughing
+689360,12999,06 Laugh,Not Smiling Laughing
+690599,3721,07 Laugh,Not Smiling Laughing
+692120,1280,05 Laugh,Not Smiling Laughing
+692920,33840,15 Laugh,Smiling
+693120,4336,10 Laugh,Laughing
+693120,6880,09 Laugh,Laughing
+693401,13599,05 Laugh,Smiling
+693480,7360,12 Laugh,Laughing
+693560,11320,14 Laugh,Laughing
+694321,16038,07 Laugh,Laughing
+695480,5800,08 Laugh,Smiling
+696360,2400,03 Laugh,Smiling
+697456,7583,10 Laugh,Not Smiling Laughing
+698761,3958,03 Laugh,Not Smiling Laughing
+700001,11639,09 Laugh,Smiling
+700841,3638,12 Laugh,Not Smiling Laughing
+701320,4440,08 Laugh,Laughing
+702230,6606,02 Laugh,Smiling
+702360,2759,06 Laugh,Laughing
+702720,5240,03 Laugh,Smiling
+704480,5800,12 Laugh,Laughing
+704881,1238,14 Laugh,Not Smiling Laughing
+704920,7119,11 Laugh,Laughing
+705040,6400,10 Laugh,Laughing
+705120,16439,06 Laugh,Not Smiling Laughing
+705761,15319,08 Laugh,Not Smiling Laughing
+706120,5960,14 Laugh,Laughing
+707001,3519,05 Laugh,Laughing
+707961,13879,03 Laugh,Not Smiling Laughing
+708837,75962,02 Laugh,Not Smiling Laughing
+710320,51520,12 Laugh,Smiling
+710360,10759,07 Laugh,Smiling
+710521,4319,05 Laugh,Not Smiling Laughing
+711441,2478,10 Laugh,Smiling
+711679,8880,09 Laugh,Not Smiling Laughing
+712040,8439,11 Laugh,Smiling
+712119,1480,14 Laugh,Not Smiling Laughing
+713600,48160,14 Laugh,Not Smiling Laughing
+713920,4360,10 Laugh,Laughing
+714841,10559,05 Laugh,Smiling
+718281,2719,10 Laugh,Smiling
+720480,6239,11 Laugh,Laughing
+720560,5599,09 Laugh,Laughing
+721001,5558,10 Laugh,Laughing
+721081,5559,08 Laugh,Laughing
+721120,4400,07 Laugh,Laughing
+721560,12159,06 Laugh,Smiling
+721841,2479,03 Laugh,Laughing
+724321,39959,03 Laugh,Not Smiling Laughing
+725401,23999,05 Laugh,Not Smiling Laughing
+725521,24718,07 Laugh,Not Smiling Laughing
+726160,27331,09 Laugh,Not Smiling Laughing
+726560,25880,10 Laugh,Not Smiling Laughing
+726641,28478,08 Laugh,Not Smiling Laughing
+726720,53439,11 Laugh,Smiling
+726761,36199,15 Laugh,Not Smiling Laughing
+733720,46402,06 Laugh,Not Smiling Laughing
+749401,8278,05 Laugh,Smiling
+750240,5439,07 Laugh,Smiling
+752441,4798,10 Laugh,Laughing
+753492,1908,09 Laugh,Laughing
+755120,3280,08 Laugh,Smiling
+755401,25119,09 Laugh,Not Smiling Laughing
+755680,8200,07 Laugh,Not Smiling Laughing
+757240,22760,10 Laugh,Smiling
+757680,6320,05 Laugh,Not Smiling Laughing
+758440,4320,08 Laugh,Not Smiling Laughing
+761761,7079,14 Laugh,Smiling
+761841,5318,12 Laugh,Laughing
+762761,4838,08 Laugh,Smiling
+762961,5799,15 Laugh,Smiling
+763881,8319,07 Laugh,Smiling
+764001,2639,05 Laugh,Smiling
+764281,2878,03 Laugh,Smiling
+766641,2879,05 Laugh,Not Smiling Laughing
+767160,18280,03 Laugh,Not Smiling Laughing
+767160,9199,12 Laugh,Not Smiling Laughing
+767640,13120,08 Laugh,Not Smiling Laughing
+768761,1,15 Laugh,Not Smiling Laughing
+768763,14237,15 Laugh,Not Smiling Laughing
+768880,8839,14 Laugh,Not Smiling Laughing
+769521,2559,05 Laugh,Smiling
+772081,8078,05 Laugh,Not Smiling Laughing
+772201,8439,07 Laugh,Not Smiling Laughing
+776360,11717,12 Laugh,Laughing
+777720,8480,14 Laugh,Smiling
+780000,9746,10 Laugh,Laughing
+780123,3077,06 Laugh,Smiling
+780160,11399,11 Laugh,Laughing
+780160,18959,05 Laugh,Smiling
+780521,4038,09 Laugh,Smiling
+780641,3918,07 Laugh,Smiling
+780761,3958,08 Laugh,Smiling
+783001,11238,15 Laugh,Smiling
+783201,1598,06 Laugh,Not Smiling Laughing
+784560,4080,09 Laugh,Laughing
+784560,4559,07 Laugh,Laughing
+784720,4560,08 Laugh,Laughing
+784799,28841,02 Laugh,Smiling
+784800,4799,06 Laugh,Laughing
+785441,1559,03 Laugh,Smiling
+786201,6639,14 Laugh,Not Smiling Laughing
+787001,12038,03 Laugh,Not Smiling Laughing
+788077,8443,12 Laugh,Smiling
+788679,25081,09 Laugh,Not Smiling Laughing
+789159,7960,07 Laugh,Smiling
+789320,7719,08 Laugh,Not Smiling Laughing
+789600,7879,06 Laugh,Smiling
+789747,6573,10 Laugh,Not Smiling Laughing
+791560,5679,11 Laugh,Smiling
+792841,4878,14 Laugh,Smiling
+794280,2160,15 Laugh,Not Smiling Laughing
+796321,10999,10 Laugh,Laughing
+796441,16798,15 Laugh,Smiling
+796521,12718,12 Laugh,Laughing
+797040,12199,08 Laugh,Laughing
+797120,21960,07 Laugh,Laughing
+797240,11559,11 Laugh,Laughing
+797480,5793,06 Laugh,Laughing
+797720,1319,14 Laugh,Not Smiling Laughing
+799040,15280,03 Laugh,Smiling
+799040,5879,14 Laugh,Laughing
+799120,4960,05 Laugh,Laughing
+803274,1166,06 Laugh,Smiling
+804081,10038,05 Laugh,Not Smiling Laughing
+804441,5109,06 Laugh,Laughing
+804920,8480,14 Laugh,Not Smiling Laughing
+807359,6641,10 Laugh,Smiling
+808840,4440,11 Laugh,Smiling
+809240,1359,08 Laugh,Not Smiling Laughing
+809240,3799,12 Laugh,Smiling
+809551,4008,06 Laugh,Smiling
+810600,7879,08 Laugh,Laughing
+813040,8319,12 Laugh,Laughing
+813240,6760,15 Laugh,Laughing
+813281,3479,11 Laugh,Laughing
+813401,6479,14 Laugh,Laughing
+813560,4251,06 Laugh,Laughing
+813641,29478,02 Laugh,Not Smiling Laughing
+813761,4358,09 Laugh,Laughing
+814001,5199,10 Laugh,Laughing
+814120,6599,05 Laugh,Smiling
+814321,3119,03 Laugh,Laughing
+816761,2038,11 Laugh,Smiling
+817441,25439,03 Laugh,Not Smiling Laughing
+817811,24829,06 Laugh,Not Smiling Laughing
+818120,24919,09 Laugh,Not Smiling Laughing
+818480,14199,08 Laugh,Not Smiling Laughing
+818800,23439,11 Laugh,Not Smiling Laughing
+819081,22799,07 Laugh,Not Smiling Laughing
+819201,22799,10 Laugh,Smiling
+819881,22918,14 Laugh,Not Smiling Laughing
+820039,21841,15 Laugh,Not Smiling Laughing
+820720,6639,05 Laugh,Not Smiling Laughing
+821400,19880,12 Laugh,Not Smiling Laughing
+827360,3559,05 Laugh,Smiling
+830920,11319,05 Laugh,Not Smiling Laughing
+832680,7679,08 Laugh,Smiling
+840360,2160,08 Laugh,Not Smiling Laughing
+841281,8078,12 Laugh,Laughing
+841881,5678,15 Laugh,Laughing
+841881,8639,07 Laugh,Laughing
+842001,9478,10 Laugh,Laughing
+842240,43359,11 Laugh,Smiling
+842240,6119,05 Laugh,Laughing
+842521,7078,08 Laugh,Laughing
+842641,9398,06 Laugh,Laughing
+842800,10600,14 Laugh,Laughing
+842881,2519,03 Laugh,Laughing
+843040,6079,09 Laugh,Laughing
+843120,3520,02 Laugh,Laughing
+845440,7119,03 Laugh,Not Smiling Laughing
+846641,22175,02 Laugh,Smiling
+847560,38799,15 Laugh,Smiling
+848400,15024,05 Laugh,Smiling
+849120,6320,09 Laugh,Smiling
+849360,11840,12 Laugh,Not Smiling Laughing
+849600,24840,08 Laugh,Not Smiling Laughing
+850521,23679,07 Laugh,Not Smiling Laughing
+851480,2119,10 Laugh,Smiling
+852080,22159,06 Laugh,Smiling
+852599,19880,03 Laugh,Smiling
+853440,21000,14 Laugh,Not Smiling Laughing
+853600,5800,10 Laugh,Laughing
+855479,1680,09 Laugh,Not Smiling Laughing
+857160,4519,09 Laugh,Laughing
+859440,19880,10 Laugh,Not Smiling Laughing
+861201,22598,12 Laugh,Smiling
+861680,12119,09 Laugh,Not Smiling Laughing
+863424,3856,05 Laugh,Laughing
+867320,7919,05 Laugh,Smiling
+868817,28782,02 Laugh,Not Smiling Laughing
+872480,2400,03 Laugh,Not Smiling Laughing
+873800,5160,09 Laugh,Laughing
+874201,4918,07 Laugh,Laughing
+874240,4559,06 Laugh,Laughing
+874441,4598,08 Laugh,Laughing
+874441,5918,14 Laugh,Smiling
+874881,2439,03 Laugh,Laughing
+875280,6831,05 Laugh,Laughing
+877321,19398,03 Laugh,Not Smiling Laughing
+878800,17960,06 Laugh,Not Smiling Laughing
+879000,17880,09 Laugh,Not Smiling Laughing
+879040,17559,08 Laugh,Not Smiling Laughing
+879120,18160,07 Laugh,Not Smiling Laughing
+879321,8079,10 Laugh,Smiling
+880400,560,14 Laugh,Not Smiling Laughing
+880961,2718,14 Laugh,Smiling
+882111,9529,05 Laugh,Not Smiling Laughing
+883719,14840,14 Laugh,Not Smiling Laughing
+883800,12840,12 Laugh,Not Smiling Laughing
+885600,1,11 Laugh,Indeterminate
+885602,4038,11 Laugh,Indeterminate
+886360,3999,15 Laugh,Laughing
+887401,1318,10 Laugh,Laughing
+888720,7759,10 Laugh,Not Smiling Laughing
+889641,7319,11 Laugh,Not Smiling Laughing
+890360,5640,15 Laugh,Smiling
+891641,5559,05 Laugh,Smiling
+896001,5918,15 Laugh,Laughing
+896480,5480,10 Laugh,Laughing
+896600,5800,08 Laugh,Laughing
+896641,9838,12 Laugh,Smiling
+896720,1600,03 Laugh,Laughing
+896761,4958,06 Laugh,Laughing
+896881,4494,09 Laugh,Laughing
+896961,9398,11 Laugh,Smiling
+897201,5439,05 Laugh,Laughing
+897281,5318,07 Laugh,Laughing
+897600,4160,02 Laugh,Laughing
+898321,2079,03 Laugh,Indeterminate
+898560,18919,14 Laugh,Smiling
+900401,3679,03 Laugh,Smiling
+901376,5579,09 Laugh,Smiling
+901720,3999,06 Laugh,Not Smiling Laughing
+901761,1798,02 Laugh,Smiling
+901920,3999,15 Laugh,Smiling
+902000,3840,10 Laugh,Smiling
+902401,3239,08 Laugh,Not Smiling Laughing
+902600,3199,07 Laugh,Not Smiling Laughing
+902641,4038,05 Laugh,Smiling
+903560,12359,02 Laugh,Not Smiling Laughing
+904081,2439,03 Laugh,Not Smiling Laughing
+905641,5038,08 Laugh,Laughing
+905720,6240,06 Laugh,Laughing
+905800,6439,07 Laugh,Laughing
+905841,718,10 Laugh,Not Smiling Laughing
+905920,7319,15 Laugh,Laughing
+906360,16236,11 Laugh,Laughing
+906480,2999,12 Laugh,Laughing
+906521,4838,03 Laugh,Laughing
+906560,5720,10 Laugh,Laughing
+906680,3359,05 Laugh,Laughing
+906955,3964,09 Laugh,Laughing
+909480,35600,12 Laugh,Not Smiling Laughing
+910040,4639,05 Laugh,Not Smiling Laughing
+910680,4439,08 Laugh,Not Smiling Laughing
+910920,5160,09 Laugh,Not Smiling Laughing
+911360,3920,03 Laugh,Not Smiling Laughing
+911961,2838,06 Laugh,Not Smiling Laughing
+912240,2999,07 Laugh,Smiling
+912320,2239,10 Laugh,Smiling
+913240,16520,15 Laugh,Smiling
+914560,6679,10 Laugh,Laughing
+914680,7280,05 Laugh,Smiling
+914800,7239,06 Laugh,Laughing
+915120,5239,08 Laugh,Smiling
+915240,6679,07 Laugh,Laughing
+915281,5999,03 Laugh,Laughing
+915920,8360,02 Laugh,Laughing
+916081,2799,09 Laugh,Laughing
+917480,7920,14 Laugh,Laughing
+918881,24999,09 Laugh,Not Smiling Laughing
+920360,14640,08 Laugh,Not Smiling Laughing
+921240,7879,10 Laugh,Smiling
+921281,2039,03 Laugh,Smiling
+921920,6639,07 Laugh,Not Smiling Laughing
+921961,7158,05 Laugh,Not Smiling Laughing
+922040,5879,06 Laugh,Not Smiling Laughing
+922597,33082,11 Laugh,Not Smiling Laughing
+923321,20679,03 Laugh,Not Smiling Laughing
+924281,45599,02 Laugh,Not Smiling Laughing
+925440,16640,14 Laugh,Smiling
+927920,16520,06 Laugh,Smiling
+928560,15640,07 Laugh,Smiling
+929120,5999,05 Laugh,Smiling
+929159,6560,10 Laugh,Not Smiling Laughing
+929761,4759,15 Laugh,Indeterminate
+934521,20919,15 Laugh,Smiling
+935001,3639,08 Laugh,Smiling
+935120,8400,05 Laugh,Not Smiling Laughing
+935720,6879,10 Laugh,Smiling
+938679,5401,08 Laugh,Not Smiling Laughing
+942081,2718,14 Laugh,Not Smiling Laughing
+942600,7840,10 Laugh,Laughing
+943521,5598,05 Laugh,Laughing
+943881,3478,09 Laugh,Laughing
+944001,2319,03 Laugh,Smiling
+944081,3759,08 Laugh,Smiling
+944201,8398,07 Laugh,Laughing
+944441,4959,06 Laugh,Laughing
+944800,4799,14 Laugh,Laughing
+945081,4799,12 Laugh,Smiling
+946321,14559,03 Laugh,Not Smiling Laughing
+947360,8319,09 Laugh,Not Smiling Laughing
+947841,6599,08 Laugh,Not Smiling Laughing
+949159,5520,05 Laugh,Not Smiling Laughing
+949401,6039,06 Laugh,Smiling
+949600,5439,14 Laugh,Not Smiling Laughing
+949881,5399,12 Laugh,Not Smiling Laughing
+950479,4880,10 Laugh,Smiling
+952640,8360,07 Laugh,Smiling
+954441,5319,08 Laugh,Laughing
+954680,5640,05 Laugh,Smiling
+955040,9879,14 Laugh,Laughing
+955281,20239,12 Laugh,Smiling
+955359,8736,10 Laugh,Laughing
+955441,5038,06 Laugh,Laughing
+955441,7903,15 Laugh,Laughing
+955680,18559,11 Laugh,Smiling
+955680,4999,09 Laugh,Smiling
+959761,4478,08 Laugh,Smiling
+960321,3999,05 Laugh,Laughing
+960480,9400,06 Laugh,Smiling
+960680,3359,09 Laugh,Laughing
+960881,2358,03 Laugh,Smiling
+961001,2558,07 Laugh,Laughing
+963240,4520,03 Laugh,Not Smiling Laughing
+963344,36416,15 Laugh,Smiling
+963560,5119,07 Laugh,Not Smiling Laughing
+964040,3040,09 Laugh,Not Smiling Laughing
+964096,9583,10 Laugh,Not Smiling Laughing
+964240,3239,08 Laugh,Not Smiling Laughing
+964321,8119,05 Laugh,Smiling
+964920,34119,14 Laugh,Not Smiling Laughing
+967081,2999,09 Laugh,Smiling
+967480,8920,08 Laugh,Laughing
+967761,2358,03 Laugh,Smiling
+968680,2200,07 Laugh,Laughing
+969881,6718,02 Laugh,Smiling
+969881,7639,06 Laugh,Laughing
+970081,7439,09 Laugh,Laughing
+970120,2280,03 Laugh,Laughing
+970881,1838,07 Laugh,Not Smiling Laughing
+972401,638,03 Laugh,Not Smiling Laughing
+972441,6319,05 Laugh,Laughing
+972720,6680,07 Laugh,Laughing
+973040,3920,03 Laugh,Smiling
+973680,5919,10 Laugh,Laughing
+974240,7080,11 Laugh,Laughing
+975520,25079,12 Laugh,Not Smiling Laughing
+976401,1799,08 Laugh,Indeterminate
+976600,25720,02 Laugh,Not Smiling Laughing
+976961,24239,03 Laugh,Not Smiling Laughing
+977521,1518,06 Laugh,Indeterminate
+977559,23201,09 Laugh,Not Smiling Laughing
+978201,22079,08 Laugh,Not Smiling Laughing
+978761,16199,05 Laugh,Not Smiling Laughing
+979040,21759,06 Laugh,Not Smiling Laughing
+979401,21718,07 Laugh,Not Smiling Laughing
+979600,6360,10 Laugh,Smiling
+981359,20401,11 Laugh,Smiling
+985961,10838,10 Laugh,Not Smiling Laughing
+994961,5559,05 Laugh,Smiling
+996800,3759,10 Laugh,Smiling
+999040,6079,14 Laugh,Laughing
+999761,5199,15 Laugh,Laughing
