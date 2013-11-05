@@ -1,0 +1,724 @@
+Offset: 0, Movie: MoviePathHere, DataFile: (null)
+Tracks: Audience 02, Audience 03, Audience 04, Audience 05, Audience 06, Audience 07, Audience 08, Audience 09
+Time,Duration,TrackName,comment
+
+1002040,18240,Audience 07,Not Smiling Laughing
+1005200,6440,Audience 04,Not Smiling Laughing
+1005761,54598,Audience 09,Not Smiling Laughing
+1008281,10719,Audience 02,Not Smiling Laughing
+1011641,3718,Audience 04,Laughing
+1012160,3160,Audience 05,Laughing
+1012201,3478,Audience 06,Laughing
+1015321,3598,Audience 05,Not Smiling Laughing
+1015360,4799,Audience 04,Not Smiling Laughing
+1015680,4280,Audience 06,Smiling
+1018920,9240,Audience 05,Smiling
+1019001,6799,Audience 02,Laughing
+1019961,3559,Audience 06,Laughing
+1020160,3040,Audience 04,Laughing
+1020281,1838,Audience 07,Smiling
+1022120,145640,Audience 07,Not Smiling Laughing
+1023201,12719,Audience 04,Smiling
+1023521,4438,Audience 06,Smiling
+1024360,3999,Audience 03,Laughing
+1025801,2999,Audience 02,Smiling
+1027960,7359,Audience 06,Not Smiling Laughing
+1028161,31519,Audience 05,Not Smiling Laughing
+1028360,31520,Audience 03,Smiling
+1028801,2918,Audience 02,Not Smiling Laughing
+1031719,4504,Audience 02,Laughing
+1035320,4680,Audience 06,Smiling
+1035959,24160,Audience 04,Not Smiling Laughing
+1036223,5897,Audience 02,Smiling
+1040001,19759,Audience 06,Not Smiling Laughing
+1042120,17401,Audience 02,Not Smiling Laughing
+1059522,6638,Audience 02,Laughing
+1059681,6638,Audience 05,Laughing
+1059761,5558,Audience 06,Laughing
+1059881,6078,Audience 03,Laughing
+1060120,3119,Audience 04,Laughing
+1060360,6160,Audience 09,Laughing
+1063240,4839,Audience 04,Not Smiling Laughing
+1065320,24999,Audience 06,Smiling
+1066000,4040,Audience 03,Smiling
+1066161,1119,Audience 02,Not Smiling Laughing
+1066320,2440,Audience 05,Not Smiling Laughing
+1066521,2078,Audience 09,Not Smiling Laughing
+1067281,11999,Audience 02,Smiling
+1067641,2639,Audience 08,Laughing
+1068080,2440,Audience 04,Laughing
+1068600,4280,Audience 09,Laughing
+1068761,4159,Audience 05,Laughing
+1070041,3918,Audience 03,Laughing
+1070281,11038,Audience 08,Not Smiling Laughing
+1070521,4958,Audience 04,Not Smiling Laughing
+1072881,6438,Audience 09,Not Smiling Laughing
+1072959,2681,Audience 05,Not Smiling Laughing
+1074000,26079,Audience 03,Smiling
+1075480,13191,Audience 04,Smiling
+1075641,21919,Audience 05,Smiling
+1079281,2260,Audience 02,Not Smiling Laughing
+1079320,37344,Audience 09,Smiling
+1081320,3999,Audience 08,Laughing
+1081542,4338,Audience 02,Smiling
+1085320,22480,Audience 08,Not Smiling Laughing
+1085881,6238,Audience 02,Not Smiling Laughing
+1088671,20379,Audience 04,Not Smiling Laughing
+1090320,6680,Audience 06,Laughing
+1092120,6479,Audience 02,Smiling
+1097000,13280,Audience 06,Not Smiling Laughing
+1097561,11638,Audience 05,Not Smiling Laughing
+1098600,1879,Audience 02,Not Smiling Laughing
+1100080,8920,Audience 03,Not Smiling Laughing
+1100480,7280,Audience 02,Smiling
+1107800,2080,Audience 02,Not Smiling Laughing
+1107801,2239,Audience 08,Laughing
+1109001,9118,Audience 03,Smiling
+1109051,4229,Audience 04,Laughing
+1109200,6159,Audience 05,Smiling
+1109881,8119,Audience 02,Laughing
+1110041,7198,Audience 08,Smiling
+1110281,7359,Audience 06,Smiling
+1113281,4838,Audience 04,Smiling
+1115360,40440,Audience 05,Not Smiling Laughing
+1116664,24856,Audience 09,Not Smiling Laughing
+1117240,23879,Audience 08,Not Smiling Laughing
+1117641,11558,Audience 06,Not Smiling Laughing
+1118001,12078,Audience 02,Not Smiling Laughing
+1118120,11880,Audience 03,Not Smiling Laughing
+1118160,22600,Audience 04,Not Smiling Laughing
+1129200,2879,Audience 06,Laughing
+1130001,6438,Audience 03,Smiling
+1130080,2399,Audience 02,Smiling
+1132080,4399,Audience 06,Smiling
+1132480,18520,Audience 02,Not Smiling Laughing
+1136440,18600,Audience 03,Not Smiling Laughing
+1136480,4920,Audience 06,Not Smiling Laughing
+1140761,6519,Audience 04,Smiling
+1141120,4160,Audience 08,Smiling
+1141401,2958,Audience 06,Smiling
+1141521,2958,Audience 09,Smiling
+1144360,10440,Audience 06,Not Smiling Laughing
+1144480,72440,Audience 09,Not Smiling Laughing
+1145281,30519,Audience 08,Not Smiling Laughing
+1147319,7601,Audience 04,Not Smiling Laughing
+1151001,4559,Audience 02,Smiling
+1154801,3558,Audience 06,Laughing
+1154921,11147,Audience 04,Smiling
+1155041,4158,Audience 03,Laughing
+1155561,4319,Audience 02,Laughing
+1155801,5678,Audience 05,Laughing
+1158360,7759,Audience 06,Not Smiling Laughing
+1159200,9399,Audience 03,Not Smiling Laughing
+1159881,8598,Audience 02,Not Smiling Laughing
+1161480,6719,Audience 05,Smiling
+1166068,2011,Audience 04,Not Smiling Laughing
+1166120,4160,Audience 06,Laughing
+1167761,4919,Audience 07,Smiling
+1168080,3359,Audience 04,Laughing
+1168200,13449,Audience 05,Laughing
+1168480,9680,Audience 02,Smiling
+1168600,7200,Audience 03,Smiling
+1170281,1438,Audience 06,Not Smiling Laughing
+1171440,4639,Audience 04,Smiling
+1171720,6960,Audience 06,Laughing
+1172681,1719,Audience 07,Laughing
+1174401,42078,Audience 07,Smiling
+1175801,3959,Audience 03,Laughing
+1175801,6158,Audience 08,Laughing
+1176080,3582,Audience 04,Laughing
+1178161,14198,Audience 02,Not Smiling Laughing
+1178680,14159,Audience 06,Not Smiling Laughing
+1179662,15018,Audience 04,Not Smiling Laughing
+1179761,13598,Audience 03,Not Smiling Laughing
+1181649,11904,Audience 05,Not Smiling Laughing
+1181960,34359,Audience 08,Not Smiling Laughing
+1192360,7440,Audience 02,Laughing
+1192840,23440,Audience 06,Smiling
+1193359,6561,Audience 03,Smiling
+1193553,3806,Audience 05,Smiling
+1194681,5038,Audience 04,Smiling
+1197360,19560,Audience 05,Not Smiling Laughing
+1199760,15280,Audience 04,Not Smiling Laughing
+1199801,6119,Audience 02,Not Smiling Laughing
+1199921,15839,Audience 03,Not Smiling Laughing
+1205921,5639,Audience 02,Smiling
+1211561,4119,Audience 02,Not Smiling Laughing
+1215041,6038,Audience 04,Laughing
+1215681,7599,Audience 02,Laughing
+1215761,7198,Audience 03,Laughing
+1216281,6759,Audience 06,Laughing
+1216320,7960,Audience 08,Laughing
+1216480,5119,Audience 07,Laughing
+1216921,4079,Audience 05,Laughing
+1216921,4879,Audience 09,Laughing
+1221001,7399,Audience 05,Not Smiling Laughing
+1221080,6840,Audience 04,Not Smiling Laughing
+1221600,2960,Audience 07,Not Smiling Laughing
+1221801,6879,Audience 09,Not Smiling Laughing
+1222960,5759,Audience 03,Not Smiling Laughing
+1223041,5438,Audience 06,Smiling
+1223319,2520,Audience 02,Not Smiling Laughing
+1224281,34158,Audience 08,Smiling
+1224561,5158,Audience 07,Indeterminate
+1225840,2599,Audience 02,Smiling
+1227921,3278,Audience 04,Laughing
+1228401,4159,Audience 05,Laughing
+1228479,4201,Audience 02,Laughing
+1228480,6320,Audience 06,Laughing
+1228681,3004,Audience 09,Smiling
+1228720,3160,Audience 03,Laughing
+1229720,25999,Audience 07,Smiling
+1231200,3360,Audience 04,Smiling
+1231685,21394,Audience 09,Not Smiling Laughing
+1231881,2558,Audience 03,Not Smiling Laughing
+1232561,2758,Audience 05,Not Smiling Laughing
+1232719,7041,Audience 02,Smiling
+1234440,6480,Audience 03,Laughing
+1234561,4798,Audience 04,Laughing
+1234801,16119,Audience 06,Smiling
+1235320,3840,Audience 05,Laughing
+1239161,8918,Audience 05,Not Smiling Laughing
+1239360,879,Audience 04,Smiling
+1239761,8159,Audience 02,Not Smiling Laughing
+1240240,8479,Audience 04,Not Smiling Laughing
+1240921,11438,Audience 03,Smiling
+1247921,13479,Audience 02,Smiling
+1248080,3560,Audience 05,Smiling
+1248720,2359,Audience 04,Smiling
+1250921,6038,Audience 06,Laughing
+1251080,5119,Audience 04,Laughing
+1251641,7119,Audience 05,Laughing
+1252360,8359,Audience 03,Laughing
+1253080,6399,Audience 09,Laughing
+1255720,60560,Audience 07,Not Smiling Laughing
+1256200,4800,Audience 04,Smiling
+1256959,8551,Audience 06,Smiling
+1258440,40879,Audience 08,Not Smiling Laughing
+1258761,38718,Audience 05,Not Smiling Laughing
+1259480,36564,Audience 09,Not Smiling Laughing
+1260720,42160,Audience 03,Not Smiling Laughing
+1261001,27759,Audience 04,Not Smiling Laughing
+1261401,2999,Audience 02,Not Smiling Laughing
+1264401,2639,Audience 02,Smiling
+1265510,37770,Audience 06,Not Smiling Laughing
+1267041,31119,Audience 02,Not Smiling Laughing
+1288761,8598,Audience 04,Smiling
+1296044,4626,Audience 09,Smiling
+1297360,3520,Audience 04,Laughing
+1297480,12959,Audience 05,Laughing
+1298161,4078,Audience 02,Laughing
+1299320,4560,Audience 08,Smiling
+1300680,25720,Audience 09,Not Smiling Laughing
+1300881,1958,Audience 04,Smiling
+1302240,9719,Audience 02,Smiling
+1302840,2519,Audience 04,Laughing
+1302881,12598,Audience 03,Smiling
+1303281,17038,Audience 06,Smiling
+1303881,4198,Audience 08,Laughing
+1305360,2479,Audience 04,Smiling
+1307840,2759,Audience 04,Laughing
+1308080,7239,Audience 08,Smiling
+1310440,960,Audience 05,Smiling
+1310640,4719,Audience 04,Smiling
+1311401,11678,Audience 05,Laughing
+1311960,1999,Audience 02,Not Smiling Laughing
+1313960,3920,Audience 02,Smiling
+1315320,4240,Audience 08,Laughing
+1315360,4520,Audience 04,Laughing
+1315480,5520,Audience 03,Laughing
+1316281,10038,Audience 07,Smiling
+1317881,1318,Audience 02,Not Smiling Laughing
+1319200,7119,Audience 02,Smiling
+1319561,6798,Audience 08,Smiling
+1319881,3919,Audience 04,Smiling
+1320320,2879,Audience 06,Laughing
+1321001,5279,Audience 03,Smiling
+1323080,3204,Audience 05,Smiling
+1323200,3119,Audience 06,Not Smiling Laughing
+1323801,2479,Audience 04,Not Smiling Laughing
+356399,12000,Audience 04,Smiling
+356399,22960,Audience 08,Not Smiling Laughing
+356399,29481,Audience 03,Smiling
+356399,3120,Audience 06,Smiling
+356399,34400,Audience 05,Not Smiling Laughing
+356399,3736,Audience 07,Smiling
+356399,41960,Audience 09,Not Smiling Laughing
+356399,5801,Audience 02,Not Smiling Laughing
+359520,2800,Audience 06,Not Smiling Laughing
+360135,3264,Audience 07,Not Smiling Laughing
+362201,5559,Audience 02,Smiling
+362321,7078,Audience 06,Smiling
+363400,8279,Audience 07,Smiling
+367761,2318,Audience 02,Not Smiling Laughing
+368400,2279,Audience 04,Not Smiling Laughing
+369400,24959,Audience 06,Not Smiling Laughing
+370080,2759,Audience 02,Smiling
+370680,2640,Audience 04,Smiling
+371680,7920,Audience 07,Not Smiling Laughing
+372840,3320,Audience 02,Not Smiling Laughing
+373321,10719,Audience 04,Not Smiling Laughing
+376161,6279,Audience 02,Smiling
+379360,1759,Audience 08,Laughing
+379601,7532,Audience 07,Laughing
+381120,17119,Audience 08,Not Smiling Laughing
+382441,5238,Audience 02,Not Smiling Laughing
+384041,7518,Audience 04,Smiling
+385881,1238,Audience 03,Not Smiling Laughing
+387120,999,Audience 03,Indeterminate
+387133,7986,Audience 07,Not Smiling Laughing
+387679,7321,Audience 02,Smiling
+388120,12959,Audience 03,Not Smiling Laughing
+390800,7680,Audience 05,Smiling
+391600,4040,Audience 04,Not Smiling Laughing
+394360,6199,Audience 06,Smiling
+395001,599,Audience 02,Not Smiling Laughing
+395120,2399,Audience 07,Smiling
+395601,4719,Audience 02,Smiling
+395641,4638,Audience 04,Smiling
+397520,3200,Audience 07,Laughing
+398240,2719,Audience 08,Laughing
+398360,3240,Audience 09,Smiling
+398481,3959,Audience 05,Laughing
+400280,4799,Audience 04,Not Smiling Laughing
+400321,2559,Audience 02,Indeterminate
+400560,16559,Audience 06,Not Smiling Laughing
+400721,31319,Audience 07,Not Smiling Laughing
+400960,40159,Audience 08,Not Smiling Laughing
+401080,29531,Audience 03,Smiling
+401601,32879,Audience 09,Not Smiling Laughing
+402441,29638,Audience 05,Not Smiling Laughing
+402881,2798,Audience 02,Not Smiling Laughing
+405080,12319,Audience 04,Smiling
+405680,2559,Audience 02,Smiling
+408240,22400,Audience 02,Not Smiling Laughing
+417120,4679,Audience 06,Laughing
+417400,2879,Audience 04,Laughing
+420280,3160,Audience 04,Smiling
+421800,6520,Audience 06,Smiling
+423441,17319,Audience 04,Not Smiling Laughing
+428321,3758,Audience 06,Not Smiling Laughing
+430612,9627,Audience 03,Not Smiling Laughing
+430641,12575,Audience 02,Indeterminate
+432041,4719,Audience 07,Smiling
+432080,2640,Audience 06,Laughing
+432080,5960,Audience 05,Smiling
+434481,3758,Audience 09,Laughing
+434721,5919,Audience 06,Not Smiling Laughing
+436761,14719,Audience 07,Not Smiling Laughing
+438041,2358,Audience 05,Not Smiling Laughing
+438240,2960,Audience 09,Not Smiling Laughing
+440240,6960,Audience 03,Laughing
+440400,1999,Audience 05,Smiling
+440641,5239,Audience 06,Smiling
+440761,20855,Audience 04,Smiling
+441120,5719,Audience 08,Laughing
+441201,4158,Audience 09,Laughing
+442400,4360,Audience 05,Laughing
+443217,2022,Audience 02,Smiling
+445240,6190,Audience 02,Not Smiling Laughing
+445360,69319,Audience 09,Not Smiling Laughing
+445881,5279,Audience 06,Not Smiling Laughing
+446761,7758,Audience 05,Not Smiling Laughing
+446840,14999,Audience 08,Smiling
+447201,6638,Audience 03,Smiling
+451161,6759,Audience 06,Laughing
+451431,2528,Audience 02,Smiling
+451481,2119,Audience 07,Smiling
+453601,3198,Audience 07,Not Smiling Laughing
+453840,4719,Audience 03,Laughing
+453960,640,Audience 02,Not Smiling Laughing
+454520,5439,Audience 05,Laughing
+454601,5319,Audience 02,Smiling
+456800,3240,Audience 07,Smiling
+457921,33799,Audience 06,Not Smiling Laughing
+458600,5759,Audience 03,Smiling
+459921,19314,Audience 02,Not Smiling Laughing
+459960,7040,Audience 05,Not Smiling Laughing
+460041,27679,Audience 07,Not Smiling Laughing
+461616,10343,Audience 04,Not Smiling Laughing
+461840,60560,Audience 08,Not Smiling Laughing
+464360,14840,Audience 03,Not Smiling Laughing
+467001,2759,Audience 05,Smiling
+469761,9559,Audience 05,Not Smiling Laughing
+471960,4319,Audience 04,Laughing
+476280,2920,Audience 04,Not Smiling Laughing
+479201,4918,Audience 04,Laughing
+479201,6318,Audience 03,Laughing
+479235,3884,Audience 02,Smiling
+479321,6399,Audience 05,Laughing
+483120,38679,Audience 02,Not Smiling Laughing
+484120,37559,Audience 04,Not Smiling Laughing
+485520,2800,Audience 03,Smiling
+485721,8398,Audience 05,Smiling
+487721,2999,Audience 07,Smiling
+488321,3078,Audience 03,Not Smiling Laughing
+490721,14118,Audience 07,Not Smiling Laughing
+491400,6879,Audience 03,Smiling
+491721,8919,Audience 06,Smiling
+494120,27799,Audience 05,Not Smiling Laughing
+498280,24199,Audience 03,Not Smiling Laughing
+500641,21078,Audience 06,Not Smiling Laughing
+504840,2320,Audience 07,Smiling
+507161,14318,Audience 07,Not Smiling Laughing
+514680,3720,Audience 09,Smiling
+518401,1599,Audience 09,Laughing
+520000,1923,Audience 09,Smiling
+521480,8639,Audience 07,Smiling
+521680,1280,Audience 04,Smiling
+521720,10530,Audience 06,Smiling
+521800,7239,Audience 02,Smiling
+521920,13520,Audience 05,Smiling
+521924,5516,Audience 09,Laughing
+522401,18479,Audience 08,Smiling
+522480,9639,Audience 03,Smiling
+522961,3479,Audience 04,Laughing
+526441,12839,Audience 04,Not Smiling Laughing
+527440,6279,Audience 09,Smiling
+529040,11759,Audience 02,Not Smiling Laughing
+530120,12160,Audience 07,Not Smiling Laughing
+532120,11160,Audience 03,Not Smiling Laughing
+532250,6510,Audience 06,Not Smiling Laughing
+533720,63280,Audience 09,Not Smiling Laughing
+535441,6959,Audience 05,Not Smiling Laughing
+538761,3879,Audience 06,Smiling
+539281,5398,Audience 04,Smiling
+540800,4400,Audience 02,Smiling
+540881,7678,Audience 08,Laughing
+542280,2244,Audience 07,Smiling
+542401,3718,Audience 05,Smiling
+542641,38439,Audience 06,Not Smiling Laughing
+543281,20239,Audience 03,Smiling
+544524,1756,Audience 07,Not Smiling Laughing
+544680,5640,Audience 04,Laughing
+545201,5799,Audience 02,Not Smiling Laughing
+546120,7039,Audience 05,Laughing
+546281,2119,Audience 07,Smiling
+548401,27679,Audience 07,Not Smiling Laughing
+548560,34039,Audience 08,Not Smiling Laughing
+550321,31598,Audience 04,Not Smiling Laughing
+551001,4319,Audience 02,Smiling
+553160,13759,Audience 05,Not Smiling Laughing
+555321,26598,Audience 02,Not Smiling Laughing
+563521,3479,Audience 03,Not Smiling Laughing
+566920,15520,Audience 05,Smiling
+567001,2718,Audience 03,Smiling
+569720,26879,Audience 03,Not Smiling Laughing
+576081,11598,Audience 07,Laughing
+581081,5679,Audience 06,Laughing
+581920,5119,Audience 04,Laughing
+581920,6759,Audience 02,Laughing
+582441,4358,Audience 05,Laughing
+582600,18439,Audience 08,Smiling
+586761,3478,Audience 06,Not Smiling Laughing
+586800,3960,Audience 05,Not Smiling Laughing
+587040,3480,Audience 04,Not Smiling Laughing
+587680,2960,Audience 07,Not Smiling Laughing
+588680,8200,Audience 02,Not Smiling Laughing
+590240,4239,Audience 06,Laughing
+590521,10839,Audience 04,Smiling
+590641,6999,Audience 07,Smiling
+590761,6038,Audience 05,Laughing
+594480,2520,Audience 06,Not Smiling Laughing
+596600,9439,Audience 03,Smiling
+596800,2679,Audience 05,Smiling
+596881,11399,Audience 02,Laughing
+597000,1440,Audience 09,Smiling
+597001,2999,Audience 06,Smiling
+597641,7559,Audience 07,Laughing
+598441,29478,Audience 09,Not Smiling Laughing
+599480,5160,Audience 05,Laughing
+600001,5319,Audience 06,Laughing
+601040,2480,Audience 08,Laughing
+601360,1720,Audience 04,Indeterminate
+603081,1478,Audience 04,Smiling
+603521,6759,Audience 08,Not Smiling Laughing
+604560,4640,Audience 04,Not Smiling Laughing
+604641,6439,Audience 05,Not Smiling Laughing
+605201,4598,Audience 07,Not Smiling Laughing
+605321,4199,Audience 06,Not Smiling Laughing
+606040,3319,Audience 03,Not Smiling Laughing
+608281,1638,Audience 02,Not Smiling Laughing
+609201,3239,Audience 04,Smiling
+609360,7439,Audience 03,Smiling
+609559,6040,Audience 06,Laughing
+609800,3520,Audience 07,Laughing
+609920,3080,Audience 02,Smiling
+610281,4359,Audience 08,Smiling
+611081,4359,Audience 05,Laughing
+612441,4158,Audience 04,Not Smiling Laughing
+613039,3281,Audience 02,Not Smiling Laughing
+613321,2999,Audience 07,Smiling
+614641,3038,Audience 08,Not Smiling Laughing
+615441,1158,Audience 05,Not Smiling Laughing
+615600,11680,Audience 06,Not Smiling Laughing
+616321,4079,Audience 07,Laughing
+616321,7398,Audience 02,Smiling
+616600,4759,Audience 04,Laughing
+616600,5800,Audience 05,Laughing
+616800,5439,Audience 03,Laughing
+617680,9668,Audience 08,Smiling
+620401,6518,Audience 07,Not Smiling Laughing
+621360,16119,Audience 04,Not Smiling Laughing
+622280,5519,Audience 03,Smiling
+622401,4799,Audience 05,Smiling
+623720,3120,Audience 02,Not Smiling Laughing
+626841,4159,Audience 02,Smiling
+626920,3720,Audience 07,Laughing
+627201,3559,Audience 05,Laughing
+627281,2638,Audience 06,Laughing
+627349,4851,Audience 08,Laughing
+627800,3559,Audience 03,Laughing
+627920,1600,Audience 09,Smiling
+629521,41158,Audience 09,Not Smiling Laughing
+629920,6400,Audience 06,Smiling
+630641,11038,Audience 07,Smiling
+630761,13729,Audience 05,Not Smiling Laughing
+631001,6879,Audience 02,Not Smiling Laughing
+631360,6679,Audience 03,Smiling
+632201,90518,Audience 08,Smiling
+636321,5358,Audience 06,Laughing
+637480,4319,Audience 04,Laughing
+637881,3038,Audience 02,Smiling
+638040,5079,Audience 03,Laughing
+640920,3360,Audience 02,Not Smiling Laughing
+641680,4439,Audience 06,Smiling
+641680,47999,Audience 07,Not Smiling Laughing
+641800,5319,Audience 04,Not Smiling Laughing
+643120,6080,Audience 03,Smiling
+644281,3398,Audience 02,Smiling
+644491,4389,Audience 05,Smiling
+646120,1559,Audience 06,Not Smiling Laughing
+647120,4919,Audience 04,Laughing
+647680,7565,Audience 02,Laughing
+647680,7960,Audience 06,Laughing
+648881,3439,Audience 05,Laughing
+649201,4918,Audience 03,Laughing
+652040,13199,Audience 04,Smiling
+652321,13199,Audience 05,Not Smiling Laughing
+654120,36320,Audience 03,Not Smiling Laughing
+655245,5755,Audience 02,Smiling
+655641,8918,Audience 06,Not Smiling Laughing
+661001,5199,Audience 02,Not Smiling Laughing
+664560,4280,Audience 06,Smiling
+665240,7601,Audience 04,Laughing
+665521,5078,Audience 05,Smiling
+666201,6398,Audience 02,Smiling
+668841,7078,Audience 06,Not Smiling Laughing
+670600,4280,Audience 05,Laughing
+670680,2439,Audience 09,Laughing
+672600,2680,Audience 02,Not Smiling Laughing
+672842,4678,Audience 04,Not Smiling Laughing
+673120,8840,Audience 09,Smiling
+674881,2879,Audience 05,Not Smiling Laughing
+675281,8438,Audience 02,Laughing
+675920,5239,Audience 06,Smiling
+677521,2718,Audience 04,Smiling
+677761,13639,Audience 05,Smiling
+680240,4840,Audience 04,Not Smiling Laughing
+681160,6360,Audience 06,Not Smiling Laughing
+681961,86919,Audience 09,Not Smiling Laughing
+683720,4280,Audience 02,Not Smiling Laughing
+685081,4919,Audience 04,Smiling
+687521,1999,Audience 06,Smiling
+688001,6839,Audience 02,Smiling
+689521,4158,Audience 06,Laughing
+689680,2799,Audience 07,Smiling
+690001,4918,Audience 04,Laughing
+690441,4999,Audience 03,Laughing
+691401,3158,Audience 05,Laughing
+692480,23879,Audience 07,Not Smiling Laughing
+693680,5119,Audience 06,Smiling
+694560,27919,Audience 05,Not Smiling Laughing
+694841,10838,Audience 02,Not Smiling Laughing
+694920,30600,Audience 04,Not Smiling Laughing
+695441,2399,Audience 03,Smiling
+697841,7919,Audience 03,Not Smiling Laughing
+698800,7200,Audience 06,Not Smiling Laughing
+705680,3439,Audience 02,Smiling
+705761,25798,Audience 03,Smiling
+706001,6598,Audience 06,Smiling
+709120,6439,Audience 02,Not Smiling Laughing
+712600,8680,Audience 06,Not Smiling Laughing
+715560,2200,Audience 02,Smiling
+716360,2600,Audience 07,Smiling
+717761,4239,Audience 02,Not Smiling Laughing
+718961,79718,Audience 07,Not Smiling Laughing
+721281,10679,Audience 06,Smiling
+722001,1879,Audience 02,Smiling
+722479,2776,Audience 05,Smiling
+722720,2839,Audience 08,Laughing
+723881,7119,Audience 02,Laughing
+725256,1664,Audience 05,Not Smiling Laughing
+725521,2679,Audience 04,Smiling
+725560,3400,Audience 08,Smiling
+726920,4280,Audience 05,Smiling
+728201,3199,Audience 04,Laughing
+728961,3319,Audience 08,Laughing
+731001,26319,Audience 02,Not Smiling Laughing
+731201,36759,Audience 05,Not Smiling Laughing
+731401,48198,Audience 04,Not Smiling Laughing
+731560,35640,Audience 03,Not Smiling Laughing
+731961,30958,Audience 06,Not Smiling Laughing
+732281,35758,Audience 08,Not Smiling Laughing
+757321,3038,Audience 02,Smiling
+760360,3999,Audience 02,Not Smiling Laughing
+762920,3199,Audience 06,Smiling
+764360,3960,Audience 02,Smiling
+766120,5280,Audience 06,Laughing
+767201,4598,Audience 03,Smiling
+767960,3599,Audience 05,Smiling
+768040,24160,Audience 08,Smiling
+768321,2999,Audience 02,Indeterminate
+768881,3158,Audience 09,Laughing
+771321,16959,Audience 02,Not Smiling Laughing
+771401,20919,Audience 06,Not Smiling Laughing
+771560,20679,Audience 05,Not Smiling Laughing
+771800,8480,Audience 03,Not Smiling Laughing
+772040,3879,Audience 09,Smiling
+775960,168599,Audience 09,Not Smiling Laughing
+779600,2400,Audience 04,Smiling
+780281,12679,Audience 03,Smiling
+782001,10238,Audience 04,Not Smiling Laughing
+788281,20318,Audience 02,Smiling
+792201,4278,Audience 08,Laughing
+792240,3999,Audience 05,Laughing
+792240,4720,Audience 04,Smiling
+792321,3478,Audience 06,Laughing
+792961,1919,Audience 03,Not Smiling Laughing
+794881,11038,Audience 03,Smiling
+795800,4999,Audience 06,Not Smiling Laughing
+796240,2359,Audience 05,Smiling
+796480,14319,Audience 08,Smiling
+796961,2758,Audience 04,Not Smiling Laughing
+798600,3439,Audience 05,Indeterminate
+798680,22919,Audience 07,Smiling
+799720,4639,Audience 04,Laughing
+800800,4679,Audience 06,Smiling
+802040,20960,Audience 05,Not Smiling Laughing
+804360,18520,Audience 04,Not Smiling Laughing
+805480,16480,Audience 06,Not Smiling Laughing
+805920,3960,Audience 03,Laughing
+808600,13879,Audience 02,Not Smiling Laughing
+809881,2038,Audience 03,Not Smiling Laughing
+810800,12960,Audience 08,Not Smiling Laughing
+811920,9759,Audience 03,Smiling
+821600,2639,Audience 07,Laughing
+821680,7359,Audience 03,Laughing
+821961,4919,Audience 06,Laughing
+822480,4040,Audience 02,Smiling
+822881,6199,Audience 04,Smiling
+823001,7199,Audience 05,Laughing
+823761,3319,Audience 08,Smiling
+824240,30799,Audience 07,Smiling
+826521,44319,Audience 02,Not Smiling Laughing
+826881,5233,Audience 06,Not Smiling Laughing
+827081,51638,Audience 08,Not Smiling Laughing
+829040,13119,Audience 03,Not Smiling Laughing
+829081,3518,Audience 04,Not Smiling Laughing
+830201,11679,Audience 05,Not Smiling Laughing
+832115,2804,Audience 06,Smiling
+832600,2480,Audience 04,Laughing
+834920,600,Audience 06,Not Smiling Laughing
+835081,5319,Audience 04,Not Smiling Laughing
+835521,4679,Audience 06,Smiling
+840201,4958,Audience 06,Laughing
+840401,3039,Audience 04,Smiling
+841881,4199,Audience 05,Laughing
+842160,16720,Audience 03,Smiling
+843441,22319,Audience 04,Not Smiling Laughing
+845160,32480,Audience 06,Not Smiling Laughing
+846081,34718,Audience 05,Not Smiling Laughing
+855040,15400,Audience 07,Not Smiling Laughing
+858881,6238,Audience 03,Laughing
+865120,6640,Audience 03,Smiling
+865761,2679,Audience 04,Smiling
+868441,25319,Audience 04,Not Smiling Laughing
+870441,40478,Audience 07,Smiling
+870841,5239,Audience 02,Smiling
+871761,3918,Audience 03,Laughing
+875680,2679,Audience 03,Smiling
+876081,1958,Audience 02,Not Smiling Laughing
+877641,27759,Audience 06,Smiling
+878040,11280,Audience 02,Smiling
+878360,1600,Audience 03,Laughing
+878720,5120,Audience 08,Laughing
+879961,32078,Audience 03,Smiling
+880800,15080,Audience 05,Smiling
+883841,22799,Audience 08,Smiling
+889359,1800,Audience 02,Indeterminate
+891160,11720,Audience 02,Not Smiling Laughing
+893761,6119,Audience 04,Smiling
+895881,36598,Audience 05,Not Smiling Laughing
+899919,9041,Audience 04,Not Smiling Laughing
+902881,2838,Audience 02,Smiling
+905401,3638,Audience 06,Laughing
+905720,4839,Audience 02,Not Smiling Laughing
+906641,8468,Audience 08,Laughing
+908961,5039,Audience 04,Smiling
+909040,2040,Audience 06,Not Smiling Laughing
+910560,2440,Audience 02,Smiling
+910920,1799,Audience 07,Indeterminate
+911081,4439,Audience 06,Smiling
+912040,3040,Audience 03,Laughing
+912720,36759,Audience 07,Not Smiling Laughing
+913001,9079,Audience 02,Not Smiling Laughing
+914001,38558,Audience 04,Not Smiling Laughing
+915081,17038,Audience 03,Smiling
+915109,17331,Audience 08,Smiling
+915521,9439,Audience 06,Not Smiling Laughing
+922081,5278,Audience 02,Smiling
+924961,7239,Audience 06,Smiling
+927360,5319,Audience 02,Not Smiling Laughing
+932120,4880,Audience 03,Laughing
+932201,7471,Audience 06,Laughing
+932441,9639,Audience 08,Laughing
+932480,15491,Audience 05,Laughing
+932680,4679,Audience 02,Smiling
+937001,17639,Audience 03,Smiling
+937400,6560,Audience 02,Not Smiling Laughing
+939672,9379,Audience 06,Smiling
+942081,8038,Audience 08,Smiling
+943961,17791,Audience 02,Smiling
+944560,4599,Audience 09,Smiling
+947971,6549,Audience 05,Not Smiling Laughing
+949051,2389,Audience 06,Laughing
+949160,6079,Audience 09,Not Smiling Laughing
+949480,4920,Audience 07,Smiling
+950120,8771,Audience 08,Laughing
+951441,3158,Audience 06,Smiling
+952560,11159,Audience 04,Smiling
+954401,2638,Audience 07,Laughing
+954521,5843,Audience 05,Laughing
+954600,2480,Audience 06,Laughing
+954641,6838,Audience 03,Laughing
+955239,4590,Audience 09,Smiling
+957040,39879,Audience 07,Not Smiling Laughing
+957081,10239,Audience 06,Smiling
+958891,8749,Audience 08,Smiling
+959829,1530,Audience 09,Not Smiling Laughing
+960364,33636,Audience 05,Not Smiling Laughing
+961360,3759,Audience 09,Smiling
+961480,62879,Audience 03,Smiling
+961752,5208,Audience 02,Not Smiling Laughing
+963720,3759,Audience 04,Not Smiling Laughing
+965120,18960,Audience 09,Not Smiling Laughing
+966961,4158,Audience 02,Smiling
+967321,21398,Audience 06,Not Smiling Laughing
+967480,5280,Audience 04,Smiling
+967641,99999,Audience 08,Not Smiling Laughing
+971120,11119,Audience 02,Not Smiling Laughing
+972761,6959,Audience 04,Laughing
+979720,10999,Audience 04,Not Smiling Laughing
+982240,9400,Audience 02,Smiling
+984081,3799,Audience 09,Laughing
+987881,2718,Audience 09,Smiling
+988720,23480,Audience 06,Smiling
+990600,5280,Audience 09,Laughing
+990720,14439,Audience 04,Smiling
+991641,16639,Audience 02,Laughing
+994001,5319,Audience 05,Laughing
+995881,3238,Audience 09,Not Smiling Laughing
+996920,5119,Audience 07,Smiling
+999120,6640,Audience 09,Laughing
+999321,12838,Audience 05,Smiling
