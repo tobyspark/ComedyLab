@@ -1,0 +1,47 @@
+{
+	"source": {
+		"elan": {
+			"filename": "ComedyLab 4June2013 Performance 3 Elan Export.txt", 
+			"offset": 0,
+			"columns": ["tier", "subject", "timeStart", "timeStartMS", "timeEnd", "timeEndMS", "duration", "durationMS", "annotation"],
+            "annotationSets": {
+            	"Light State" : ["Lit", "Unlit"],
+            	"Laugh State" : ["Indeterminate", "Not Laughing", "Smiling", "Laughing"]
+            	}
+			},
+		"bb": {
+			"filename": "Performance 3 BreathingBelts.txt", 
+			"offset": 15.5,
+			"columns": ["time", "Audience 01", "Audience 02", "Audience 03", "Audience 04", "Audience 05", "Audience 06", "Audience 07", "Audience 08", "Audience 09", "Audience 10", "Audience 11", "Audience 12", "Audience 13", "Audience 14", "Audience 15", "Audience 16"]  
+			},
+		"shore": {
+			"filename": "configuration_07_happy.txt", 
+			"offset": 0,
+			"columns": ["TimeStamp", "Frame", "Audience 02 Happiness", "Audience 02 MouthOpen", "Audience 03 Happiness", "Audience 03 MouthOpen", "Audience 04 Happiness", "Audience 04 MouthOpen", "Audience 05 Happiness", "Audience 05 MouthOpen", "Audience 06 Happiness", "Audience 06 MouthOpen", "Audience 07 Happiness", "Audience 07 MouthOpen", "Audience 08 Happiness", "Audience 08 MouthOpen", "Audience 09 Happiness", "Audience 09 MouthOpen", "Audience 10 Happiness", "Audience 10 MouthOpen", "Audience 11 Happiness", "Audience 11 MouthOpen", "Audience 12 Happiness", "Audience 12 MouthOpen", "Audience 13 Happiness", "Audience 13 MouthOpen", "Audience 14 Happiness", "Audience 14 MouthOpen", "Audience 15 Happiness", "Audience 15 MouthOpen", "Audience 16 Happiness", "Audience 16 MouthOpen" ]
+			}
+		},
+	"subjects": [
+		"Audience 02",
+		"Audience 03",
+		"Audience 04",
+		"Audience 05",
+		"Audience 06",
+		"Audience 07",
+		"Audience 08",
+		"Audience 09",
+		"Audience 10",
+		"Audience 11",
+		"Audience 12",
+		"Audience 14",
+		"Audience 15",
+		"Audience 16"
+		],
+	"export": {
+		"timeStep": 0.1,
+	    "timeStart": 356,
+	    "timeEnd": 1305,
+	    "filename": "Comedy Lab 4Jun Performance 3 Data.txt",
+	    "fields": ["Light State", "Laugh State", "Breathing Belt", "Happiness", "Distance from Performer", "Angle from Performer", "Enclosed Measure NoBias", "Enclosed Measure PresenceBias", "Enclosed Measure ForwardBias", "Enclosed Measure LightStateBias", "Enclosed Measure LaughterBias"],
+	    "missingValuePlaceholder": "n/a"
+	}
+}
