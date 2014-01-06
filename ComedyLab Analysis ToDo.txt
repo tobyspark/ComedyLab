@@ -42,14 +42,16 @@ DONE / SPSS stats comparing Performance 1 and 2
 Performance 3
 -------------
 
-Annotate Lit/Unlit
-Annotate Laughing vs not
+DONE / Annotate Lit/Unlit
+DONE / Annotate Laughing vs not
 Dataset
+
+check audience tier order in élan p1+p2, aud12 was in aud15 as copied p2 to make p3 document.
 
 Motion Capture Performance 1,2,3
 --------------------------------
 
-Post process markers into rigid bodies
+DONE / Post process markers into rigid bodies
 Export 6DOF for performer's head
 Export 6DOF for each audience member's head
 Analyse how?
