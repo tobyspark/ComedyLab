@@ -50,6 +50,10 @@ check audience tier order in élan p1+p2, aud12 was in aud15 as copied p2 to mak
 
 tweak StatsExporter.py to cope with missing shore data so we can include Audience01 (which was out of camera’s field of view) in Performance 3.
 
+add all lit / all unlit / some lit
+
+include sadness, anger, surprise measures from SHORE
+
 Motion Capture Performance 1,2,3
 --------------------------------
 

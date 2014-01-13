@@ -1,5 +1,5 @@
 {
-    "exportFields": ["Happy", "MouthOpen"],
+    "exportFields": ["Happy", "Sad", "Surprised", "Angry", "MouthOpen"],
     "start_date": "2013-Jul-02 17:36:03.993642",
     "filename": "configuration_06_happy.txt",
     "people": [
