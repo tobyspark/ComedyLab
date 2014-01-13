@@ -264,6 +264,18 @@ def parseFile(configuration):
             for key, value in measuresDict.items():
                 infoDict[key] = seatMeasures.seatMeasure(seat, value)
 
+            # All/Some/None Lightstate
+
+            if len(lightStateForTime):
+                # note we're only concerned with subject's we're going to export, whereas seat measures are irrespective of occupancy / export
+                allSomeNoneLightState = [name in lightStateForTime and lightStateForTime[name] == 'Lit' for name in configuration['subjects']]
+                if all(allSomeNoneLightState):
+                    infoDict['Light State AllSomeNone'] = "All Lit"
+                else:
+                    if any(allSomeNoneLightState):
+                        infoDict['Light State AllSomeNone'] = "Some Lit"
+                    else:
+                        infoDict['Light State AllSomeNone'] = "None Lit"
 
             # handle parsed data for this subject and time --------
 

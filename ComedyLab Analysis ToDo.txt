@@ -48,9 +48,9 @@ DONE / Dataset
 
 check audience tier order in élan p1+p2, aud12 was in aud15 as copied p2 to make p3 document.
 
-tweak StatsExporter.py to cope with missing shore data so we can include Audience01 (which was out of camera’s field of view) in Performance 3.
+tweak StatsExporter.py to cope with missing shore data so we can include Audience01 (which was out of camera’s field of view) in Performance 1+2+3.
 
-add all lit / all unlit / some lit
+DONE / Add all lit / all unlit / some lit
 
 DONE / Include sadness, anger, surprise measures from SHORE
 
