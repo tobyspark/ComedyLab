@@ -52,7 +52,7 @@ tweak StatsExporter.py to cope with missing shore data so we can include Audienc
 
 add all lit / all unlit / some lit
 
-include sadness, anger, surprise measures from SHORE
+DONE / Include sadness, anger, surprise measures from SHORE
 
 Motion Capture Performance 1,2,3
 --------------------------------

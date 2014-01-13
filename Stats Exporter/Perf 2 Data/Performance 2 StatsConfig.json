@@ -17,7 +17,8 @@
 		"shore": {
 			"filename": "configuration_06_happy.txt", 
 			"offset": 0,
-			"columns": ["TimeStamp", "Frame", "Audience 02 Happiness", "Audience 02 MouthOpen", "Audience 03 Happiness", "Audience 03 MouthOpen", "Audience 05 Happiness", "Audience 05 MouthOpen", "Audience 06 Happiness", "Audience 06 MouthOpen", "Audience 07 Happiness", "Audience 07 MouthOpen", "Audience 08 Happiness", "Audience 08 MouthOpen", "Audience 09 Happiness", "Audience 09 MouthOpen", "Audience 10 Happiness", "Audience 10 MouthOpen", "Audience 11 Happiness", "Audience 11 MouthOpen", "Audience 12 Happiness", "Audience 12 MouthOpen", "Audience 14 Happiness", "Audience 14 MouthOpen", "Audience 15 Happiness", "Audience 15 MouthOpen"]
+			"columns": ["TimeStamp", "Frame", "Audience 02 Happy", "Audience 02 Sad", "Audience 02 Surprised", "Audience 02 Angry", "Audience 02 MouthOpen", "Audience 03 Happy", "Audience 03 Sad", "Audience 03 Surprised", "Audience 03 Angry", "Audience 03 MouthOpen", "Audience 05 Happy", "Audience 05 Sad", "Audience 05 Surprised", "Audience 05 Angry", "Audience 05 MouthOpen", "Audience 06 Happy", "Audience 06 Sad", "Audience 06 Surprised", "Audience 06 Angry", "Audience 06 MouthOpen", "Audience 07 Happy", "Audience 07 Sad", "Audience 07 Surprised", "Audience 07 Angry", "Audience 07 MouthOpen", "Audience 08 Happy", "Audience 08 Sad", "Audience 08 Surprised", "Audience 08 Angry", "Audience 08 MouthOpen", "Audience 09 Happy", "Audience 09 Sad", "Audience 09 Surprised", "Audience 09 Angry", "Audience 09 MouthOpen", "Audience 10 Happy", "Audience 10 Sad", "Audience 10 Surprised", "Audience 10 Angry", "Audience 10 MouthOpen", "Audience 11 Happy", "Audience 11 Sad", "Audience 11 Surprised", "Audience 11 Angry", "Audience 11 MouthOpen", "Audience 12 Happy", "Audience 12 Sad", "Audience 12 Surprised", "Audience 12 Angry", "Audience 12 MouthOpen", "Audience 14 Happy", "Audience 14 Sad", "Audience 14 Surprised", "Audience 14 Angry", "Audience 14 MouthOpen", "Audience 15 Happy", "Audience 15 Sad", "Audience 15 Surprised", "Audience 15 Angry", "Audience 15 MouthOpen"],
+			"exportable": ["Happy", "Sad", "Surprised", "Angry"]
 			}
 		},
 	"subjects": [
@@ -39,7 +40,7 @@
 	    "timeStart": 298,
 	    "timeEnd": 1202,
 	    "filename": "Comedy Lab 4Jun Performance 2 Data.txt",
-	    "fields": ["Light State", "Laugh State", "Breathing Belt", "Happiness", "Distance from Performer", "Angle from Performer", "Enclosed Measure NoBias", "Enclosed Measure PresenceBias", "Enclosed Measure ForwardBias", "Enclosed Measure LightStateBias", "Enclosed Measure LaughterBias"],
+	    "fields": ["Light State", "Laugh State", "Breathing Belt", "Happy", "Sad", "Surprised", "Angry", "Distance from Performer", "Angle from Performer", "Enclosed Measure NoBias", "Enclosed Measure PresenceBias", "Enclosed Measure ForwardBias", "Enclosed Measure LightStateBias", "Enclosed Measure LaughterBias"],
 	    "missingValuePlaceholder": "n/a"
 	}
 }

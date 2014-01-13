@@ -214,7 +214,7 @@ def parseFile(configuration):
 
                 # extract field if correct time and add to infodict
                 if abs(currentShoreTime - time) < timeStepSearch: 
-                    for field in ['Happiness', 'MouthOpen']:
+                    for field in shoreConfig['exportable']:
 
                         columnHeader = subject + " " + field
                         subjectIdx = shoreConfig['columns'].index(columnHeader)
