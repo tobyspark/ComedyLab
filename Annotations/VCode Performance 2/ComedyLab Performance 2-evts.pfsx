@@ -46,11 +46,11 @@
         <pref key="09 Laugh">
             <Object class="java.awt.Color">0,0,160</Object>
         </pref>
-        <pref key="10 Laugh">
-            <Object class="java.awt.Color">160,160,0</Object>
-        </pref>
         <pref key="15 Laugh">
             <Object class="java.awt.Color">0,160,0</Object>
+        </pref>
+        <pref key="10 Laugh">
+            <Object class="java.awt.Color">160,160,0</Object>
         </pref>
         <pref key="06 Laugh">
             <Object class="java.awt.Color">160,0,0</Object>
@@ -84,7 +84,7 @@
         <Int>1</Int>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>440022</Long>
+        <Long>460022</Long>
     </pref>
     <pref key="SelectionEndTime">
         <Long>0</Long>

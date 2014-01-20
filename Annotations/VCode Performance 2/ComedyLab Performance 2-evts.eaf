@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="unspecified" DATE="2013-08-30T16:09:58+00:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="unspecified" DATE="2014-01-20T17:49:23+00:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <PROPERTY NAME="lastUsedAnnotationId">1252</PROPERTY>
     </HEADER>
@@ -2509,7 +2509,7 @@
         <TIME_SLOT TIME_SLOT_ID="ts2503" TIME_VALUE="1202400"/>
         <TIME_SLOT TIME_SLOT_ID="ts2504" TIME_VALUE="1202400"/>
     </TIME_ORDER>
-    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="default" TIER_ID="08 Laugh">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default" PARTICIPANT="Audience 08" TIER_ID="08 Laugh">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a327" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts40">
                 <ANNOTATION_VALUE>Not Smiling Laughing</ANNOTATION_VALUE>
@@ -3086,7 +3086,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="default" TIER_ID="05 Laugh">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default" PARTICIPANT="Audience 05" TIER_ID="05 Laugh">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a330" TIME_SLOT_REF1="ts10" TIME_SLOT_REF2="ts19">
                 <ANNOTATION_VALUE>Smiling</ANNOTATION_VALUE>
@@ -3728,7 +3728,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="default" TIER_ID="10 Laugh">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default" PARTICIPANT="Audience 10" TIER_ID="10 Laugh">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a323" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts48">
                 <ANNOTATION_VALUE>Smiling</ANNOTATION_VALUE>
@@ -4380,7 +4380,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="default" TIER_ID="12 Laugh">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default" PARTICIPANT="Audience 12" TIER_ID="12 Laugh">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a322" TIME_SLOT_REF1="ts2" TIME_SLOT_REF2="ts16">
                 <ANNOTATION_VALUE>Smiling</ANNOTATION_VALUE>
@@ -4857,7 +4857,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="default" TIER_ID="09 Laugh">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default" PARTICIPANT="Audience 09" TIER_ID="09 Laugh">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a331" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts22">
                 <ANNOTATION_VALUE>Smiling</ANNOTATION_VALUE>
@@ -5449,7 +5449,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="default" TIER_ID="06 Laugh">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default" PARTICIPANT="Audience 06" TIER_ID="06 Laugh">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a326" TIME_SLOT_REF1="ts6" TIME_SLOT_REF2="ts36">
                 <ANNOTATION_VALUE>Not Smiling Laughing</ANNOTATION_VALUE>
@@ -6021,7 +6021,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="default" TIER_ID="07 Laugh">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default" PARTICIPANT="Audience 07" TIER_ID="07 Laugh">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a332" TIME_SLOT_REF1="ts12" TIME_SLOT_REF2="ts14">
                 <ANNOTATION_VALUE>Smiling</ANNOTATION_VALUE>
@@ -6608,7 +6608,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="default" TIER_ID="03 Laugh">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default" PARTICIPANT="Audience 03" TIER_ID="03 Laugh">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a329" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts102">
                 <ANNOTATION_VALUE>Not Smiling Laughing</ANNOTATION_VALUE>
@@ -7160,7 +7160,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="default" TIER_ID="11 Laugh">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default" PARTICIPANT="Audience 11" TIER_ID="11 Laugh">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a324" TIME_SLOT_REF1="ts4" TIME_SLOT_REF2="ts80">
                 <ANNOTATION_VALUE>Not Smiling Laughing</ANNOTATION_VALUE>
@@ -7537,7 +7537,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="default" TIER_ID="02 Laugh">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default" PARTICIPANT="Audience 02" TIER_ID="02 Laugh">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a328" TIME_SLOT_REF1="ts8" TIME_SLOT_REF2="ts60">
                 <ANNOTATION_VALUE>Not Smiling Laughing</ANNOTATION_VALUE>
@@ -7909,7 +7909,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="default" TIER_ID="15 Laugh">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default" PARTICIPANT="Audience 15" TIER_ID="15 Laugh">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a321" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts26">
                 <ANNOTATION_VALUE>Smiling</ANNOTATION_VALUE>
@@ -8266,7 +8266,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="default" TIER_ID="14 Laugh">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default" PARTICIPANT="Audience 14" TIER_ID="14 Laugh">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a325" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts18">
                 <ANNOTATION_VALUE>Smiling</ANNOTATION_VALUE>
@@ -8788,7 +8788,7 @@
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="default" TIER_ID="01 Laugh">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="default" PARTICIPANT="Audience 01" TIER_ID="01 Laugh">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a333" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts2504">
                 <ANNOTATION_VALUE>Indeterminate</ANNOTATION_VALUE>
@@ -8796,7 +8796,7 @@
         </ANNOTATION>
     </TIER>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default" TIME_ALIGNABLE="true"/>
-    <LOCALE COUNTRY_CODE="EN" LANGUAGE_CODE="us"/>
+    <LOCALE COUNTRY_CODE="US" LANGUAGE_CODE="en"/>
     <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
     <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
     <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2013-08-23T19:21:20+00:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2014-01-20T17:41:05+00:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
-        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/Shared/ComedyLab/ELAN/ELAN Data Performance 2/Performance 2 3pm Playback 720P.mov" MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="./ELAN Data Performance 2/Performance 2 3pm Playback 720P.mov"/>
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/Shared/ComedyLab/Data - Raw/Video/Performance 2 3pm Playback 720P.mov" MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="../Data - Raw/Video/Performance 2 3pm Playback 720P.mov"/>
         <PROPERTY NAME="lastUsedAnnotationId">667</PROPERTY>
     </HEADER>
     <TIME_ORDER>
@@ -681,7 +681,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a149" ANNOTATION_REF="a10">
-                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -748,7 +748,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a162" ANNOTATION_REF="a7">
-                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -820,7 +820,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a176" ANNOTATION_REF="a5">
-                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -912,7 +912,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a194" ANNOTATION_REF="a7">
-                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -1038,7 +1038,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Empty" TIER_ID="13 Lit">
+    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Audience 12" TIER_ID="12 Lit">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a648" ANNOTATION_REF="a599">
                 <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
@@ -1066,7 +1066,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a225" ANNOTATION_REF="a5">
-                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -1120,7 +1120,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Audience 14" TIER_ID="14 Lit">
+    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Empty" TIER_ID="13 Lit">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a652" ANNOTATION_REF="a599">
                 <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
@@ -1148,12 +1148,12 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a242" ANNOTATION_REF="a5">
-                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a243" ANNOTATION_REF="a6">
-                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -1202,7 +1202,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Audience 15" TIER_ID="15 Lit">
+    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Audience 14" TIER_ID="14 Lit">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a656" ANNOTATION_REF="a599">
                 <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
@@ -1235,7 +1235,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a260" ANNOTATION_REF="a6">
-                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -1284,7 +1284,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Audience 12" TIER_ID="12 Lit">
+    <TIER LINGUISTIC_TYPE_REF="Lighting State" PARENT_REF="Lighting" PARTICIPANT="Audience 15" TIER_ID="15 Lit">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a660" ANNOTATION_REF="a599">
                 <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
@@ -1312,7 +1312,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a275" ANNOTATION_REF="a5">
-                <ANNOTATION_VALUE>Unlit</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>Lit</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>

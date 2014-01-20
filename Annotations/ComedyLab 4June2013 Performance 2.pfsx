@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preferences version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+    <pref key="MediaTime">
+        <Long>1028880</Long>
+    </pref>
     <prefList key="MultiTierViewer.TierOrder">
         <String>Lighting</String>
         <String>Performer</String>
@@ -14,15 +17,12 @@
         <String>09 Lit</String>
         <String>10 Lit</String>
         <String>11 Lit</String>
+        <String>12 Lit</String>
         <String>13 Lit</String>
         <String>14 Lit</String>
         <String>15 Lit</String>
-        <String>12 Lit</String>
         <String>16 Lit</String>
     </prefList>
-    <pref key="MediaTime">
-        <Long>345000</Long>
-    </pref>
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
     </pref>
@@ -32,11 +32,11 @@
     <pref key="FrameSize">
         <Object class="java.awt.Dimension">1680,1050</Object>
     </pref>
-    <pref key="TimeLineViewer.ZoomLevel">
-        <Float>10.0</Float>
-    </pref>
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>1</Int>
+    </pref>
+    <pref key="TimeLineViewer.ZoomLevel">
+        <Float>10.0</Float>
     </pref>
     <prefGroup key="TierColors">
         <pref key="Lighting">
@@ -52,21 +52,25 @@
     <pref key="MultiTierViewer.ActiveTierName">
         <String>Lighting</String>
     </pref>
+    <pref key="SelectionBeginTime">
+        <Long>913000</Long>
+    </pref>
     <pref key="TimeSeriesViewer.Detached">
         <Boolean>true</Boolean>
-    </pref>
-    <pref key="SelectionBeginTime">
-        <Long>0</Long>
     </pref>
     <pref key="TimeSeriesViewer.ZoomLevel">
         <Float>10.0</Float>
     </pref>
+    <pref key="TimeScaleBeginTime">
+        <Long>1086700</Long>
+    </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
     </pref>
-    <pref key="TimeScaleBeginTime">
-        <Long>321240</Long>
+    <pref key="LayoutManager.MediaAreaHeight">
+        <Int>243</Int>
     </pref>
+    <prefList key="MultiTierViewer.HiddenTiers"/>
     <prefList key="TimeSeriesViewer.Panel-1">
         <String>Audience 01</String>
         <String>Audience 02</String>
@@ -78,18 +82,14 @@
         <String>Audience 08</String>
         <String>Audience 09</String>
     </prefList>
-    <prefList key="MultiTierViewer.HiddenTiers"/>
-    <pref key="LayoutManager.MediaAreaHeight">
-        <Int>243</Int>
-    </pref>
-    <prefList key="TimeSeriesViewer.Panel-2"/>
     <pref key="TimeSeriesViewer.NumberOfPanels">
         <Int>1</Int>
     </pref>
+    <prefList key="TimeSeriesViewer.Panel-2"/>
     <pref key="TimeSeriesViewer.Detached.Bounds">
         <Object class="java.awt.Rectangle">-3,43,1420,856</Object>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>0</Long>
+        <Long>938000</Long>
     </pref>
 </preferences>
