@@ -42,7 +42,7 @@
 	    "timeStart": 356,
 	    "timeEnd": 1305,
 	    "filename": "Comedy Lab 4Jun Performance 3 Data.txt",
-	    "fields": ["Light State", "Light State AllSomeNone","Laugh State", "Breathing Belt", "Happy", "Sad", "Surprised", "Angry", "MouthOpen", "Distance from Performer", "Angle from Performer", "Enclosed Measure NoBias", "Enclosed Measure PresenceBias", "Enclosed Measure ForwardBias", "Enclosed Measure LightStateBias", "Enclosed Measure LaughterBias"],
+	    "fields": ["Light State While", "Laugh State", "Breathing Belt", "Happy", "Sad", "Surprised", "Angry", "MouthOpen", "Distance from Performer", "Angle from Performer", "Enclosed Measure NoBias", "Enclosed Measure PresenceBias", "Enclosed Measure ForwardBias", "Enclosed Measure LightStateBias", "Enclosed Measure LaughterBias"],
 	    "missingValuePlaceholder": "n/a"
 	}
 }

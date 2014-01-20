@@ -277,6 +277,19 @@ def parseFile(configuration):
                     else:
                         infoDict['Light State AllSomeNone'] = "None Lit"
 
+            # LitWhileAllLit / LitWhileSomeLit / UnlitWhileSomeLit / UnlitWhileNoneLit Lightstate
+
+            if len(lightStateForTime):
+                if infoDict['Light State AllSomeNone'] == "All Lit":
+                    infoDict['Light State While'] = "Lit While All Lit"
+                elif infoDict['Light State AllSomeNone'] == "Some Lit":
+                    if infoDict['Light State'] == "Lit":
+                        infoDict['Light State While'] = "Lit While Some Lit"
+                    elif infoDict['Light State'] == "Unlit":
+                        infoDict['Light State While'] = "Unlit While Some Lit"
+                elif infoDict['Light State AllSomeNone'] == "None Lit":
+                    infoDict['Light State While'] = "Unlit While None Lit"
+
             # handle parsed data for this subject and time --------
 
             if len(infoDict):
