@@ -1,0 +1,34 @@
+COMEDY LAB MOCAP DATASET
+
+Capture File Notes
+------------------
+TUESDAY 3pm — Compere. Ignoring.
+TUESDAY 3pm004 — Compere. Ignoring.
+TUESDAY 3pm005 — Clapperboard clap at frame 122
+TUESDAY 5pm001 — Compere. Ignoring.
+TUESDAY 5pm002 — Clapperboard clap at frame 312
+
+Top of breath, all posed approx forward/performer
+-------------------------------------------------
+TUESDAY 3pm001 Dataset time 07:11.5
+TUESDAY 3pm005 Dataset time 04:30.4
+TUESDAY 5pm002 Dataset time 05:35.8
+
+Clapperboard Dataset Times
+------------------
+Performance 1 — 6:38.6
+Performance 2 — 4:12.1
+Performance 3 — 5:03.9
+
+SYNC TIMES
+----------
+TUESDAY 3pm001 Dataset time 08:04.9 is Mocap time 00:20.9 frame 1044 (Rise of Performer’s wrists as clapperboard in previous capture)
+TUESDAY 3pm005 Dataset time 04:12.1 is Mocap time 00:02.4 frame 122 (Clapperboard)
+TUESDAY 5pm002 Dataset time 05:03.9 is Mocap time 00:06.2 frame 312 (Clapperboard)
+
+
+OFFSET TIMES - All looking at performer
+---------------------------------------
+TUESDAY 3pm001 Dataset time 07:53
+TUESDAY 3pm005 Dataset time 04:30
+TUESDAY 5pm002 Dataset time 05:36
