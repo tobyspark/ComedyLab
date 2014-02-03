@@ -216,13 +216,18 @@ def parseFile(configuration):
                 if abs(currentShoreTime - time) < timeStepSearch: 
                     for field in shoreConfig['exportable']:
 
-                        columnHeader = subject + " " + field
-                        subjectIdx = shoreConfig['columns'].index(columnHeader)
-                        value = lineSplit[subjectIdx]
-                        
-                        # shore data is processed to have 'none' or -10 for missing person and -5 for missing value, we should ignore these
-                        if value not in ['None', '-10', '-5']:
-                            infoDict[field] = value
+                        try:
+                            columnHeader = subject + " " + field
+                            subjectIdx = shoreConfig['columns'].index(columnHeader)
+                            value = lineSplit[subjectIdx]
+                            
+                            # shore data is processed to have 'none' or -10 for missing person and -5 for missing value, we should ignore these
+                            if value not in ['None', '-10', '-5']:
+                                infoDict[field] = value
+                        except ValueError:
+                            # no value for this subject, do not make infoDict entry
+                            pass
+
 
             # seat measures --------------
 
