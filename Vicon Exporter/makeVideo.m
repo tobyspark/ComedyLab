@@ -1,6 +1,6 @@
-function checkimport(dofs, data, samplerate, stopAt, speedUp, offsets)
+function makeVideo(dofs, data, samplerate, stopAt, speedUp, offsets)
 
-% Produces video from data import
+% Produces video from data
 % created 30. 1. 2014
 % @author Chris Frauenberger
 %
@@ -32,7 +32,7 @@ if nargin < 4 || stopAt == -1
 end
 
 f=figure;
-mov = VideoWriter('ImportCheck.mp4','MPEG-4');
+mov = VideoWriter('Video.mp4','MPEG-4');
 mov.FrameRate = samplerate/speedUp;
 open(mov);
 for i=1:speedUp:stopAt

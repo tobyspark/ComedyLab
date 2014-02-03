@@ -13,11 +13,16 @@ function out = analyse(dofs, data, samplerate, stopAt, offsets)
 %
 % Output: csv file in the folllowing format
 %
-%       time x,y,z,x',y',z' ...
+%       time x,y,z,gx,gy,gz,np,npa,npx,npy,npz
 %
 %
-%       Note: time is dataset time (video not mocap)
-%             x',y',z' is a gaze vector from the location x,y,z
+%       Note: time is mocap time (not video)
+%             For each person in the scene:
+%             x,y,z   position of the person
+%             gx,gy,gz gaze vector at position (length  = 1)
+%             np   index of nearest person in line of gaze (min angle)
+%             npa  gaze angle to the nearest person 
+%             npx, npy, npy  distance to nearest person in each dimension
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -46,13 +51,19 @@ for i=1:stopAt
         rm = vrrotvec2mat(ax(:,j));
         vec = forward * rm * offsets{j};
         pos = draw_data(4:6,j)';
-        dist = [];
-%         for k = 1:length(ax)
-%             % careful - this is not considering points BEHIND the person
-%             dist = [dist, distancePointLine3d(draw_data(1:3,k),[pos vec])];            
-%         end
-        [mindist minindex] = min (dist);
-        outline = [outline  pos vec minindex mindist];
+        angle = [];
+        for k = 1:length(ax)
+            if j~=k && isinfront(draw_data(4:6,k)', pos, vec)
+                % only check people within view (180 deg sphere)
+                dist = distancePointLine3d(draw_data(4:6,k)',[pos vec]);      
+                angle = [angle, asin(dist/norm(draw_data(4:6,k)'-pos))];
+            else
+                angle = [angle, inf];
+            end            
+        end
+        [minangle minindex] = min (angle);        
+        outline = [outline pos vec minindex minangle draw_data(4:6,minindex)'-pos];
     end
     out = [out; outline];
 end
+writeCSVFile(dofs, out, 'Results.csv');
