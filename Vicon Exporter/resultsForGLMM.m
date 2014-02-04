@@ -56,7 +56,7 @@ rotatedMagMedian = max(mean(abs(rotatedMag)));
 % TASK: Produce dataset now we've pre-computed globals
 out = [];
 for i=1:frameCount
-    outLine = [i];
+    outLine = [analyseData(i,1)];
     
     for j = 1:subjectCount
         movement = translatedMag(i,j)/translatedMagMedian + rotatedMag(i,j)/rotatedMagMedian;
@@ -67,7 +67,7 @@ for i=1:frameCount
     out = [out; outLine];
 end
 
-headers = {'Time'}
+headers = {'Time'};
 for i=1:subjectCount
     name = strsplit(analyseHeaders{2+(i-1)*entriesPerSubject},'/');
     name = name{1};
