@@ -1,4 +1,4 @@
-function out = analyse(dofs, data, samplerate, stopAt, offsets)
+function [headers out] = analyse(dofs, data, samplerate, stopAt, offsets)
 
 % Calculates a csv file with analytic data
 % created 30. 1. 2014
@@ -36,6 +36,7 @@ if nargin < 4 || stopAt == -1
   stopAt = length(data);
 end
 
+% OUT: matrix [1 + entriesPerSubject*subjectCount; frames]
 out = [];
 for i=1:stopAt
     draw_data = reshape(data(i,:), 12, []);
@@ -66,4 +67,24 @@ for i=1:stopAt
     end
     out = [out; outline];
 end
-writeCSVFile(dofs, out, 'Results.csv');
+
+% HEADERS: cell array {1 + entriesPerSubject*subjectCount}
+headers = {'Time'};
+for i=1:12:length(dofs)
+    name = strsplit(dofs{i},':');
+    name = name{1};
+    
+    headers = [headers [name '/x']];
+    headers = [headers [name '/y']];
+    headers = [headers [name '/z']];
+    headers = [headers [name '/gx']];
+    headers = [headers [name '/gy']];
+    headers = [headers [name '/gz']];
+    headers = [headers [name '/np']];
+    headers = [headers [name '/npa']];
+    headers = [headers [name '/npx']];
+    headers = [headers [name '/npy']];
+    headers = [headers [name '/npz']];
+end
+
+writeCSVFile(headers, out, 'Results.csv');
