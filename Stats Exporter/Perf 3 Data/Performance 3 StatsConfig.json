@@ -19,6 +19,12 @@
 			"offset": 0,
 			"columns": ["TimeStamp", "Frame", "Audience 02 Happy", "Audience 02 Sad", "Audience 02 Surprised", "Audience 02 Angry", "Audience 02 MouthOpen", "Audience 03 Happy", "Audience 03 Sad", "Audience 03 Surprised", "Audience 03 Angry", "Audience 03 MouthOpen", "Audience 04 Happy", "Audience 04 Sad", "Audience 04 Surprised", "Audience 04 Angry", "Audience 04 MouthOpen", "Audience 05 Happy", "Audience 05 Sad", "Audience 05 Surprised", "Audience 05 Angry", "Audience 05 MouthOpen", "Audience 06 Happy", "Audience 06 Sad", "Audience 06 Surprised", "Audience 06 Angry", "Audience 06 MouthOpen", "Audience 07 Happy", "Audience 07 Sad", "Audience 07 Surprised", "Audience 07 Angry", "Audience 07 MouthOpen", "Audience 08 Happy", "Audience 08 Sad", "Audience 08 Surprised", "Audience 08 Angry", "Audience 08 MouthOpen", "Audience 09 Happy", "Audience 09 Sad", "Audience 09 Surprised", "Audience 09 Angry", "Audience 09 MouthOpen", "Audience 10 Happy", "Audience 10 Sad", "Audience 10 Surprised", "Audience 10 Angry", "Audience 10 MouthOpen", "Audience 11 Happy", "Audience 11 Sad", "Audience 11 Surprised", "Audience 11 Angry", "Audience 11 MouthOpen", "Audience 12 Happy", "Audience 12 Sad", "Audience 12 Surprised", "Audience 12 Angry", "Audience 12 MouthOpen", "Audience 13 Happy", "Audience 13 Sad", "Audience 13 Surprised", "Audience 13 Angry", "Audience 13 MouthOpen", "Audience 14 Happy", "Audience 14 Sad", "Audience 14 Surprised", "Audience 14 Angry", "Audience 14 MouthOpen", "Audience 15 Happy", "Audience 15 Sad", "Audience 15 Surprised", "Audience 15 Angry", "Audience 15 MouthOpen", "Audience 16 Happy", "Audience 16 Sad", "Audience 16 Surprised", "Audience 16 Angry", "Audience 16 MouthOpen", "Audience 18 Happy", "Audience 18 Sad", "Audience 18 Surprised", "Audience 18 Angry", "Audience 18 MouthOpen" ],
 			"exportable": ["Happy", "Sad", "Surprised", "Angry"]
+			},
+		"mocap": {
+			"filename": "Performance 3 Mocap.csv",
+			"offset": 297.7,
+			"columns": ["Time", "Audience 01/Movement", "Audience 01/Translation", "Audience 01/Rotation", "Audience 02/Movement", "Audience 02/Translation", "Audience 02/Rotation", "Audience 03/Movement", "Audience 03/Translation", "Audience 03/Rotation", "Audience 04/Movement", "Audience 04/Translation", "Audience 04/Rotation", "Audience 05/Movement", "Audience 05/Translation", "Audience 05/Rotation", "Audience 06/Movement", "Audience 06/Translation", "Audience 06/Rotation", "Audience 07/Movement", "Audience 07/Translation", "Audience 07/Rotation", "Audience 08/Movement", "Audience 08/Translation", "Audience 08/Rotation", "Audience 09/Movement", "Audience 09/Translation", "Audience 09/Rotation", "Audience 10/Movement", "Audience 10/Translation", "Audience 10/Rotation", "Audience 11/Movement", "Audience 11/Translation", "Audience 11/Rotation", "Audience 12/Movement", "Audience 12/Translation", "Audience 12/Rotation", "Performer/Movement", "Performer/Translation", "Performer/Rotation"],
+			"exportable": ["Movement", "Translation", "Rotation"]
 			}
 		},
 	"subjects": [
@@ -43,7 +49,7 @@
 	    "timeStart": 356,
 	    "timeEnd": 1305,
 	    "filename": "Comedy Lab 4Jun Performance 3 Data.txt",
-	    "fields": ["Light State While", "Laugh State", "Breathing Belt", "Happy", "Sad", "Surprised", "Angry", "MouthOpen", "Distance from Performer", "Angle from Performer", "Enclosed Measure NoBias", "Enclosed Measure PresenceBias", "Enclosed Measure ForwardBias", "Enclosed Measure LightStateBias", "Enclosed Measure LaughterBias"],
+	    "fields": ["Light State While", "Laugh State", "Breathing Belt", "Happy", "Sad", "Surprised", "Angry", "MouthOpen", "Distance from Performer", "Angle from Performer", "Movement", "Translation", "Rotation"],
 	    "missingValuePlaceholder": "n/a"
 	}
 }

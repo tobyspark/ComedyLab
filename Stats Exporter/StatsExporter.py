@@ -98,6 +98,7 @@ def parseFile(configuration):
     elanConfig = configuration['source']['elan']
     bbConfig = configuration['source']['bb']
     shoreConfig = configuration['source']['shore']
+    mocapConfig = configuration['source']['mocap']
 
     timeStepSearch = float(exportConfig['timeStep']) / 2
 
@@ -111,6 +112,8 @@ def parseFile(configuration):
         currentBBTime = exportConfig['timeStart'] - exportConfig['timeStep']
         shoreConfig['file'].seek(0)
         currentShoreTime = exportConfig['timeStart'] - exportConfig['timeStep']
+        mocapConfig['file'].seek(0)
+        currentMocapTime = exportConfig['timeStart'] - exportConfig['timeStep']
 
         # within each subject, parse for time
         for time in np.arange(exportConfig['timeStart'], exportConfig['timeEnd'], exportConfig['timeStep']):
@@ -200,7 +203,7 @@ def parseFile(configuration):
 
                 line = shoreConfig['file'].readline()
 
-                # get data from line by stripping new line character from end and then splitting by comma
+                # get data from line by stripping new line character from end and then splitting by comma-space
                 lineSplit = line.rstrip().split(', ')
 
                 # get time from line data
@@ -224,6 +227,40 @@ def parseFile(configuration):
                             # shore data is processed to have 'none' or -10 for missing person and -5 for missing value, we should ignore these
                             if value not in ['None', '-10', '-5']:
                                 infoDict[field] = value
+                        except ValueError:
+                            # no value for this subject, do not make infoDict entry
+                            pass
+
+
+            # mocap
+
+            while currentMocapTime < time - timeStepSearch:
+
+                line = mocapConfig['file'].readline()
+
+                # get data from line by stripping new line character from end and then splitting by comma
+                lineSplit = line.rstrip().split(',')
+
+                # get time from line data
+                try:
+                    currentMocapTime = float(lineSplit[0])
+                    currentMocapTime += float(mocapConfig['offset'])
+                except ValueError:
+                    # value wasn't a number, ie heading text
+                    print "Skipping line: " + line
+                    continue
+
+                # extract field if correct time and add to infodict
+                if abs(currentMocapTime - time) < timeStepSearch:
+
+                    for field in mocapConfig['exportable']:
+
+                        try:
+                            columnHeader = subject + "/" + field
+                            subjectIdx = mocapConfig['columns'].index(columnHeader)
+                            value = lineSplit[subjectIdx]
+                            
+                            infoDict[field] = value
                         except ValueError:
                             # no value for this subject, do not make infoDict entry
                             pass
