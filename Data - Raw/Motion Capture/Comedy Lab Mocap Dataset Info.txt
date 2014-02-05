@@ -22,7 +22,7 @@ Performance 3 — 5:03.9
 
 SYNC TIMES
 ----------
-TUESDAY 3pm001 Dataset time 08:04.9 is Mocap time 00:20.9 frame 1044 (Rise of Performer’s wrists as clapperboard in previous capture)
+TUESDAY 3pm001 Dataset time 484.9s 08:04.9 is Mocap time 00:20.9 frame 1044 (Rise of Performer’s wrists as clapperboard in previous capture)
 -> Offset is 464.0
 
 TUESDAY 3pm002 Dataset frame 19771 time 790.84s is Mocap frame 84 time 00:01.7
@@ -40,12 +40,12 @@ TUESDAY 3pm006 Dataset frame 17381 time 695.24 is Mocap frame 412 time 8.24
 TUESDAY 3pm007 Dataset frame 25257 time 1010.28 is Mocap frame 527 time 10.54
 -> Offset is 999.7
 
-TUESDAY 5pm002 Dataset time 05:03.9 is Mocap time 00:06.2 frame 312 (Clapperboard)
+TUESDAY 5pm002 Dataset time 303.9s 05:03.9 is Mocap time 00:06.2 frame 312 (Clapperboard)
 -> Offset is 297.7s
 
 
 OFFSET TIMES - All looking at performer
 ---------------------------------------
-TUESDAY 3pm001 Dataset time 07:53
-TUESDAY 3pm005 Dataset time 04:30
-TUESDAY 5pm002 Dataset time 05:36
+TUESDAY 3pm001 Dataset time 473s 07:53
+TUESDAY 3pm005 Dataset time 270s 04:30
+TUESDAY 5pm002 Dataset time 336s 05:36

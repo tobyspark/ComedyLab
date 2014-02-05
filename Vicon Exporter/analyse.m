@@ -1,4 +1,4 @@
-function [headers out] = analyse(dofs, data, samplerate, stopAt, offsets)
+function [headers out] = analyse(dofs, data, samplerate, stopAt, timeOffset, offsets)
 
 % Calculates a csv file with analytic data
 % created 30. 1. 2014
@@ -8,6 +8,7 @@ function [headers out] = analyse(dofs, data, samplerate, stopAt, offsets)
 % Input: dofs   list of labels available in data
 %        data   data (num frames x dofs)
 %        samplerate of the data
+%        timeOffset time in secs of first frame
 %        offsets offset rotation matrices
 %        stopAt frame number (not plot the whole thing)
 %
@@ -42,7 +43,7 @@ for i=1:stopAt
     draw_data = reshape(data(i,:), 12, []);
     ax = draw_data(1:3,:);
     ax = [ax; sqrt(sum(ax'.^2,2))'];
-    outline = [i/samplerate];
+    outline = [timeOffset+((i-1)/samplerate)];
     for j = 1:length(ax)
         if isempty(strfind(dofs{j*12}, 'Performer'))
             forward = [-1 0 0]; % Audience

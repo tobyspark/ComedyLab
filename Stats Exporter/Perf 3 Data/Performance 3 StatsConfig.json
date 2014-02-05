@@ -22,7 +22,7 @@
 			},
 		"mocap": {
 			"filename": "Performance 3 Mocap.csv",
-			"offset": 297.7,
+			"offset": 0,
 			"columns": ["Time", "Audience 01/Movement", "Audience 01/Translation", "Audience 01/Rotation", "Audience 02/Movement", "Audience 02/Translation", "Audience 02/Rotation", "Audience 03/Movement", "Audience 03/Translation", "Audience 03/Rotation", "Audience 04/Movement", "Audience 04/Translation", "Audience 04/Rotation", "Audience 05/Movement", "Audience 05/Translation", "Audience 05/Rotation", "Audience 06/Movement", "Audience 06/Translation", "Audience 06/Rotation", "Audience 07/Movement", "Audience 07/Translation", "Audience 07/Rotation", "Audience 08/Movement", "Audience 08/Translation", "Audience 08/Rotation", "Audience 09/Movement", "Audience 09/Translation", "Audience 09/Rotation", "Audience 10/Movement", "Audience 10/Translation", "Audience 10/Rotation", "Audience 11/Movement", "Audience 11/Translation", "Audience 11/Rotation", "Audience 12/Movement", "Audience 12/Translation", "Audience 12/Rotation", "Performer/Movement", "Performer/Translation", "Performer/Rotation"],
 			"exportable": ["Movement", "Translation", "Rotation"]
 			}

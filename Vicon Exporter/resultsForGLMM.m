@@ -24,8 +24,8 @@ function out = resultsForGLMM(analyseHeaders, analyseData)
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-subjectCount = 13;
 entriesPerSubject = 11;
+subjectCount = (length(analyseHeaders)-1)/entriesPerSubject;
 frameCount = size(analyseData,1);
 
 % TASK: Find representative extents for translated and rotated amounts
