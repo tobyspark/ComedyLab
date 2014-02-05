@@ -11,7 +11,7 @@
 			},
 		"bb": {
 			"filename": "Performance 3 BreathingBelts.txt", 
-			"offset": 15.5,
+			"offset": -15.2,
 			"columns": ["time", "Audience 01", "Audience 02", "Audience 03", "Audience 04", "Audience 05", "Audience 06", "Audience 07", "Audience 08", "Audience 09", "Audience 10", "Audience 11", "Audience 12", "Audience 13", "Audience 14", "Audience 15", "Audience 16"]  
 			},
 		"shore": {
