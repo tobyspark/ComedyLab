@@ -1,51 +1,68 @@
-function  offsets = calcOffset(dofs, data, sr, offsettime, dsync, msync, straight)
+function  offsets = calcOffset(performerTime, audienceTime, aligned, dofs, data, dataStartTime, dataSampleRate)
 
 % calculates the rotation offsets for all participants 
 % created 31.1.2014
 % @author Chris Frauenberger
+% @author Toby Harris
 %
-%
-% Input: dofs labels for data
+% Input: performerTime time at which performer looks forward
+%        audienceTime time at which all audience members look forward
+%        aligned if 'Performer', audience are taken as looking at performer
+%        dofs labels for data
 %        data the data set
-%        sr samplerate of the dataset
-%        offsettime the time at which all participants in the audience look
-%        at the performer (dataset time)
-%        dsync sync time in the dataset (seconds)
-%        msync corresponding mocap sync time (seconds)
+%        dataStartTime seconds
+%        dataSampleRate Hertz
 %
 % Output: rotation matrices for each person in the audience (dofs/12 -1)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-[mtime, mframe] = dataToMocapTime(offsettime, dsync, msync, sr);
+dataEndTime = dataStartTime + (length(data)*dataSampleRate);
+assert(dataStartTime < audienceTime < dataEndTime, 'Audience time outside of data');
+assert(dataStartTime < performerTime < dataEndTime, 'Performer time outside of data');
 
-if nargin < 7
-    % find performer xyz index
-    pindex = 0;
-    for i=1:12:length(dofs)
-        if ~isempty(strfind(dofs{i}, 'Performer'))
-            pindex = i;
-        end
+audienceFrame = timeToFrame(audienceTime, dataStartTime, dataSampleRate);
+performerFrame = timeToFrame(performerTime, dataStartTime, dataSampleRate);
+
+alignForward = true;
+
+% Do we have a performer, and if so what is the start index in the data
+pIndex = -1;
+for i=1:12:length(dofs)
+    if ~isempty(strfind(dofs{i}, 'Performer'))
+        pIndex = i;
     end
-    ppos = data(mframe, (pindex+3):(pindex+5));
-    straight = 0;
+end
+
+% Are we aligning straight forward, 
+% or is the audience aligned to the performer
+if strcmpi(aligned,'performer') && pIndex ~= -1
+    alignForward = false;
+    pPos = data(audienceframe, (pIndex+3):(pIndex+5));
 end
 
 offsets = cell(length(dofs)/12);
 for i=1:12:length(dofs)
+    % If audience
     if ~isempty(strfind(dofs{i}, 'Audience'))
-        apos = data(mframe, (i+3):(i+5));
-        axrot = data(mframe, i:(i+2));
+        apos = data(audienceFrame, (i+3):(i+5));
+        axrot = data(audienceFrame, i:(i+2));
         axrot = [axrot, sqrt(sum(axrot.^2,2))'];
         amrot = vrrotvec2mat(axrot);
-        if straight == 0
-            dirvec = [1 0 0] * amrot;
-            offrot = vrrotvec2mat(vrrotvec(ppos - apos,dirvec));
-            offsets{ceil(i/12)} = offrot;
-        else
+        if alignForward
             offsets{ceil(i/12)} = amrot';
+        else
+            dirvec = [1 0 0] * amrot;
+            offrot = vrrotvec2mat(vrrotvec(pPos - apos,dirvec));
+            offsets{ceil(i/12)} = offrot;
         end
-    else % Performer
-        offsets{ceil(i/12)} = eye(3);
+    % If performer    
+    elseif i == pIndex
+        pxrot = data(performerFrame, i:(i+2));
+        pxrot = [pxrot, sqrt(sum(pxrot.^2,2))'];
+        pmrot = vrrotvec2mat(pxrot);
+        offsets{ceil(i/12)} = pmrot';
+    else
+        error('Found non-performer or audience entry in dataset');
     end
 end
 

@@ -4,21 +4,20 @@ Vicon Exporter
 MATLAB via Chris Frauenberger wizardry
 
 TODO:
-Performer Offset
 lookedAt function
 
 
 Performance 1 Incantation
 -------------------------
 [dfr, dofs, data] = readV('/Users/Shared/ComedyLab/Data - Raw/Motion Capture/TUESDAY 3pm001 mk3.V', 10);
-offsets = calcOffset(dofs, data, 10, 473, 484.9, 20.9, 'straight');
-[headers out] = analyse(dofs, data, 10, 3220, 464, offsets);
+offsets = calcOffset(496.5, 473, 'straight', dofs, data, 464, 10);
+[headers out] = analyse(dofs, data, 464, 10, -1, offsets);
 
 [dfr, dofs, data] = readV('/Users/Shared/ComedyLab/Data - Raw/Motion Capture/TUESDAY 3pm002 mk5.V', 10);
-[headers2 out2] = analyse(dofs, data, 10, 3193, 789.2, offsets);
+[headers2 out2] = analyse(dofs, data, 789.2, 10, -1, offsets);
 
 [dfr, dofs, data] = readV('/Users/Shared/ComedyLab/Data - Raw/Motion Capture/TUESDAY 3pm003 mk1.V', 10);
-[headers3 out3] = analyse(dofs, data, 10, 3042, 1109.6, offsets);
+[headers3 out3] = analyse(dofs, data, 1109.6, 10, -1, offsets);
 
 perf1 = [out; out2; out3];
 writeCSVFile(headers, perf1, 'TUESDAY 3pm 123.csv');
@@ -29,27 +28,28 @@ Performance 2 Incantation
 -------------------------
 
 [dfr, dofs, data] = readV('/Users/Shared/ComedyLab/Data - Raw/Motion Capture/TUESDAY 3pm005 mk1.V', 10);
-offsets = calcOffset(dofs, data, 10, 270, 252.1, 2.4, 'straight');
-[headers out] = analyse(dofs, data, 10, 4359, 249.7, offsets);
+dofs(:,1:12) = []; % delete clapperboard subject
+data(:,1:12) = [];
+offsets = calcOffset(0, 270, 'straight', dofs, data, 249.7, 10);
+[headers out] = analyse(dofs, data, 249.7, 10, -1, offsets);
 
 [dfr, dofs, data] = readV('/Users/Shared/ComedyLab/Data - Raw/Motion Capture/TUESDAY 3pm006 mk1.V', 10);
-[headers2 out2] = analyse(dofs, data, 10, 3107, 687, offsets);
+[headers2 out2] = analyse(dofs, data, 687, 10, -1, offsets);
 
 [dfr, dofs, data] = readV('/Users/Shared/ComedyLab/Data - Raw/Motion Capture/TUESDAY 3pm007 mk1.V', 10);
-[headers3 out3] = analyse(dofs, data, 10, 3000, 999.7, offsets);
-
-headers(:,2:12) = []; % delete clapperboard subject
-out(:,2:12) = [];
+[headers3 out3] = analyse(dofs, data, 999.7, 10, 3000, offsets);
 
 perf2 = [out; out2; out3];
 writeCSVFile(headers, perf2, 'TUESDAY 3pm 567.csv');
 
-
+resultsForGLMM(headers, perf2);
 
 Performance 3 Incantation
 -------------------------
 
 [dfr, dofs, data] = readV('/Users/Shared/ComedyLab/Data - Raw/Motion Capture/TUESDAY 5pm002 mk5.V', 10);
-offsets = calcOffset(dofs, data, 10, 336, 303.9, 6.2, 'straight');
-[headers out] = analyse(dofs, data, 10, 10588, 297.7, offsets);
-resultsForGLMM(headers, out);
+offsets = calcOffset(380.9, 336, 'straight', dofs, data, 297.7, 10);
+[headers perf3] = analyse(dofs, data, 297.7, 10, -1, offsets);
+writeCSVFile(headers, perf3, 'TUESDAY 5pm 002.csv');
+
+resultsForGLMM(headers, perf3);

@@ -4,15 +4,21 @@ Capture File Notes
 ------------------
 TUESDAY 3pm — Compere. Ignoring.
 TUESDAY 3pm004 — Compere. Ignoring.
-TUESDAY 3pm005 — Clapperboard clap at frame 122
+TUESDAY 3pm005 — Clapperboard clap at frame 122.
 TUESDAY 5pm001 — Compere. Ignoring.
-TUESDAY 5pm002 — Clapperboard clap at frame 312
+TUESDAY 5pm002 — Clapperboard clap at frame 312.
 
-Top of breath, all posed approx forward/performer
--------------------------------------------------
+Top of breath, all posed approx forward
+---------------------------------------
 TUESDAY 3pm001 Dataset time 07:11.5
 TUESDAY 3pm005 Dataset time 04:30.4
 TUESDAY 5pm002 Dataset time 05:35.8
+
+Performer posed forward
+-----------------------
+Performance 1 - 496.5s  08:16.5
+Performance 2 - n/a
+Performance 3 - 380.9s  06:20.92
 
 Clapperboard Dataset Times
 ------------------
