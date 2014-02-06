@@ -40,7 +40,7 @@ end
 entriesPerSubject = 12;
 subjectCount = length(dofs)/entriesPerSubject;
 
-% OUT: matrix [1 + entriesPerSubject*subjectCount; frames]
+% OUT: matrix [1 + outEntriesPerSubject*subjectCount; frames]
 out = [];
 for frame=1:stopAt
     outline = [frameToTime(frame, dataStartTime, dataSampleRate)];
@@ -70,9 +70,9 @@ for frame=1:stopAt
     out = [out; outline];
 end
 
-% HEADERS: cell array {1 + entriesPerSubject*subjectCount}
+% HEADERS: cell array {1 + outEntriesPerSubject*subjectCount}
 headers = {'Time'};
-for i=1:12:length(dofs)
+for i=1:entriesPerSubject:length(dofs)
     name = strsplit(dofs{i},':');
     name = name{1};
     

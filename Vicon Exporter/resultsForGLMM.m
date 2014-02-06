@@ -37,8 +37,8 @@ rotateMag = zeros(frameCount,subjectCount);
 for i = 2:frameCount
     for j = 1:subjectCount
         xIdx = 1 + (j-1)*entriesPerSubject + 2;
-        yIdx = 1 + (j-1)*entriesPerSubject + 4;
-        translated = analyseData(i, xIdx:yIdx) - analyseData(i-1, xIdx:yIdx);
+        zIdx = 1 + (j-1)*entriesPerSubject + 4;
+        translated = analyseData(i, xIdx:yIdx) - analyseData(i-1, xIdx:zIdx);
         translatedMag(i,j) = sum(translated);
     
         gxIdx = 1 + (j-1)*entriesPerSubject + 5;
@@ -50,8 +50,8 @@ end
 
 % Average the absolute values for each subject, 
 %   then take the max of all subjects
-translatedMagMedian = max(mean(abs(translatedMag)));
-rotatedMagMedian = max(mean(abs(rotatedMag)));
+translatedMagAv = max(mean(abs(translatedMag)));
+rotatedMagAv = max(mean(abs(rotatedMag)));
 
 % TASK: Produce dataset now we've pre-computed globals
 out = [];
@@ -59,7 +59,7 @@ for i=1:frameCount
     outLine = [analyseData(i,1)];
     
     for j = 1:subjectCount
-        movement = translatedMag(i,j)/translatedMagMedian + rotatedMag(i,j)/rotatedMagMedian;
+        movement = translatedMag(i,j)/translatedMagAv + rotatedMag(i,j)/rotatedMagAv;
         
         outLine = [outLine movement translatedMag(i,j) rotatedMag(i,j)];
     end
