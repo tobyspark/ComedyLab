@@ -1,4 +1,4 @@
-function [headers out] = analyse(dofs, data, dataStartTime, dataSampleRate, stopAt, offsets)
+function [poseHeaders poseData gazeHeaders gazeData] = analyse(dofs, data, dataStartTime, dataSampleRate, stopAt, offsets)
 
 % Calculates a csv file with analytic data
 % created 30. 1. 2014
@@ -13,9 +13,10 @@ function [headers out] = analyse(dofs, data, dataStartTime, dataSampleRate, stop
 %        offsets offset rotation matrices
 %        stopAt frame number (not plot the whole thing)
 %
-% Output: csv file in the folllowing format
+% Output: csv file with pose data, ie. plain text export of mocap data
+%         in the folllowing format: time,x,y,z,gx,gy,gz
 %
-%       time x,y,z,gx,gy,gz,np,npa,npx,npy,npz
+%         also calculated is gaze information
 %
 %
 %       Note: For each person in the scene:
@@ -40,53 +41,61 @@ end
 entriesPerSubject = 12;
 subjectCount = length(dofs)/entriesPerSubject;
 
-% OUT: matrix [1 + outEntriesPerSubject*subjectCount; frames]
-out = [];
-for frame=1:stopAt
-    outline = [frameToTime(frame, dataStartTime, dataSampleRate)];
-    
-    frameData = reshape(data(frame,:), entriesPerSubject, []);
-    
-    subjectForwards = {};
-    for subjectIndex = 1:subjectCount
-        if isempty(strfind(dofs{subjectIndex*entriesPerSubject}, 'Performer'))
-            forward = [-1 0 0]; % Audience
-        else
-            forward = [1 0 0]; % Performer
-        end
-        subjectForwards = [subjectForwards forward];
-    end
-    
-    for subjectIndex = 1:subjectCount
-        [pos vec vecToOthers angleToOthers] = geometryForSubjectAtFrame(subjectIndex, frameData, subjectForwards, offsets);
-        
-        [minangle minindex] = min (angleToOthers);
-        if minangle == inf
-            outline = [outline pos vec -1 minangle vecToOthers{minindex}];
-        else
-            outline = [outline pos vec minindex minangle vecToOthers{minindex}];
-        end
-    end
-    out = [out; outline];
-end
-
 % HEADERS: cell array {1 + outEntriesPerSubject*subjectCount}
-headers = {'Time'};
+poseHeaders = {'Time'};
 for i=1:entriesPerSubject:length(dofs)
     name = strsplit(dofs{i},':');
     name = name{1};
     
-    headers = [headers [name '/x']];
-    headers = [headers [name '/y']];
-    headers = [headers [name '/z']];
-    headers = [headers [name '/gx']];
-    headers = [headers [name '/gy']];
-    headers = [headers [name '/gz']];
-    headers = [headers [name '/np']];
-    headers = [headers [name '/npa']];
-    headers = [headers [name '/npx']];
-    headers = [headers [name '/npy']];
-    headers = [headers [name '/npz']];
+    poseHeaders = [poseHeaders [name '/x']];
+    poseHeaders = [poseHeaders [name '/y']];
+    poseHeaders = [poseHeaders [name '/z']];
+    poseHeaders = [poseHeaders [name '/gx']];
+    poseHeaders = [poseHeaders [name '/gy']];
+    poseHeaders = [poseHeaders [name '/gz']];
 end
 
-writeCSVFile(headers, out, 'Results.csv');
+% HEADERS: cell array {outEntriesPerSubject*subjectCount}
+gazeHeaders = {};
+for i=1:entriesPerSubject:length(dofs)
+    name = strsplit(dofs{i},':');
+    name = name{1};
+    
+    for j = 1:subjectCount
+        gazeHeaders = [gazeHeaders [name '/d' int2str(j)]];
+    end
+    for j = 1:subjectCount
+        gazeHeaders = [gazeHeaders [name '/gd' int2str(j)]];
+    end
+end
+
+% OUT: matrix [1 + outEntriesPerSubject*subjectCount; frames]
+subjectForwards = {};
+for subjectIndex = 1:subjectCount
+    if isempty(strfind(dofs{subjectIndex*entriesPerSubject}, 'Performer'))
+        forward = [-1 0 0]; % Audience
+    else
+        forward = [1 0 0]; % Performer
+    end
+    subjectForwards = [subjectForwards forward];
+end
+
+poseData = [];
+gazeData = [];
+for frame=1:stopAt
+    poseline = [frameToTime(frame, dataStartTime, dataSampleRate)];
+    gazeline = [];
+    frameData = reshape(data(frame,:), entriesPerSubject, []);
+    for subjectIndex = 1:subjectCount
+        [position orientation distanceToOthers distFromGazeAxisToOthers] = geometryForSubjectAtFrame(subjectIndex, frameData, subjectForwards, offsets);
+        
+        poseline = [poseline position orientation];
+        gazeline = [gazeline distanceToOthers distFromGazeAxisToOthers];
+    end
+    poseData = [poseData; poseline];
+    gazeData = [gazeData; gazeline];
+end
+
+
+
+writeCSVFile(poseHeaders, poseData, 'Results-Pose.csv');

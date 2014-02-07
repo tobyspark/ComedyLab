@@ -68,15 +68,17 @@ for i=1:frameCount
         % 3. if not, see whether gaze is downwards.
         % 4. if not, it's other
         
-        maxGazeAngle = pi/6; % an arbitrary 30deg for now.
+        maxGazeAngle = pi/
         
         angleToOthers = asin(distFromGazeAxisToOthers ./ distanceToOthers);
  
         [minangle minindex] = min (angleToOthers);
-        if minangle < maxGazeAngle
-            %...........
-        end
-        %...........
+        if minangle < 
+% if minangle == NaN
+%     outline = [outline pos vec -1 minangle vecToOthers{minindex}];
+% else
+%     outline = [outline pos vec minindex minangle vecToOthers{minindex}];
+% end
         
         % \item[Is being looked at by performer] A state of ?Reciprocating performer gaze?, ?In performer gaze?, ?Not in performer gaze?, computed from the head pose data as above. 
         % Technique:
