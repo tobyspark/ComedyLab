@@ -9,47 +9,56 @@ lookedAt function
 
 Performance 1 Incantation
 -------------------------
+
+clear all
+
 [dfr, dofs, data] = readV('/Users/Shared/ComedyLab/Data - Raw/Motion Capture/TUESDAY 3pm001 mk3.V', 10);
 offsets = calcOffset(496.5, 473, 'straight', dofs, data, 464, 10);
-[headers out] = analyse(dofs, data, 464, 10, -1, offsets);
+[poseHeaders1 poseData1 gazeHeaders1 gazeData1] = analyse(dofs, data, 464, 10, -1, offsets);
 
 [dfr, dofs, data] = readV('/Users/Shared/ComedyLab/Data - Raw/Motion Capture/TUESDAY 3pm002 mk5.V', 10);
-[headers2 out2] = analyse(dofs, data, 789.2, 10, -1, offsets);
+[poseHeaders2 poseData2 gazeHeaders2 gazeData2] = analyse(dofs, data, 789.2, 10, -1, offsets);
 
 [dfr, dofs, data] = readV('/Users/Shared/ComedyLab/Data - Raw/Motion Capture/TUESDAY 3pm003 mk1.V', 10);
-[headers3 out3] = analyse(dofs, data, 1109.6, 10, -1, offsets);
+[poseHeaders3 poseData3 gazeHeaders3 gazeData3] = analyse(dofs, data, 1109.6, 10, -1, offsets);
 
-perf1 = [out; out2; out3];
-writeCSVFile(headers, perf1, 'TUESDAY 3pm 123.csv');
+poseData = [poseData1; poseData2; poseData3];
+gazeData = [gazeData1; gazeData2; gazeData3];
+writeCSVFile(poseHeaders, poseData, 'TUESDAY 3pm 123.csv');
 
-resultsForGLMM(headers, perf1);
+resultsForGLMM(poseHeaders, poseData, gazeData);
 
 Performance 2 Incantation
 -------------------------
+
+clear all
 
 [dfr, dofs, data] = readV('/Users/Shared/ComedyLab/Data - Raw/Motion Capture/TUESDAY 3pm005 mk1.V', 10);
 dofs(:,1:12) = []; % delete clapperboard subject
 data(:,1:12) = [];
 offsets = calcOffset(0, 270, 'straight', dofs, data, 249.7, 10);
-[headers out] = analyse(dofs, data, 249.7, 10, -1, offsets);
+[poseHeaders5 poseData5 gazeHeaders5 gazeData5] = analyse(dofs, data, 249.7, 10, -1, offsets);
 
 [dfr, dofs, data] = readV('/Users/Shared/ComedyLab/Data - Raw/Motion Capture/TUESDAY 3pm006 mk1.V', 10);
-[headers2 out2] = analyse(dofs, data, 687, 10, -1, offsets);
+[poseHeaders6 poseData6 gazeHeaders6 gazeData6] = analyse(dofs, data, 687, 10, -1, offsets);
 
 [dfr, dofs, data] = readV('/Users/Shared/ComedyLab/Data - Raw/Motion Capture/TUESDAY 3pm007 mk1.V', 10);
-[headers3 out3] = analyse(dofs, data, 999.7, 10, 3000, offsets);
+[poseHeaders7 poseData7 gazeHeaders7 gazeData7] = analyse(dofs, data, 999.7, 10, 3000, offsets);
 
-perf2 = [out; out2; out3];
-writeCSVFile(headers, perf2, 'TUESDAY 3pm 567.csv');
+poseData = [poseData5; poseData6; poseData7];
+gazeData = [gazeData5; gazeData6; gazeData7];
+writeCSVFile(poseHeaders, poseData, 'TUESDAY 3pm 567.csv');
 
-resultsForGLMM(headers, perf2);
+resultsForGLMM(poseHeaders, poseData, gazeData);
 
 Performance 3 Incantation
 -------------------------
 
+clear all
+
 [dfr, dofs, data] = readV('/Users/Shared/ComedyLab/Data - Raw/Motion Capture/TUESDAY 5pm002 mk5.V', 10);
 offsets = calcOffset(380.9, 336, 'straight', dofs, data, 297.7, 10);
-[headers perf3] = analyse(dofs, data, 297.7, 10, -1, offsets);
-writeCSVFile(headers, perf3, 'TUESDAY 5pm 002.csv');
+[poseHeaders poseData gazeHeaders gazeData] = analyse(dofs, data, 297.7, 10, -1, offsets);
+writeCSVFile(poseHeaders, poseData, 'TUESDAY 5pm 002.csv');
 
-resultsForGLMM(headers, perf3);
+resultsForGLMM(poseHeaders, poseData, gazeData);
