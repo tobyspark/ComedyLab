@@ -13,18 +13,17 @@ function [poseHeaders poseData gazeHeaders gazeData] = analyse(dofs, data, dataS
 %        offsets offset rotation matrices
 %        stopAt frame number (not plot the whole thing)
 %
-% Output: csv file with pose data, ie. plain text export of mocap data
-%         in the folllowing format: time,x,y,z,gx,gy,gz
+% Output: pose in the folllowing format: time,x,y,z,gx,gy,gz
+%         gaze distance,distFromGazeAxis
 %
-%         also calculated is gaze information
-%
+%        pose is the export of the .V data
+%        gaze are calculations upon the pose data
 %
 %       Note: For each person in the scene:
 %             x,y,z   position of the person
 %             gx,gy,gz gaze vector at position (length  = 1)
-%             np   index of nearest person in line of gaze (min angle)
-%             npa  gaze angle to the nearest person 
-%             npx, npy, npy  distance to nearest person in each dimension
+%             distance from subject to other subjects
+%             distFromGazeAxis distance to other subjects extended from gaze axis, ie. distance 'off-gaze'
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -95,7 +94,3 @@ for frame=1:stopAt
     poseData = [poseData; poseline];
     gazeData = [gazeData; gazeline];
 end
-
-
-
-writeCSVFile(poseHeaders, poseData, 'Results-Pose.csv');

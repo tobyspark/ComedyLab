@@ -23,8 +23,8 @@
 		"mocap": {
 			"filename": "Performance 1 Mocap.csv",
 			"offset": 0,
-			"columns": ["Time", "Performer/Movement", "Performer/Translation", "Performer/Rotation", "Audience 01/Movement", "Audience 01/Translation", "Audience 01/Rotation", "Audience 02/Movement", "Audience 02/Translation", "Audience 02/Rotation", "Audience 03/Movement", "Audience 03/Translation", "Audience 03/Rotation", "Audience 06/Movement", "Audience 06/Translation", "Audience 06/Rotation", "Audience 07/Movement", "Audience 07/Translation", "Audience 07/Rotation", "Audience 08/Movement", "Audience 08/Translation", "Audience 08/Rotation", "Audience 09/Movement", "Audience 09/Translation", "Audience 09/Rotation", "Audience 10/Movement", "Audience 10/Translation", "Audience 10/Rotation", "Audience 11/Movement", "Audience 11/Translation", "Audience 11/Rotation"],
-			"exportable": ["Movement", "Translation", "Rotation"]
+			"columns": ["Time", "Performer/Movement", "Performer/isLookingAt", "Performer/isBeingLookedAtByPerformer", "Performer/isBeingLookedAtByAudienceMember", "Audience 01/Movement", "Audience 01/isLookingAt", "Audience 01/isBeingLookedAtByPerformer", "Audience 01/isBeingLookedAtByAudienceMember", "Audience 02/Movement", "Audience 02/isLookingAt", "Audience 02/isBeingLookedAtByPerformer", "Audience 02/isBeingLookedAtByAudienceMember", "Audience 03/Movement", "Audience 03/isLookingAt", "Audience 03/isBeingLookedAtByPerformer", "Audience 03/isBeingLookedAtByAudienceMember", "Audience 06/Movement", "Audience 06/isLookingAt", "Audience 06/isBeingLookedAtByPerformer", "Audience 06/isBeingLookedAtByAudienceMember", "Audience 07/Movement", "Audience 07/isLookingAt", "Audience 07/isBeingLookedAtByPerformer", "Audience 07/isBeingLookedAtByAudienceMember", "Audience 08/Movement", "Audience 08/isLookingAt", "Audience 08/isBeingLookedAtByPerformer", "Audience 08/isBeingLookedAtByAudienceMember", "Audience 09/Movement", "Audience 09/isLookingAt", "Audience 09/isBeingLookedAtByPerformer", "Audience 09/isBeingLookedAtByAudienceMember", "Audience 10/Movement", "Audience 10/isLookingAt", "Audience 10/isBeingLookedAtByPerformer", "Audience 10/isBeingLookedAtByAudienceMember", "Audience 11/Movement", "Audience 11/isLookingAt", "Audience 11/isBeingLookedAtByPerformer", "Audience 11/isBeingLookedAtByAudienceMember"],
+			"exportable": ["Movement", "isLookingAt", "isBeingLookedAtByPerformer", "isBeingLookedAtByAudienceMember"]
 			}
 		},
 	"subjects": [
@@ -46,7 +46,7 @@
 	    "timeStart": 472,
 	    "timeEnd": 1366,
 	    "filename": "Comedy Lab 4Jun Performance 1 Data.txt",
-	    "fields": ["Light State While", "Laugh State", "Breathing Belt", "Happy", "Sad", "Surprised", "Angry", "MouthOpen", "Distance from Performer", "Angle from Performer", "Movement", "Translation", "Rotation"],
+	    "fields": ["Light State While", "Laugh State", "Breathing Belt", "Happy", "Sad", "Surprised", "Angry", "MouthOpen", "Distance from Performer", "Angle from Performer", "Movement", "isLookingAt", "isBeingLookedAtByPerformer", "isBeingLookedAtByAudienceMember"],
 	    "missingValuePlaceholder": "n/a"
 	}
 }

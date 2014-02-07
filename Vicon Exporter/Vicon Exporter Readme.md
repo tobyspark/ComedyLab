@@ -3,10 +3,6 @@ Vicon Exporter
 
 MATLAB via Chris Frauenberger wizardry
 
-TODO:
-lookedAt function
-
-
 Performance 1 Incantation
 -------------------------
 
@@ -24,9 +20,10 @@ offsets = calcOffset(496.5, 473, 'straight', dofs, data, 464, 10);
 
 poseData = [poseData1; poseData2; poseData3];
 gazeData = [gazeData1; gazeData2; gazeData3];
-writeCSVFile(poseHeaders, poseData, 'TUESDAY 3pm 123.csv');
+writeCSVFile(poseHeaders1, poseData, 'TUESDAY 3pm 123.csv');
 
-resultsForGLMM(poseHeaders, poseData, gazeData);
+[glmmHeaders glmmData] = resultsForGLMM(poseHeaders1, poseData, gazeData);
+writeCSVFile(glmmHeaders, glmmData, 'Performance 1 Mocap.csv');
 
 Performance 2 Incantation
 -------------------------
@@ -47,9 +44,10 @@ offsets = calcOffset(0, 270, 'straight', dofs, data, 249.7, 10);
 
 poseData = [poseData5; poseData6; poseData7];
 gazeData = [gazeData5; gazeData6; gazeData7];
-writeCSVFile(poseHeaders, poseData, 'TUESDAY 3pm 567.csv');
+writeCSVFile(poseHeaders5, poseData, 'TUESDAY 3pm 567.csv');
 
-resultsForGLMM(poseHeaders, poseData, gazeData);
+[glmmHeaders glmmData] = resultsForGLMM(poseHeaders5, poseData, gazeData);
+writeCSVFile(glmmHeaders, glmmData, 'Performance 2 Mocap.csv');
 
 Performance 3 Incantation
 -------------------------
@@ -61,4 +59,5 @@ offsets = calcOffset(380.9, 336, 'straight', dofs, data, 297.7, 10);
 [poseHeaders poseData gazeHeaders gazeData] = analyse(dofs, data, 297.7, 10, -1, offsets);
 writeCSVFile(poseHeaders, poseData, 'TUESDAY 5pm 002.csv');
 
-resultsForGLMM(poseHeaders, poseData, gazeData);
+[glmmHeaders glmmData] = resultsForGLMM(poseHeaders, poseData, gazeData);
+writeCSVFile(glmmHeaders, glmmData, 'Performance 3 Mocap.csv');

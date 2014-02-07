@@ -1,26 +1,22 @@
-function out = resultsForGLMM(poseHeaders, poseData, gazeData)
+function [headers out] = resultsForGLMM(poseHeaders, poseData, gazeData)
 
 % Calculates a csv file for GLMM stats from analyse() results
 % created 03. 2. 2014
 % @author Toby Harris
 %
 %
-% Input: [time x y z gx gy gz np npa npx npy npz, frame]
+% Input: pose [time, persubject: [x y z gx gy gz]]
+%        gaze [persubject: [distTo 1..n],[distFromGazeAxis 1..n]
 %        ie. analyse()
 %
-% Output: csv file in the folllowing format
+% Output: Time Movement lookingAt pLookedAt aLookedAt
 %
-%       time m t r lookingAt pLookedAt aLookedAt
-%
-%
-%       Note: time is mocap time (not video)
+%       Note: time value is passed through, can be dataset or mocap time
 %             For each audience member:
-%             m - movement in time interval, a composite of t and r
-%             t - translation
-%             r - rotation
-%             lookingAt - ?Performer?, ?Audience?, ?Floor?, ?Other?
-%             pLookedAt - RPG ?Reciprocating performer gaze?, IPG ?In performer gaze?, NPG ?Not in performer gaze?
-%             aLookedAt - RAAG ?Reciprocating an audience member?s gaze?, IAAG ?In an audience member?s gaze?, NAAG ?Not in an audience member?s gaze?
+%             Movement - movement in time interval, a composite of translation and rotation
+%             lookingAt - 1 'Performer', 2 'Audience', 3 'Floor', 0 'Other'
+%             pLookedAt - 2 RPG 'Reciprocating performer gaze', 1 IPG 'In performer gaze', 0 NPG 'Not in performer gaze'
+%             aLookedAt - 2 RAAG 'Reciprocating an audience member's gaze', 1 IAAG'In an audience member?s gaze', 0 NAAG 'Not in an audience member's gaze'
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -173,5 +169,3 @@ for i=1:subjectCount
     headers = [headers [name '/isBeingLookedAtByPerformer']];
     headers = [headers [name '/isBeingLookedAtByAudienceMember']];
 end
-
-writeCSVFile(headers, out, 'Results-GLMM.csv');

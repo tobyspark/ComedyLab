@@ -259,7 +259,22 @@ def parseFile(configuration):
                             columnHeader = subject + "/" + field
                             subjectIdx = mocapConfig['columns'].index(columnHeader)
                             value = lineSplit[subjectIdx]
-                            
+
+                            # this should really be on the matlab side
+                            if field == 'isLookingAt': 
+                                if value == '0': value = 'Other'
+                                if value == '1': value = 'Performer'
+                                if value == '2': value = 'Audience'
+                                if value == '3': value = 'Floor'
+                            if field == 'isBeingLookedAtByPerformer':
+                                if value == '0': value = 'NPG'
+                                if value == '1': value = 'IPG'
+                                if value == '2': value = 'RPG'
+                            if field == 'isBeingLookedAtByAudienceMember':
+                                if value == '0': value = 'NAAG'
+                                if value == '1': value = 'IAAG'
+                                if value == '2': value = 'RAAG'
+
                             infoDict[field] = value
                         except ValueError:
                             # no value for this subject, do not make infoDict entry
