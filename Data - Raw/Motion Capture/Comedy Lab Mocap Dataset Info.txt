@@ -18,7 +18,14 @@ Performer posed forward
 -----------------------
 Performance 1 - 496.5s  08:16.5
 Performance 2 - n/a
+
 Performance 3 - 380.9s  06:20.92
+Oh no! Marker mount spins round at ~7m26 446s
+Performance 3 - 464.2s
+Oh no! Marker mount spins round at ~7m58 478s
+Performance 3 - 498.3s
+Oh no! Marker mount spins round at ~9m11 551s
+Performance 3 - 1070.8s
 
 Clapperboard Dataset Times
 ------------------
