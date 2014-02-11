@@ -43,11 +43,14 @@ for frame = 1:1+skipFrames:stopFrame
     poseFrame = reshape(poseFrame, entriesPerSubject, []);
     gazeFrame = reshape(gazeData(frame, :), 2*subjectCount, []);
     
+    title(['At time: ' num2str(time)]);
+    
     % only draws xyz ofthe root bone of participants
     quiver3(poseFrame(1,:), poseFrame(2,:), poseFrame(3,:), poseFrame(4,:), poseFrame(5,:), poseFrame(6,:)); hold on;
     scatter3(poseFrame(1,:), poseFrame(2,:), poseFrame(3,:)); hold off;
 %     view (0,90);
     set (gca, 'XLim', [0 5000], 'YLim', [-2500 2500], 'ZLim', [0 2500])
+    title(['Mocap frame: ' int2str(frame) ' Dataset time: ' num2str(time)]);
     drawnow
     writeVideo(mov, getframe(f));
 end
