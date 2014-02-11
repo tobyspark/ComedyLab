@@ -56,7 +56,25 @@ clear all
 
 [dfr, dofs, data] = readV('/Users/Shared/ComedyLab/Data - Raw/Motion Capture/TUESDAY 5pm002 mk5.V', 10);
 offsets = calcOffset(380.9, 336, 'straight', dofs, data, 297.7, 10);
-[poseHeaders poseData gazeHeaders gazeData] = analyse(dofs, data, 297.7, 10, -1, offsets);
+
+data1 = data(1:1483, :); 	% 297.7 - 445.9s
+data2 = data(1484:1803, :); 	% 446 - 477.9s
+data3 = data(1804:2533, :);	% 478 - 550.9s
+data4 = data(2534:10588, :);	% 551 - 1356.4s
+
+offsets1 = calcOffset(380.9, 336, 'straight', dofs, data, 297.7, 10);
+offsets2 = calcOffset(464.2, 336, 'straight', dofs, data, 297.7, 10);
+offsets3 = calcOffset(498.3, 336, 'straight', dofs, data, 297.7, 10);
+offsets4 = calcOffset(1070.8, 336, 'straight', dofs, data, 297.7, 10);
+
+[poseHeaders poseData1 gazeHeaders gazeData1] = analyse(dofs, data1, 297.7, 10, -1, offsets1);
+[poseHeaders poseData2 gazeHeaders gazeData2] = analyse(dofs, data2, 446, 10, -1, offsets2);
+[poseHeaders poseData3 gazeHeaders gazeData3] = analyse(dofs, data3, 478, 10, -1, offsets3);
+[poseHeaders poseData4 gazeHeaders gazeData4] = analyse(dofs, data4, 551, 10, -1, offsets4);
+
+poseData = [poseData1; poseData2; poseData3; poseData4];
+gazeData = [gazeData1; gazeData2; gazeData3; gazeData4];
+
 writeCSVFile(poseHeaders, poseData, 'TUESDAY 5pm 002.csv');
 
 [glmmHeaders glmmData] = resultsForGLMM(poseHeaders, poseData, gazeData);
