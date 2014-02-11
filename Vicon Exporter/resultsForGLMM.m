@@ -24,8 +24,14 @@ entriesPerSubject = 6;
 subjectCount = (length(poseHeaders)-1)/entriesPerSubject;
 frameCount = size(poseData,1);
 
-maxDistFromGazeAxis = 500; % an arbitrary 500mm for now, seats ~900mm apart
-maxGazeAngle = pi/6; % an arbitrary 30deg for now.
+% Currently using distance from gaze axis as test.
+% Test will create a cylinder of with test value as radius.
+% Seats are ~900mm apart, but a value >900 won't get both sides as
+% precondition of test is others are in front, ie. exactly 180deg.
+% With current innaccurate orientation offsets, a value of ~1500 is needed
+% to get RAAG values.
+maxDistFromGazeAxis = 1000; 
+% maxGazeAngle = pi/6; % an arbitrary 30deg for now.
         
 performerIndex = -1;
 for i = 1:subjectCount
@@ -93,12 +99,12 @@ for frame = 1:frameCount
         
         isLookingAt = 0; %'Other';
         
-        distanceToOthers = gazeFrame(distanceToOthersRange, subject);
         distFromGazeAxisToOthers = gazeFrame(distFromGazeAxisToOthersRange, subject);
-        angleToOthers = asin(distFromGazeAxisToOthers ./ distanceToOthers);
+        % distanceToOthers = gazeFrame(distanceToOthersRange, subject);
+        % angleToOthers = asin(distFromGazeAxisToOthers ./ distanceToOthers);
  
-        [minAngle minIndex] = min (angleToOthers);
-        if minAngle < maxGazeAngle
+        [minValue minIndex] = min (distFromGazeAxisToOthers);
+        if minValue < maxDistFromGazeAxis
             if minIndex == performerIndex
                 isLookingAt = 1; %'Performer';
             else
@@ -111,7 +117,7 @@ for frame = 1:frameCount
             testPoint(3) = 0; % set z to floor
             headPosition = poseFrame(1:3, subject);
             headOrientation = poseFrame(4:6, subject);
-            if isinfront(testPoint, headPosition, headOrientation)
+            if isinfront(testPoint', headPosition', headOrientation')
                 isLookingAt = 3; %'Floor';
             end
         end
@@ -125,9 +131,9 @@ for frame = 1:frameCount
         isBeingLookedAtByPerformer = 0; %'NPG'; % Not in Performer Gaze
         
         if performerIndex > 0
-            if lookingAtMatrix(subject, performerIndex)
+            if lookingAtMatrix(performerIndex, subject)
                 isBeingLookedAtByPerformer = 1; %'IPG'; % In Performer Gaze
-                if lookingAtMatrix(performerIndex, subject)
+                if lookingAtMatrix(subject, performerIndex)
                     isBeingLookedAtByPerformer = 2; %'RPG'; % Reciprocating Performer Gaze
                 end
             end
