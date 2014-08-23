@@ -40,6 +40,7 @@
 		"Audience 10",
 		"Audience 11",
 		"Audience 12",
+		"Audience 13",
 		"Audience 14",
 		"Audience 15",
 		"Audience 16"
@@ -48,7 +49,7 @@
 		"timeStep": 0.1,
 	    "timeStart": 356,
 	    "timeEnd": 1305,
-	    "filename": "Comedy Lab 4Jun Performance 3 Data.txt",
+	    "filename": "Comedy Lab 4Jun Performance 3 Data.csv",
 	    "fields": ["Light State While", "Laugh State", "Breathing Belt", "Happy", "Sad", "Surprised", "Angry", "MouthOpen", "Distance from Performer", "Angle from Performer", "Movement", "isLookingAt", "isBeingLookedAtByPerformer", "isBeingLookedAtByAudienceMember"],
 	    "missingValuePlaceholder": "n/a"
 	}
