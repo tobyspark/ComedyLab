@@ -20,7 +20,7 @@ function [headers out] = resultsForGLMM(poseHeaders, poseData, gazeData)
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-entriesPerSubject = 6;
+entriesPerSubject = 10;
 subjectCount = (length(poseHeaders)-1)/entriesPerSubject;
 frameCount = size(poseData,1);
 
@@ -52,8 +52,8 @@ for i = 2:frameCount
         translated = poseData(i, xIdx:zIdx) - poseData(i-1, xIdx:zIdx);
         translatedMag(i,j) = norm(translated);
     
-        gxIdx = 1 + (j-1)*entriesPerSubject + 4;
-        gzIdx = 1 + (j-1)*entriesPerSubject + 6;
+        gxIdx = 1 + (j-1)*entriesPerSubject + 8;
+        gzIdx = 1 + (j-1)*entriesPerSubject + 10;
         rotated = poseData(i, gxIdx:gzIdx) - poseData(i-1, gxIdx:gzIdx);
         rotatedMag(i,j) = norm(rotated);
     end
@@ -116,7 +116,7 @@ for frame = 1:frameCount
             testPoint = poseFrame(1:3, subject); % head position
             testPoint(3) = 0; % set z to floor
             headPosition = poseFrame(1:3, subject);
-            headOrientation = poseFrame(4:6, subject);
+            headOrientation = poseFrame(8:10, subject);
             if isinfront(testPoint', headPosition', headOrientation')
                 isLookingAt = 3; %'Floor';
             end

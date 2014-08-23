@@ -49,6 +49,10 @@ for i=1:entriesPerSubject:length(dofs)
     poseHeaders = [poseHeaders [name '/x']];
     poseHeaders = [poseHeaders [name '/y']];
     poseHeaders = [poseHeaders [name '/z']];
+    poseHeaders = [poseHeaders [name '/rx']];
+    poseHeaders = [poseHeaders [name '/ry']];
+    poseHeaders = [poseHeaders [name '/rz']];
+    poseHeaders = [poseHeaders [name '/ra']];    
     poseHeaders = [poseHeaders [name '/gx']];
     poseHeaders = [poseHeaders [name '/gy']];
     poseHeaders = [poseHeaders [name '/gz']];
@@ -86,9 +90,9 @@ for frame=1:stopAt
     gazeline = [];
     frameData = reshape(data(frame,:), entriesPerSubject, []);
     for subjectIndex = 1:subjectCount
-        [position orientation distanceToOthers distFromGazeAxisToOthers] = geometryForSubjectAtFrame(subjectIndex, frameData, subjectForwards, offsets);
+        [position rotation gazeDirection distanceToOthers distFromGazeAxisToOthers] = geometryForSubjectAtFrame(subjectIndex, frameData, subjectForwards, offsets);
         
-        poseline = [poseline position orientation];
+        poseline = [poseline position rotation gazeDirection];
         gazeline = [gazeline distanceToOthers distFromGazeAxisToOthers];
     end
     poseData = [poseData; poseline];
