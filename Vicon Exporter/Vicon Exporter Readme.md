@@ -58,11 +58,11 @@ offsets{10} = [0.941193, 0.336117, -0.034369; 0.336824, -0.925417, 0.173648; 0.0
 offsets{1} = [0.446270, -0.805092, -0.390731; 0.874620, 0.484810, 0.000000; 0.189430, -0.341741, 0.920505];
 [poseHeaders3 poseData3 gazeHeaders3 gazeData3] = analyse(dofs, data, 1109.6-0.2, 10, -1, offsets);
 
-poseData = [poseData1; poseData2; poseData3];
-gazeData = [gazeData1; gazeData2; gazeData3];
-writeCSVFile(poseHeaders1, poseData, 'TUESDAY 3pm 123.csv');
+poseDataP1 = [poseData1; poseData2; poseData3];
+gazeDataP1 = [gazeData1; gazeData2; gazeData3];
+writeCSVFile(poseHeaders1, poseDataP1, 'TUESDAY 3pm 123.csv');
 
-[glmmHeaders glmmData] = resultsForGLMM(poseHeaders1, poseData, gazeData);
+[glmmHeaders glmmData] = resultsForGLMM(poseHeaders1, poseDataP1, gazeDataP1);
 writeCSVFile(glmmHeaders, glmmData, 'Performance 1 Mocap.csv');
 
 % Performance 2 Incantation
@@ -111,12 +111,40 @@ offsets{9} = [0.143729, -0.746502, -0.649674; 0.987856, 0.069078, 0.139173; -0.0
 offsets{10} = [-0.938092, 0.342410, -0.052328; -0.341968, -0.939549, -0.017452; -0.055141, 0.001522, 0.998477];
 [poseHeaders7 poseData7 gazeHeaders7 gazeData7] = analyse(dofs, data, 999.7, 10, 3000, offsets);
 
-poseData = [poseData5; poseData6; poseData7];
-gazeData = [gazeData5; gazeData6; gazeData7];
-writeCSVFile(poseHeaders5, poseData, 'TUESDAY 3pm 567.csv');
+poseDataP2 = [poseData5; poseData6; poseData7];
+gazeDataP2 = [gazeData5; gazeData6; gazeData7];
+writeCSVFile(poseHeaders5, poseDataP2, 'TUESDAY 3pm 567.csv');
 
-[glmmHeaders glmmData] = resultsForGLMM(poseHeaders5, poseData, gazeData);
+[glmmHeaders glmmData] = resultsForGLMM(poseHeaders5, poseDataP2, gazeDataP2);
 writeCSVFile(glmmHeaders, glmmData, 'Performance 2 Mocap.csv');
+
+% Performance 2 Incantation w/ 'Virtual' Performance 1 Performer
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Run Performance 1 Incantation
+% Run Performance 2 Incantation
+
+% Retime P1 to P2
+
+for i = 1:length(poseDataP1)
+	if poseDataP1(i,1) < 467.1
+		poseDataP1(i,1) = 0;
+	elseif poseDataP1(i,1) < 940.9
+		poseDataP1(i,1) = poseDataP1(i,1) - 176;
+	elseif poseDataP1(i,1) < 1020.1
+		poseDataP1(i,1) = poseDataP1(i,1) - 172.9;
+	elseif poseDataP1(i,1) < 1105.6
+		poseDataP1(i,1) = poseDataP1(i,1) - 170.7;
+	elseif poseDataP1(i,1) < 1184.9
+		poseDataP1(i,1) = poseDataP1(i,1) - 168;
+	elseif poseDataP1(i,1) < 1285.4
+		poseDataP1(i,1) = poseDataP1(i,1) - 165.7 + 0.7;
+	else
+		poseDataP1(i,1) = poseDataP1(i,1) - 164 + 0.7;
+	end
+end
+
+writeCSVFile(poseHeaders1, poseDataP1, 'TUESDAY 3pm 123 Timed as per P2.csv');
 
 % Performance 3 Test Incantation for 15m00
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
