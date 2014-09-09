@@ -1,6 +1,6 @@
-function [poseHeaders poseData gazeHeaders gazeData] = analyse(dofs, data, dataStartTime, dataSampleRate, stopAt, offsets)
+function [poseHeaders poseData] = parseDofs(dofs, data, dataStartTime, dataSampleRate, stopAt, offsets)
 
-% Calculates a csv file with analytic data
+% Parses .V data imported via readV.m
 % created 30. 1. 2014
 % @author Chris Frauenberger
 % @author Toby Harris
@@ -14,16 +14,12 @@ function [poseHeaders poseData gazeHeaders gazeData] = analyse(dofs, data, dataS
 %        stopAt frame number (not plot the whole thing)
 %
 % Output: pose in the folllowing format: time,x,y,z,gx,gy,gz
-%         gaze distance,distFromGazeAxis
-%
 %        pose is the export of the .V data
-%        gaze are calculations upon the pose data
 %
 %       Note: For each person in the scene:
 %             x,y,z   position of the person
+%             rx, ry, rz, ra axis-angle orientation of the person
 %             gx,gy,gz gaze vector at position (length  = 1)
-%             distance from subject to other subjects
-%             distFromGazeAxis distance to other subjects extended from gaze axis, ie. distance 'off-gaze'
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -58,20 +54,6 @@ for i=1:entriesPerSubject:length(dofs)
     poseHeaders = [poseHeaders [name '/gz']];
 end
 
-% HEADERS: cell array {outEntriesPerSubject*subjectCount}
-gazeHeaders = {};
-for i=1:entriesPerSubject:length(dofs)
-    name = strsplit(dofs{i},':');
-    name = name{1};
-    
-    for j = 1:subjectCount
-        gazeHeaders = [gazeHeaders [name '/d' int2str(j)]];
-    end
-    for j = 1:subjectCount
-        gazeHeaders = [gazeHeaders [name '/gd' int2str(j)]];
-    end
-end
-
 % OUT: matrix [1 + outEntriesPerSubject*subjectCount; frames]
 subjectForwards = {};
 for subjectIndex = 1:subjectCount
@@ -84,17 +66,33 @@ for subjectIndex = 1:subjectCount
 end
 
 poseData = [];
-gazeData = [];
 for frame=1:stopAt
     poseline = [frameToTime(frame, dataStartTime, dataSampleRate)];
-    gazeline = [];
     frameData = reshape(data(frame,:), entriesPerSubject, []);
     for subjectIndex = 1:subjectCount
-        [position rotation gazeDirection distanceToOthers distFromGazeAxisToOthers] = geometryForSubjectAtFrame(subjectIndex, frameData, subjectForwards, offsets);
+        
+        %% POSITION
+        position = frameData(4:6,subjectIndex)';
+        
+        %% ORIENTATION
+        % Vicon V-File uses axis-angle represented in three datum, the axis is the xyz vector and the angle is the magnitude of the vector
+        % [x y z, |xyz| ]
+        ax = frameData(1:3,:);
+        ax = [ax; sqrt(sum(ax'.^2,2))'];
+        rotation = ax(:,subjectIndex)';
+        
+        %% ORIENTATION CORRECTED FOR OFF-AXIS ORIENTATION OF MARKER STRUCTURE
+        rm = vrrotvec2mat(rotation);
+        
+        %% if generating offsets via calcOffset then use this
+        % rotation = vrrotmat2vec(rm * offsets{subjectIndex});
+        % gazeDirection = subjectForwards{subjectIndex} * rm * offsets{subjectIndex};
+        
+        %% if generating offsets via Comedy Lab Dataset Viewer then use this
+        rotation = vrrotmat2vec(offsets{subjectIndex} * rm);
+        gazeDirection = [1 0 0] * offsets{subjectIndex} * rm;
         
         poseline = [poseline position rotation gazeDirection];
-        gazeline = [gazeline distanceToOthers distFromGazeAxisToOthers];
     end
     poseData = [poseData; poseline];
-    gazeData = [gazeData; gazeline];
 end

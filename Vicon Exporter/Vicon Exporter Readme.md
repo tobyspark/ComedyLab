@@ -30,7 +30,7 @@ offsets{8} = [0.958887, 0.225453, -0.172354; 0.206362, -0.970857, -0.121869; -0.
 offsets{9} = [-0.827584, 0.554543, 0.087103; 0.558852, 0.828533, 0.034899; -0.052814, 0.077560, -0.995588];
 offsets{10} = [-0.938930, 0.277582, 0.203368; -0.318454, -0.924857, -0.207912; 0.130374, -0.259978, 0.956773];
 offsets{1} = [-0.788800, 0.382419, 0.481196; 0.371814, 0.920273, -0.121869; -0.489437, 0.082785, -0.868100];
-[poseHeaders1 poseData1 gazeHeaders1 gazeData1] = analyse(dofs, data, 464-0.3, 10, -1, offsets);
+[poseHeaders1 poseData1] = parseDofs(dofs, data, 464-0.3, 10, -1, offsets);
 
 [dfr, dofs, data] = readV('/Users/Shared/ComedyLab/Data - Raw/Motion Capture/TUESDAY 3pm002 mk5.V', 10);
 offsets{2} = [0.057179, -0.899591, -0.432974; 0.978076, 0.137460, -0.156434; 0.200244, -0.414537, 0.887728];
@@ -43,7 +43,7 @@ offsets{8} = [0.933272, 0.232715, -0.273583; 0.206362, -0.970857, -0.121869; -0.
 offsets{9} = [-0.827584, 0.554543, 0.087103; 0.558852, 0.828533, 0.034899; -0.052814, 0.077560, -0.995588];
 offsets{10} = [0.939233, 0.332158, -0.086678; 0.340147, -0.934545, 0.104528; -0.046285, -0.127660, -0.990737];
 offsets{1} = [-0.894740, 0.411623, 0.173225; 0.405746, 0.911320, -0.069756; -0.186577, 0.007872, -0.982409];
-[poseHeaders2 poseData2 gazeHeaders2 gazeData2] = analyse(dofs, data, 789.2-0.5, 10, -1, offsets);
+[poseHeaders2 poseData2] = parseDofs(dofs, data, 789.2-0.5, 10, -1, offsets);
 
 [dfr, dofs, data] = readV('/Users/Shared/ComedyLab/Data - Raw/Motion Capture/TUESDAY 3pm003 mk1.V', 10);
 offsets{2} = [-0.735852, 0.610792, 0.292327; 0.642690, 0.765928, 0.017452; -0.213242, 0.200718, -0.956159];
@@ -56,13 +56,12 @@ offsets{8} = [0.944216, 0.240814, -0.224643; 0.258464, -0.964602, 0.052336; -0.2
 offsets{9} = [0.204092, -0.960176, -0.190809; 0.978148, 0.207912, 0.000000; 0.039671, -0.186639, 0.981627];
 offsets{10} = [0.941193, 0.336117, -0.034369; 0.336824, -0.925417, 0.173648; 0.026560, -0.175013, -0.984208];
 offsets{1} = [0.446270, -0.805092, -0.390731; 0.874620, 0.484810, 0.000000; 0.189430, -0.341741, 0.920505];
-[poseHeaders3 poseData3 gazeHeaders3 gazeData3] = analyse(dofs, data, 1109.6-0.2, 10, -1, offsets);
+[poseHeaders3 poseData3] = parseDofs(dofs, data, 1109.6-0.2, 10, -1, offsets);
 
 poseDataP1 = [poseData1; poseData2; poseData3];
-gazeDataP1 = [gazeData1; gazeData2; gazeData3];
 writeCSVFile(poseHeaders1, poseDataP1, 'TUESDAY 3pm 123.csv');
 
-[glmmHeaders glmmData] = resultsForGLMM(poseHeaders1, poseDataP1, gazeDataP1);
+[glmmHeaders glmmData] = resultsForGLMM(poseHeaders1, poseDataP1);
 writeCSVFile(glmmHeaders, glmmData, 'Performance 1 Mocap.csv');
 
 % Performance 2 Incantation
@@ -83,7 +82,7 @@ offsets{7} = [0.730908, 0.681583, -0.034899; -0.681998, 0.731354, 0.000000; 0.02
 offsets{8} = [-0.978539, 0.193928, 0.069661; -0.190548, -0.980282, 0.052336; 0.078437, 0.037939, 0.996197];
 offsets{9} = [-0.724303, 0.490542, 0.484514; 0.544307, 0.838160, -0.034899; -0.423220, 0.238447, -0.874087];
 offsets{10} = [0.878743, 0.474460, 0.051946; 0.465972, -0.876366, 0.121869; 0.103346, -0.082887, -0.991186];
-[poseHeaders5 poseData5 gazeHeaders5 gazeData5] = analyse(dofs, data, 249.7, 10, -1, offsets);
+[poseHeaders5 poseData5] = parseDofs(dofs, data, 249.7, 10, -1, offsets);
 
 [dfr, dofs, data] = readV('/Users/Shared/ComedyLab/Data - Raw/Motion Capture/TUESDAY 3pm006 mk1.V', 10);
 offsets{1} = [-0.278062, -0.909500, -0.309017; 0.956305, -0.292372, 0.000000; -0.090348, -0.295514, 0.951057];
@@ -96,7 +95,7 @@ offsets{7} = [0.730908, 0.681583, -0.034899; -0.681998, 0.731354, 0.000000; 0.02
 offsets{8} = [0.978184, 0.204810, -0.034767; 0.207120, -0.974425, 0.087156; -0.016027, -0.092455, -0.995588];
 offsets{9} = [-0.664095, 0.363090, -0.653563; -0.542567, -0.835479, 0.087156; -0.514393, 0.412481, 0.751838];
 offsets{10} = [-0.938092, 0.342410, -0.052328; -0.341968, -0.939549, -0.017452; -0.055141, 0.001522, 0.998477];
-[poseHeaders6 poseData6 gazeHeaders6 gazeData6] = analyse(dofs, data, 687, 10, -1, offsets);
+[poseHeaders6 poseData6] = parseDofs(dofs, data, 687, 10, -1, offsets);
 
 [dfr, dofs, data] = readV('/Users/Shared/ComedyLab/Data - Raw/Motion Capture/TUESDAY 3pm007 mk1.V', 10);
 offsets{1} = [-0.278062, -0.909500, -0.309017; 0.956305, -0.292372, 0.000000; -0.090348, -0.295514, 0.951057];
@@ -109,13 +108,12 @@ offsets{7} = [0.718902, 0.694235, -0.034899; -0.694658, 0.719340, 0.000000; 0.02
 offsets{8} = [0.694235, 0.718902, 0.034899; -0.719340, 0.694658, 0.000000; -0.024243, -0.025105, 0.999391];
 offsets{9} = [0.143729, -0.746502, -0.649674; 0.987856, 0.069078, 0.139173; -0.059015, -0.661788, 0.747365];
 offsets{10} = [-0.938092, 0.342410, -0.052328; -0.341968, -0.939549, -0.017452; -0.055141, 0.001522, 0.998477];
-[poseHeaders7 poseData7 gazeHeaders7 gazeData7] = analyse(dofs, data, 999.7, 10, 3000, offsets);
+[poseHeaders7 poseData7] = parseDofs(dofs, data, 999.7, 10, 3000, offsets);
 
 poseDataP2 = [poseData5; poseData6; poseData7];
-gazeDataP2 = [gazeData5; gazeData6; gazeData7];
 writeCSVFile(poseHeaders5, poseDataP2, 'TUESDAY 3pm 567.csv');
 
-[glmmHeaders glmmData] = resultsForGLMM(poseHeaders5, poseDataP2, gazeDataP2);
+[glmmHeaders glmmData] = resultsForGLMM(poseHeaders5, poseDataP2);
 writeCSVFile(glmmHeaders, glmmData, 'Performance 2 Mocap.csv');
 
 % Performance 2 Incantation w/ 'Virtual' Performance 1 Performer
@@ -152,7 +150,7 @@ writeCSVFile(poseHeaders1, poseDataP1, 'TUESDAY 3pm 123 Timed as per P2.csv');
 [dfr, dofs, data] = readV('/Users/Shared/ComedyLab/Data - Raw/Motion Capture/TUESDAY 5pm002 mk5.V', 10);
 data15m00 = data(6023:6623, :); %15m00s - 16m00s
 
-[poseHeaders poseData gazeHeaders gazeData] = analyse(dofs, data15m00, 900, 10, -1, offsets);
+[poseHeaders poseData] = parseDofs(dofs, data15m00, 900, 10, -1, offsets);
 writeCSVFile(poseHeaders, poseData, 'TUESDAY 5pm 002 15m00s.csv');
 
 % Performance 3 Incantation
@@ -287,18 +285,17 @@ offsets8{11} = [-0.844692, 0.530693, 0.069714; 0.529597, 0.847531, -0.034899; -0
 offsets8{12} = [-0.601046, 0.573081, -0.557065; -0.728571, -0.679403, 0.087156; -0.328524, 0.458246, 0.825883];
 offsets8{13} = [0.563601, -0.694594, -0.447093; 0.816443, 0.550698, 0.173648; 0.125598, -0.462894, 0.877470];
 
-[poseHeaders poseData1 gazeHeaders gazeData1] = analyse(dofs, data1, 297.6, 10, -1, offsets1);
-[poseHeaders poseData2 gazeHeaders gazeData2] = analyse(dofs, data2, 403.7, 10, -1, offsets2);
-[poseHeaders poseData3 gazeHeaders gazeData3] = analyse(dofs, data3, 433.4, 10, -1, offsets3);
-[poseHeaders poseData4 gazeHeaders gazeData4] = analyse(dofs, data4, 450.6, 10, -1, offsets4);
-[poseHeaders poseData5 gazeHeaders gazeData5] = analyse(dofs, data5, 478.5, 10, -1, offsets5);
-[poseHeaders poseData6 gazeHeaders gazeData6] = analyse(dofs, data6, 552.1, 10, -1, offsets6);
-[poseHeaders poseData7 gazeHeaders gazeData7] = analyse(dofs, data7, 611.3, 10, -1, offsets7);
-[poseHeaders poseData8 gazeHeaders gazeData8] = analyse(dofs, data8, 726.2, 10, -1, offsets8);
+[poseHeaders poseData1] = parseDofs(dofs, data1, 297.6, 10, -1, offsets1);
+[poseHeaders poseData2] = parseDofs(dofs, data2, 403.7, 10, -1, offsets2);
+[poseHeaders poseData3] = parseDofs(dofs, data3, 433.4, 10, -1, offsets3);
+[poseHeaders poseData4] = parseDofs(dofs, data4, 450.6, 10, -1, offsets4);
+[poseHeaders poseData5] = parseDofs(dofs, data5, 478.5, 10, -1, offsets5);
+[poseHeaders poseData6] = parseDofs(dofs, data6, 552.1, 10, -1, offsets6);
+[poseHeaders poseData7] = parseDofs(dofs, data7, 611.3, 10, -1, offsets7);
+[poseHeaders poseData8] = parseDofs(dofs, data8, 726.2, 10, -1, offsets8);
 
 poseData = [poseData1; poseData2; poseData3; poseData4; poseData5; poseData6; poseData7; poseData8];
-gazeData = [gazeData1; gazeData2; gazeData3; gazeData4; gazeData5; gazeData6; gazeData7; gazeData8];
 writeCSVFile(poseHeaders, poseData, 'TUESDAY 5pm 002.csv');
 
-[glmmHeaders glmmData] = resultsForGLMM(poseHeaders, poseData, gazeData);
+[glmmHeaders glmmData] = resultsForGLMM(poseHeaders, poseData);
 writeCSVFile(glmmHeaders, glmmData, 'Performance 3 Mocap.csv');
