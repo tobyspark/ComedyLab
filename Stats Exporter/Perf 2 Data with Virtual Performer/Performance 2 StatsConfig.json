@@ -1,0 +1,53 @@
+{
+	"source": {
+		"elan": {
+			"filename": "ComedyLab 4June2013 Performance 2 Elan Export.txt", 
+			"offset": 0,
+			"columns": ["tier", "subject", "timeStart", "timeStartMS", "timeEnd", "timeEndMS", "duration", "durationMS", "annotation"],
+            "annotationSets": {
+            	"Light State" : ["Lit", "Unlit"],
+            	"Laugh State" : ["Indeterminate", "Not Laughing", "Smiling", "Laughing"]
+            	}
+			},
+		"bb": {
+			"filename": "Performance 2 BreathingBelts.txt", 
+			"offset": 22.6,
+			"columns": ["time", "Audience 01", "Audience 02", "Audience 03", "Audience 04", "Audience 05", "Audience 06", "Audience 07", "Audience 08", "Audience 09", "Audience 10", "Audience 11", "Audience 12", "Audience 13", "Audience 14", "Audience 15", "Audience 16"]  
+			},
+		"shore": {
+			"filename": "configuration_06_happy.txt", 
+			"offset": 0,
+			"columns": ["TimeStamp", "Frame", "Audience 02 Happy", "Audience 02 Sad", "Audience 02 Surprised", "Audience 02 Angry", "Audience 02 MouthOpen", "Audience 03 Happy", "Audience 03 Sad", "Audience 03 Surprised", "Audience 03 Angry", "Audience 03 MouthOpen", "Audience 05 Happy", "Audience 05 Sad", "Audience 05 Surprised", "Audience 05 Angry", "Audience 05 MouthOpen", "Audience 06 Happy", "Audience 06 Sad", "Audience 06 Surprised", "Audience 06 Angry", "Audience 06 MouthOpen", "Audience 07 Happy", "Audience 07 Sad", "Audience 07 Surprised", "Audience 07 Angry", "Audience 07 MouthOpen", "Audience 08 Happy", "Audience 08 Sad", "Audience 08 Surprised", "Audience 08 Angry", "Audience 08 MouthOpen", "Audience 09 Happy", "Audience 09 Sad", "Audience 09 Surprised", "Audience 09 Angry", "Audience 09 MouthOpen", "Audience 10 Happy", "Audience 10 Sad", "Audience 10 Surprised", "Audience 10 Angry", "Audience 10 MouthOpen", "Audience 11 Happy", "Audience 11 Sad", "Audience 11 Surprised", "Audience 11 Angry", "Audience 11 MouthOpen", "Audience 12 Happy", "Audience 12 Sad", "Audience 12 Surprised", "Audience 12 Angry", "Audience 12 MouthOpen", "Audience 14 Happy", "Audience 14 Sad", "Audience 14 Surprised", "Audience 14 Angry", "Audience 14 MouthOpen", "Audience 15 Happy", "Audience 15 Sad", "Audience 15 Surprised", "Audience 15 Angry", "Audience 15 MouthOpen"],
+			"exportable": ["Happy", "Sad", "Surprised", "Angry"]
+			},
+		"mocap": {
+			"filename": "Performance 2 Mocap With Virtual Performer.csv",
+			"offset": 0,
+			"columns": ["Time", "Performer_Hat/Movement", "Performer_Hat/isLookingAt", "Performer_Hat/isBeingLookedAtByPerformer", "Performer_Hat/isBeingLookedAtByAudienceMember", "Audience 01/Movement", "Audience 01/isLookingAt", "Audience 01/isBeingLookedAtByPerformer", "Audience 01/isBeingLookedAtByAudienceMember", "Audience 02/Movement", "Audience 02/isLookingAt", "Audience 02/isBeingLookedAtByPerformer", "Audience 02/isBeingLookedAtByAudienceMember", "Audience 03/Movement", "Audience 03/isLookingAt", "Audience 03/isBeingLookedAtByPerformer", "Audience 03/isBeingLookedAtByAudienceMember", "Audience 05/Movement", "Audience 05/isLookingAt", "Audience 05/isBeingLookedAtByPerformer", "Audience 05/isBeingLookedAtByAudienceMember", "Audience 06/Movement", "Audience 06/isLookingAt", "Audience 06/isBeingLookedAtByPerformer", "Audience 06/isBeingLookedAtByAudienceMember", "Audience 07/Movement", "Audience 07/isLookingAt", "Audience 07/isBeingLookedAtByPerformer", "Audience 07/isBeingLookedAtByAudienceMember", "Audience 08/Movement", "Audience 08/isLookingAt", "Audience 08/isBeingLookedAtByPerformer", "Audience 08/isBeingLookedAtByAudienceMember", "Audience 09/Movement", "Audience 09/isLookingAt", "Audience 09/isBeingLookedAtByPerformer", "Audience 09/isBeingLookedAtByAudienceMember", "Audience 10/Movement", "Audience 10/isLookingAt", "Audience 10/isBeingLookedAtByPerformer", "Audience 10/isBeingLookedAtByAudienceMember", "Audience 11/Movement", "Audience 11/isLookingAt", "Audience 11/isBeingLookedAtByPerformer", "Audience 11/isBeingLookedAtByAudienceMember"],
+			"exportable": ["Movement", "isLookingAt", "isBeingLookedAtByPerformer", "isBeingLookedAtByAudienceMember"]
+			}
+		},
+	"subjects": [
+		"Audience 01",
+		"Audience 02",
+		"Audience 03",
+		"Audience 05",
+		"Audience 06",
+		"Audience 07",
+		"Audience 08",
+		"Audience 09",
+		"Audience 10",
+		"Audience 11",
+		"Audience 12",
+		"Audience 14",
+		"Audience 15"
+		],
+	"export": {
+		"timeStep": 0.1,
+	    "timeStart": 298,
+	    "timeEnd": 1202,
+	    "filename": "Comedy Lab 4Jun Performance 2 with VP Data.csv",
+	    "fields": ["Light State While", "Laugh State", "Breathing Belt", "Happy", "Sad", "Surprised", "Angry", "MouthOpen", "Distance from Performer", "Angle from Performer", "Movement", "isLookingAt", "isBeingLookedAtByPerformer", "isBeingLookedAtByAudienceMember"],
+	    "missingValuePlaceholder": "n/a"
+	}
+}
