@@ -144,6 +144,31 @@ end
 
 writeCSVFile(poseHeaders1, poseDataP1, 'TUESDAY 3pm 123 Timed as per P2.csv');
 
+% Insert Performer columns into P2
+
+performerColRange = 2:11;
+
+poseHeadersP2 = [poseHeaders5(1), poseHeaders1(performerColRange), poseHeaders5(2:end)];
+poseDataP2 = [poseDataP2(:,1) zeros(length(poseDataP2),length(performerColRange)) poseDataP2(:,2:end)];
+
+% Overwrite zeros with Performer data from P1, finding row with equal time
+
+p1Times = poseDataP1(:,1);
+for i = 1:length(poseDataP2)
+	
+	p1IndexForTime = find(abs(p1Times-poseDataP2(i,1)) < 0.01);
+	if size(p1IndexForTime,1) == 1
+		poseDataP2(i,performerColRange) = poseDataP1(p1IndexForTime, performerColRange);
+	end
+end
+
+% Write out pose and analysis data
+
+writeCSVFile(poseHeadersP2, poseDataP2, 'TUESDAY 3pm 567 With Virtual Performer.csv');
+
+[glmmHeaders glmmData] = resultsForGLMM(poseHeadersP2, poseDataP2);
+writeCSVFile(glmmHeaders, glmmData, 'Performance 2 Mocap With Virtual Performer.csv');
+
 % Performance 3 Test Incantation for 15m00
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
