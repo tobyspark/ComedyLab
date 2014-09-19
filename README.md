@@ -16,6 +16,9 @@ See also: Dataset viewer application
 Further documentation
 - My thesis. I'm working on it.
 
+DOI
+- [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.11793.png)](http://dx.doi.org/10.5281/zenodo.11793)
+
 License
 - MIT. Go have it.
 
