@@ -1,0 +1,31 @@
+%%%%%%%% resultsForGLMM test data and expected results
+
+testHeaders = {'Time', 'Performer', 'Performer', 'Performer', 'Performer', 'Performer', 'Performer', 'Performer', 'Performer', 'Performer', 'Performer', 'Audience01', 'Audience01', 'Audience01', 'Audience01', 'Audience01', 'Audience01', 'Audience01', 'Audience01', 'Audience01', 'Audience01'}
+
+testP = [0 0 0 -1 -1 -1 -1 1 0 0]
+testA = [1 0 0 -1 -1 -1 -1 -1 0 0]
+testData = [0 testP testA]
+testData = [testData; testData]
+
+[resultHeaders resultData] = resultsForGLMM(testHeaders, testData)
+
+% resultData =
+%
+% 0   NaN     2     0     1   NaN     1     2     0
+% 0   NaN     2     0     1   NaN     1     2     0
+
+testHeaders = {'Time', 'Performer', 'Performer', 'Performer', 'Performer', 'Performer', 'Performer', 'Performer', 'Performer', 'Performer', 'Performer', 'Audience01', 'Audience01', 'Audience01', 'Audience01', 'Audience01', 'Audience01', 'Audience01', 'Audience01', 'Audience01', 'Audience01', 'Audience02', 'Audience02', 'Audience02', 'Audience02', 'Audience02', 'Audience02', 'Audience02', 'Audience02', 'Audience02', 'Audience02', 'Audience03', 'Audience03', 'Audience03', 'Audience03', 'Audience03', 'Audience03', 'Audience03', 'Audience03', 'Audience03', 'Audience03'}
+
+testP = [0 0 0 -1 -1 -1 -1 1 0 0]
+testA1 = [2 0 0 -1 -1 -1 -1 -1 0 0]
+testA2 = [1 0 0 -1 -1 -1 -1 1 0 0]
+testA3 = [2 1000 1 -1 -1 -1 -1 -1 0 -1]
+testData = [0 testP testA1 testA2 testA3]
+testData = [testData; testData]
+
+[resultHeaders resultData] = resultsForGLMM(testHeaders, testData)
+
+% resultData =
+% 
+% 0   NaN     2     0     1   NaN     1     2     2   NaN     2     1     2   NaN     3     0     0
+% 0   NaN     2     0     1   NaN     1     2     2   NaN     2     1     2   NaN     3     0     0

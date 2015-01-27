@@ -57,13 +57,9 @@ function [headers out] = resultsForGLMM(poseHeaders, poseData)
         gazeData = [gazeData; gazeline];
     end
     
-    % Currently using distance from gaze axis as test.
-    % Test will create a cylinder of with test value as radius.
-    % Seats are ~900mm apart, but a value >900 won't get both sides as
-    % precondition of test is others are in front, ie. exactly 180deg.
-    % With current innaccurate orientation offsets, a value of ~1500 is needed
-    % to get RAAG values.
-    maxDistFromGazeAxis = 1000; 
+    % Test for in-gaze is a cylinder of radius 700m rather than cone etc.
+    % Determined via visualisation in Dataset Viewer
+    maxDistFromGazeAxis = 700; 
     % maxGazeAngle = pi/6; % an arbitrary 30deg for now.
             
     performerIndex = -1;
@@ -118,6 +114,11 @@ function [headers out] = resultsForGLMM(poseHeaders, poseData)
             lookingAtMatrix = [lookingAtMatrix ; isLookingAtOthers'];
         end
         
+        lookingAtMatrixNulledPerformer = lookingAtMatrix;
+        if performerIndex > 0
+            lookingAtMatrixNulledPerformer(performerIndex, :) = 0;
+        end
+
         outLine = [time];
         for subject = 1:subjectCount
             % \item[Movement] A measure of how much movement is being made by the head, computed from the head pose data. The value is a composite of distance travelled and rotation made in one time interval.
@@ -177,18 +178,12 @@ function [headers out] = resultsForGLMM(poseHeaders, poseData)
             
             isBeingLookedAtByAudienceMember = 0; %'NAG'; % Not in Audience member's Gaze
             
-            % Null performer lookingAt entries, as we are now only concerned by audience
-            if performerIndex > 0
-                lookingAtMatrix(performerIndex, :) = 0;
-            end
-            
-            if any(lookingAtMatrix(:, subject))
+            % Null performer lookingAt entries, as we are now only concerned by audience            
+            if any(lookingAtMatrixNulledPerformer(:, subject))
                 isBeingLookedAtByAudienceMember = 1; %'IAG'; % In Audience member's Gaze
-                lookedAtIndices = find(lookingAtMatrix(:, subject));
-                for lookedAtIndex = lookedAtIndices
-                    if lookingAtMatrix(subject, lookedAtIndex)
-                        isBeingLookedAtByAudienceMember = 2; %'RAG'; % Reciprocating Audience member's Gaze
-                    end
+                lookedAtIndices = find(lookingAtMatrixNulledPerformer(:, subject));
+                if any(lookingAtMatrixNulledPerformer(subject, lookedAtIndices))
+                    isBeingLookedAtByAudienceMember = 2; %'RAG'; % Reciprocating Audience member's Gaze
                 end
             end
             
