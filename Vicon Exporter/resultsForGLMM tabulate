@@ -1,0 +1,85 @@
+% A sanity check on the results of Vicon Exporter, specifically GLMM calcs
+% This gets descriptive stats for looking categorisations. Uses the 'stats exporter' files as they have the acronyms, and are what's actually used for the stats proper
+
+% import data -> stats exporter
+
+P1isLookingAt = isLookingAt(strcmp(isLookingAt,' n/a') == 0)
+P1isBeingLookedAtByAudienceMember = isBeingLookedAtByAudienceMember(strcmp(isBeingLookedAtByAudienceMember,' n/a') == 0)
+P1isBeingLookedAtByPerformer = isBeingLookedAtByPerformer(strcmp(isBeingLookedAtByPerformer,' n/a') == 0)
+
+>> tabulate(P1isLookingAt)
+	Value    Count   Percent
+	Other     4968      6.21%
+Performer    30531     38.14%
+	Floor      856      1.07%
+ Audience    43691     54.58%
+>> tabulate(P1isBeingLookedAtByPerformer)
+  Value    Count   Percent
+	NPG    66343     82.88%
+	IPG     4528      5.66%
+	RPG     9175     11.46%
+>> tabulate(P1isBeingLookedAtByAudienceMember)
+  Value    Count   Percent
+   NAAG    39605     49.48%
+   IAAG    37609     46.98%
+   RAAG     2832      3.54%
+   
+P2isLookingAt = isLookingAt(strcmp(isLookingAt,' n/a') == 0)
+P2isBeingLookedAtByAudienceMember = isBeingLookedAtByAudienceMember(strcmp(isBeingLookedAtByAudienceMember,' n/a') == 0)
+P2isBeingLookedAtByPerformer = isBeingLookedAtByPerformer(strcmp(isBeingLookedAtByPerformer,' n/a') == 0)
+
+>> tabulate(P2isLookingAt)
+	  Value    Count   Percent
+	  Other    29821     33.12%
+	  Floor      720      0.80%
+   Audience    59499     66.08%
+>> tabulate(P2isBeingLookedAtByPerformer)
+  Value    Count   Percent
+	NPG    90040    100.00%
+>> tabulate(P2isBeingLookedAtByAudienceMember)
+Value    Count   Percent
+ IAAG    56614     62.88%
+ NAAG    33374     37.07%
+ RAAG       52      0.06%
+ 
+P2VPisLookingAt = isLookingAt(strcmp(isLookingAt,' n/a') == 0)
+P2VPisBeingLookedAtByAudienceMember = isBeingLookedAtByAudienceMember(strcmp(isBeingLookedAtByAudienceMember,' n/a') == 0)
+P2VPisBeingLookedAtByPerformer = isBeingLookedAtByPerformer(strcmp(isBeingLookedAtByPerformer,' n/a') == 0)
+ 
+>> tabulate(P2VPisLookingAt)
+	   Value    Count   Percent
+	   Other    10766     11.96%
+   Performer    36531     40.57%
+	   Floor      691      0.77%
+	Audience    42052     46.70%
+>> tabulate(P2VPisBeingLookedAtByPerformer)
+  Value    Count   Percent
+	NPG    75453     83.80%
+	RPG    10556     11.72%
+	IPG     4031      4.48%
+>> tabulate(P2VPisBeingLookedAtByAudienceMember)
+  Value    Count   Percent
+   IAAG    56614     62.88%
+   NAAG    33374     37.07%
+   RAAG       52      0.06% 
+   
+P3isLookingAt = isLookingAt(strcmp(isLookingAt,' n/a') == 0)
+P3isBeingLookedAtByAudienceMember = isBeingLookedAtByAudienceMember(strcmp(isBeingLookedAtByAudienceMember,' n/a') == 0)
+P3isBeingLookedAtByPerformer = isBeingLookedAtByPerformer(strcmp(isBeingLookedAtByPerformer,' n/a') == 0)
+
+>> tabulate(P3isLookingAt)
+	   Value    Count   Percent
+	   Other     5372      4.72%
+   Performer    57768     50.74%
+	   Floor      614      0.54%
+	Audience    50102     44.00%
+>> tabulate(P3isBeingLookedAtByPerformer)
+  Value    Count   Percent
+	NPG    93211     81.87%
+	RPG    17004     14.93%
+	IPG     3641      3.20%
+>> tabulate(P3isBeingLookedAtByAudienceMember)
+  Value    Count   Percent
+   NAAG    40069     35.19%
+   IAAG    73551     64.60%
+   RAAG      236      0.21%
