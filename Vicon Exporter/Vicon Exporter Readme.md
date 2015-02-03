@@ -4,6 +4,18 @@
 
 % MATLAB via Chris Frauenberger wizardry
 
+% Useage is in the form
+
+% extract data from filename.V
+[dfr, dofs, data] = readV(‘filename.V’, 10);
+offsets{} = <a rotation matrix per participant to align fixture orientation with head orientation>;
+[poseHeaders poseData] = parseDofs(dofs, data, startTime, desiredFPS, allFrames, offsets);
+writeCSVFile(poseHeaders, poseData, ‘file.csv');
+
+% calculate measures
+[glmmHeaders glmmData] = resultsForGLMM(poseHeaders, poseData);
+writeCSVFile(glmmHeaders, glmmData, ‘measures.csv');
+
 % Zero offsets
 %%%%%%%%%%%%%%
 
