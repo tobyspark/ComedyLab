@@ -89,7 +89,7 @@ for frame=1:stopAt
         % gazeDirection = subjectForwards{subjectIndex} * rm * offsets{subjectIndex};
         
         %% if generating offsets via Comedy Lab Dataset Viewer then use this
-        rotation = vrrotmat2vec(offsets{subjectIndex} * rm);
+        % rotation = vrrotmat2vec(offsets{subjectIndex} * rm); %actually, don't do this as it creates some axis-angle with imaginary components.
         gazeDirection = [1 0 0] * offsets{subjectIndex} * rm;
         
         poseline = [poseline position rotation gazeDirection];
