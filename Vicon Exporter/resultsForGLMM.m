@@ -187,7 +187,25 @@ function [headers out] = resultsForGLMM(poseHeaders, poseData)
                 end
             end
             
-            outLine = [outLine movement isLookingAt isBeingLookedAtByPerformer isBeingLookedAtByAudienceMember];
+            % \item[Is looking at virtual performer screen]
+            % Technique: Does gaze vector intersect with screen rectangle (extended by maxDistFromGazeAxis?)
+            
+            % Screen x,y approximation
+            % median performer position = median(poseData2(:,[2 3 4])) = 10.62  -26.70  1784.31
+            % Measured size - w: 984mm x h: 1715mm, hung with top 1540mm below bar at height 3550mm
+            % x = 10.62
+            % y = -26.7 +/- 984/2 = -519, 465
+            % z top = 3550 - 1540 = 2010
+            % z bottom = 2010 - 1715 = 295
+            
+            screenCornerCoords = [11 -492 295; 11 -492 2010; 11 465 2010; 11 465 295];
+            gazeVector = [poseFrame(1:3, subject)' poseFrame(8:10, subject)'];
+            
+            [inter inside] = intersectLinePolygon3d(gazeVector, screenCornerCoords);
+            
+            isLookingAtVPScreen = inside;
+            
+            outLine = [outLine movement isLookingAt isBeingLookedAtByPerformer isBeingLookedAtByAudienceMember isLookingAtVPScreen];
         end
         
         out = [out; outLine];
@@ -202,5 +220,6 @@ function [headers out] = resultsForGLMM(poseHeaders, poseData)
         headers = [headers [name '/isLookingAt']];
         headers = [headers [name '/isBeingLookedAtByPerformer']];
         headers = [headers [name '/isBeingLookedAtByAudienceMember']];
+        headers = [headers [name '/isLookingAtVPScreen']];
     end
 end
