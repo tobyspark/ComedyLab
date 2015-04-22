@@ -8,6 +8,17 @@ TUESDAY 3pm005 — Clapperboard clap at frame 122.
 TUESDAY 5pm001 — Compere. Ignoring.
 TUESDAY 5pm002 — Clapperboard clap at frame 312.
 
+Virtual Performer Screen
+------------------------
+
+Size -
+w: 984mm x h: 1715mm
+
+Position - 
+Hung with top 1540mm below bar at height 3050mm
+
+Via physical measurement. Height uses mocap datum, ie. floor level. Do not have mocap datum for where on floor, however. Do know that screen was placed at front of performer platform, ie. just in front of performer typical position.
+
 Top of breath, all posed approx forward
 ---------------------------------------
 TUESDAY 3pm001 Dataset time 07:11.5
