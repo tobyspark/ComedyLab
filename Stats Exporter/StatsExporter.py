@@ -274,7 +274,10 @@ def parseFile(configuration):
                                 if value == '0': value = 'NAAG'
                                 if value == '1': value = 'IAAG'
                                 if value == '2': value = 'RAAG'
-
+                            if field == 'isLookingAtVPScreen':
+                                if value == '0': value = 'No'
+                                if value == '1': value = 'Yes'
+                                
                             infoDict[field] = value
                         except ValueError:
                             # no value for this subject, do not make infoDict entry
