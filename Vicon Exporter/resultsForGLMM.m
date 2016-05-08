@@ -130,7 +130,11 @@ function [headers out] = resultsForGLMM(poseHeaders, poseData)
             % 2. Compile boolean matrix for whether subject is looking at others
             % 3. Take performer value 'looking at an audience member'
             
-            isLookingAtPerformer = lookingAtMatrix(subject, performerIndex);
+            if performerIndex > 0
+                isLookingAtPerformer = lookingAtMatrix(subject, performerIndex);
+            else
+                isLookingAtPerformer = false;
+            end
             
             % \item[Is looking at Audience] For our purposes, gaze here is not direct eye contact, but rather a field of view from the observer?s head within which their attention is likely to be located. Note we test for looking at an Audience and Performer separately as we do not model occlusion.
             % Technique: 
@@ -146,7 +150,11 @@ function [headers out] = resultsForGLMM(poseHeaders, poseData)
             % 2. Compile boolean matrix for whether subject is being looked at
             % 3. Take performer value
             
-            isBeingLookedAtByPerformer = lookingAtMatrix(performerIndex, subject); 
+            if performerIndex > 0
+                isBeingLookedAtByPerformer = lookingAtMatrix(performerIndex, subject); 
+            else
+                isBeingLookedAtByPerformer = false;
+            end
             
             % \item[Is being looked at by audience member] A state of ?Reciprocating an audience member?s gaze?, ?In an audience member?s gaze?, ?Not in an audience member?s gaze?, computed from the head pose data as above.
             % 1. Decide test: is gaze a cone or cylinder, and of what size?
