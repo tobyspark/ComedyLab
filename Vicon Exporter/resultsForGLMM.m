@@ -124,68 +124,36 @@ function [headers out] = resultsForGLMM(poseHeaders, poseData)
             % \item[Movement] A measure of how much movement is being made by the head, computed from the head pose data. The value is a composite of distance travelled and rotation made in one time interval.
             movement = translatedMag(frame,subject)/translatedMagAv + rotatedMag(frame,subject)/rotatedMagAv;
             
-            % \item[Is looking at] A state of ?Performer?, ?Audience member?, ?Floor?, ?Other?, computed from the head pose data. For our purposes, gaze here is not direct eye contact, but rather a field of view from the observer?s head within which their attention is likely to be located. We use a figure of X, motivated by Y.
+            % \item[Is looking at Performer] For our purposes, gaze here is not direct eye contact, but rather a field of view from the observer?s head within which their attention is likely to be located. Note we test for looking at an Audience and Performer separately as we do not model occlusion.
             % Technique: 
-            % 1. find subject with minimum gaze angle (gaze is cone) or dist (gaze is cylinder)
-            % 2. if angle is within some bounds, see whether performer or audience
-            % 3. if not, see whether gaze is downwards.
-            % 4. if not, it's other
+            % 1. Decide test: is gaze a cone or cylinder, and of what size?
+            % 2. Compile boolean matrix for whether subject is looking at others
+            % 3. Take performer value 'looking at an audience member'
             
-            isLookingAt = 0; %'Other';
+            isLookingAtPerformer = lookingAtMatrix(subject, performerIndex);
             
-            distFromGazeAxisToOthers = gazeFrame(distFromGazeAxisToOthersRange, subject);
-            % distanceToOthers = gazeFrame(distanceToOthersRange, subject);
-            % angleToOthers = asin(distFromGazeAxisToOthers ./ distanceToOthers);
-     
-            [minValue minIndex] = min (distFromGazeAxisToOthers);
-            if minValue < maxDistFromGazeAxis
-                if minIndex == performerIndex
-                    isLookingAt = 1; %'Performer';
-                else
-                    isLookingAt = 2; %'Audience';
-                end
-            else
-                % to test looking at floor, we use isinfront(), testing the
-                % person's position on the floor (ie. can they see their feet).
-                testPoint = poseFrame(1:3, subject); % head position
-                testPoint(3) = 0; % set z to floor
-                headPosition = poseFrame(1:3, subject);
-                headOrientation = poseFrame(8:10, subject);
-                if isinfront(testPoint', headPosition', headOrientation')
-                    isLookingAt = 3; %'Floor';
-                end
-            end
+            % \item[Is looking at Audience] For our purposes, gaze here is not direct eye contact, but rather a field of view from the observer?s head within which their attention is likely to be located. Note we test for looking at an Audience and Performer separately as we do not model occlusion.
+            % Technique: 
+            % 1. Decide test: is gaze a cone or cylinder, and of what size?
+            % 2. Compile boolean matrix for whether subject is looking at others
+            % 3. Take any true for non-performer values
+            
+            isLookingAtAudience = any(lookingAtMatrixNulledPerformer(subject, :));
             
             % \item[Is being looked at by performer] A state of ?Reciprocating performer gaze?, ?In performer gaze?, ?Not in performer gaze?, computed from the head pose data as above. 
             % Technique:
             % 1. Decide test: is gaze a cone or cylinder, and of what size?
-            % 2. Compile boolean matrix for whether subject is looking at others
-            % 3. Any true in other axis of matrix is 'being looked at'
+            % 2. Compile boolean matrix for whether subject is being looked at
+            % 3. Take performer value
             
-            isBeingLookedAtByPerformer = 0; %'NPG'; % Not in Performer Gaze
-            
-            if performerIndex > 0
-                if lookingAtMatrix(performerIndex, subject)
-                    isBeingLookedAtByPerformer = 1; %'IPG'; % In Performer Gaze
-                    if lookingAtMatrix(subject, performerIndex)
-                        isBeingLookedAtByPerformer = 2; %'RPG'; % Reciprocating Performer Gaze
-                    end
-                end
-            end
+            isBeingLookedAtByPerformer = lookingAtMatrix(performerIndex, subject); 
             
             % \item[Is being looked at by audience member] A state of ?Reciprocating an audience member?s gaze?, ?In an audience member?s gaze?, ?Not in an audience member?s gaze?, computed from the head pose data as above.
-            % Technique: as above
+            % 1. Decide test: is gaze a cone or cylinder, and of what size?
+            % 2. Compile boolean matrix for whether subject is being looked at
+            % 3. Take any true for non-performer values
             
-            isBeingLookedAtByAudienceMember = 0; %'NAG'; % Not in Audience member's Gaze
-            
-            % Null performer lookingAt entries, as we are now only concerned by audience            
-            if any(lookingAtMatrixNulledPerformer(:, subject))
-                isBeingLookedAtByAudienceMember = 1; %'IAG'; % In Audience member's Gaze
-                lookedAtIndices = find(lookingAtMatrixNulledPerformer(:, subject));
-                if any(lookingAtMatrixNulledPerformer(subject, lookedAtIndices))
-                    isBeingLookedAtByAudienceMember = 2; %'RAG'; % Reciprocating Audience member's Gaze
-                end
-            end
+            isBeingLookedAtByAudienceMember = any(lookingAtMatrixNulledPerformer(:, subject));
             
             % \item[Is looking at virtual performer screen]
             % Technique: Does gaze vector intersect with screen rectangle (extended by maxDistFromGazeAxis?)
@@ -205,7 +173,7 @@ function [headers out] = resultsForGLMM(poseHeaders, poseData)
             
             isLookingAtVPScreen = inside;
             
-            outLine = [outLine movement isLookingAt isBeingLookedAtByPerformer isBeingLookedAtByAudienceMember isLookingAtVPScreen];
+            outLine = [outLine movement isLookingAtPerformer isLookingAtAudience isBeingLookedAtByPerformer isBeingLookedAtByAudienceMember isLookingAtVPScreen];
         end
         
         out = [out; outLine];
@@ -217,7 +185,8 @@ function [headers out] = resultsForGLMM(poseHeaders, poseData)
         name = name{1};
         
         headers = [headers [name '/Movement']];
-        headers = [headers [name '/isLookingAt']];
+        headers = [headers [name '/isLookingAtPerformer']];
+        headers = [headers [name '/isLookingAtAudience']];
         headers = [headers [name '/isBeingLookedAtByPerformer']];
         headers = [headers [name '/isBeingLookedAtByAudienceMember']];
         headers = [headers [name '/isLookingAtVPScreen']];
