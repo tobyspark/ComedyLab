@@ -159,14 +159,15 @@ function [headers out] = resultsForGLMM(poseHeaders, poseData)
             % Technique: Does gaze vector intersect with screen rectangle (extended by maxDistFromGazeAxis?)
             
             % Screen x,y approximation
-            % median performer position = median(poseData2(:,[2 3 4])) = 10.62  -26.70  1784.31
+            % P1 dataset times used in analysis = 472, 1366. In rows = 84, 8980
+            % median performer position = median(poseDataP1(84:8980,[2 3 4])) = -1.7 -6.6  1772
             % Measured size - w: 984mm x h: 1715mm, hung with top 1540mm below bar at height 3550mm
-            % x = 10.62
-            % y = -26.7 +/- 984/2 = -519, 465
+            % x = -2
+            % y = -6.6 +/- 984/2 = -499, 485
             % z top = 3550 - 1540 = 2010
             % z bottom = 2010 - 1715 = 295
             
-            screenCornerCoords = [11 -492 295; 11 -492 2010; 11 465 2010; 11 465 295];
+            screenCornerCoords = [-2 -499 295; -2 -499 2010; -2 485 2010; 11 485 295];
             gazeVector = [poseFrame(1:3, subject)' poseFrame(8:10, subject)'];
             
             [inter inside] = intersectLinePolygon3d(gazeVector, screenCornerCoords);
