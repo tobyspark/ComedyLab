@@ -15,7 +15,7 @@ Size -
 w: 984mm x h: 1715mm
 
 Position - 
-Hung with top 1540mm below bar at height 3050mm
+Hung with top 1540mm below bar at height 3550mm
 
 Via physical measurement. Height uses mocap datum, ie. floor level. Do not have mocap datum for where on floor, however. Do know that screen was placed at front of performer platform, ie. just in front of performer typical position.
 
