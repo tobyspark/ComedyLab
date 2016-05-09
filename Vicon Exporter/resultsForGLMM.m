@@ -144,7 +144,11 @@ function [headers out] = resultsForGLMM(poseHeaders, poseData)
             % 2. Compile boolean matrix for whether subject is looking at others
             % 3. Take any true for non-performer values
             
-            isLookingAtAudience = any(lookingAtMatrixNulledPerformer(subject, :));
+            isLookingAtAudience = lookingAtMatrix(subject, :); % Looking at all
+            if performerIndex > 0
+                isLookingAtAudience(performerIndex) = 0; % Looking at everybody except performer
+            end
+            isLookingAtAudience = any(isLookingAtAudience);
             
             % \item[Is being looked at by performer] A state of ?Reciprocating performer gaze?, ?In performer gaze?, ?Not in performer gaze?, computed from the head pose data as above. 
             % Technique:

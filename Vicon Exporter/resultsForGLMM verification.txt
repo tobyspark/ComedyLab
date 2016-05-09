@@ -11,8 +11,8 @@ testData = [testData; testData]
 
 % resultData =
 %
-% 0   NaN     2     0     1   NaN     1     2     0
-% 0   NaN     2     0     1   NaN     1     2     0
+%     0   NaN     0     1     0     1     0   NaN     1     0     1     0     0
+%     0   NaN     0     1     0     1     0   NaN     1     0     1     0     0
 
 testHeaders = {'Time', 'Performer', 'Performer', 'Performer', 'Performer', 'Performer', 'Performer', 'Performer', 'Performer', 'Performer', 'Performer', 'Audience01', 'Audience01', 'Audience01', 'Audience01', 'Audience01', 'Audience01', 'Audience01', 'Audience01', 'Audience01', 'Audience01', 'Audience02', 'Audience02', 'Audience02', 'Audience02', 'Audience02', 'Audience02', 'Audience02', 'Audience02', 'Audience02', 'Audience02', 'Audience03', 'Audience03', 'Audience03', 'Audience03', 'Audience03', 'Audience03', 'Audience03', 'Audience03', 'Audience03', 'Audience03'}
 
@@ -25,7 +25,14 @@ testData = [testData; testData]
 
 [resultHeaders resultData] = resultsForGLMM(testHeaders, testData)
 
-% resultData =
-% 
-% 0   NaN     2     0     1   NaN     1     2     2   NaN     2     1     2   NaN     3     0     0
-% 0   NaN     2     0     1   NaN     1     2     2   NaN     2     1     2   NaN     3     0     0
+%resultData =
+%
+%  Columns 1 through 14
+%
+%     0   NaN     0     1     0     1     0   NaN     1     1     1     1     0   NaN
+%     0   NaN     0     1     0     1     0   NaN     1     1     1     1     0   NaN
+%
+%  Columns 15 through 25
+%
+%     0     1     1     1     0   NaN     0     0     0     0     0
+%     0     1     1     1     0   NaN     0     0     0     0     0
