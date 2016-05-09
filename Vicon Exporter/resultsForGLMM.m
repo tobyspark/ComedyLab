@@ -7,14 +7,16 @@ function [headers out] = resultsForGLMM(poseHeaders, poseData)
 %
 % Input: pose [time, persubject: [x y z rx ry rz ra gx gy gz]]
 %
-% Output: Time Movement lookingAt pLookedAt aLookedAt
+% Output: Time Movement lookingAtP lookingAtA pLookedAt aLookedAt
 %
 %       Note: time value is passed through, can be dataset or mocap time
 %             For each audience member:
-%             Movement - movement in time interval, a composite of translation and rotation
-%             lookingAt - 1 'Performer', 2 'Audience', 3 'Floor', 0 'Other'
-%             pLookedAt - 2 RPG 'Reciprocating performer gaze', 1 IPG 'In performer gaze', 0 NPG 'Not in performer gaze'
-%             aLookedAt - 2 RAAG 'Reciprocating an audience member's gaze', 1 IAAG'In an audience member?s gaze', 0 NAAG 'Not in an audience member's gaze'
+%             Movement - continuous measure of movement in time interval, a composite of translation and rotation
+%             isLookingAtPerformer - boolean
+%             isLookingAtAudience - boolean
+%             isBeingLookedAtByPerformer - boolean
+%             isBeingLookedAtByAudienceMember - boolean
+%             isLookingAtVPScreen - boolean, used for recorded performances with 'Virtual Performer'. This provides the empirically strict measure of looking at the screen.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
