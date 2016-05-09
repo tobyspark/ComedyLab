@@ -1,4 +1,4 @@
-function [headers out] = resultsForGLMM(poseHeaders, poseData)
+function [headers out headersLookingAt outLookingAt] = resultsForGLMM(poseHeaders, poseData)
 
 % Calculates a csv file for GLMM stats from analyse() results
 % created 03. 2. 2014
@@ -7,7 +7,9 @@ function [headers out] = resultsForGLMM(poseHeaders, poseData)
 %
 % Input: pose [time, persubject: [x y z rx ry rz ra gx gy gz]]
 %
-% Output: Time Movement lookingAtP lookingAtA pLookedAt aLookedAt
+% Output: glmmData, lookingAtData
+%           glmmData is [time, persubject: [Movement lookingAtP lookingAtA pLookedAt aLookedAt]]
+%           lookingAtData is [time, persubject
 %
 %       Note: time value is passed through, can be dataset or mocap time
 %             For each audience member:
@@ -97,6 +99,7 @@ function [headers out] = resultsForGLMM(poseHeaders, poseData)
     
     % TASK: Produce dataset now we've pre-computed globals
     out = [];
+    outLookingAt = [];
     for frame = 1:frameCount
         
         poseFrame = poseData(frame, :);
@@ -122,6 +125,7 @@ function [headers out] = resultsForGLMM(poseHeaders, poseData)
         end
 
         outLine = [time];
+        outLookingAtLine = [time];
         for subject = 1:subjectCount
             % \item[Movement] A measure of how much movement is being made by the head, computed from the head pose data. The value is a composite of distance travelled and rotation made in one time interval.
             movement = translatedMag(frame,subject)/translatedMagAv + rotatedMag(frame,subject)/rotatedMagAv;
@@ -189,21 +193,33 @@ function [headers out] = resultsForGLMM(poseHeaders, poseData)
             isLookingAtVPScreen = inside;
             
             outLine = [outLine movement isLookingAtPerformer isLookingAtAudience isBeingLookedAtByPerformer isBeingLookedAtByAudienceMember isLookingAtVPScreen];
+            outLookingAtLine = [outLookingAtLine lookingAtMatrix(subject, :)];
         end
         
         out = [out; outLine];
+        outLookingAt = [outLookingAt; outLookingAtLine];
+    end
+    
+    subjectNames = cell(subjectCount);
+    for i=1:subjectCount
+        name = strsplit(poseHeaders{2+(i-1)*entriesPerSubject},'/');
+        subjectNames{i} = name{1};
     end
     
     headers = {'Time'};
     for i=1:subjectCount
-        name = strsplit(poseHeaders{2+(i-1)*entriesPerSubject},'/');
-        name = name{1};
-        
-        headers = [headers [name '/Movement']];
-        headers = [headers [name '/isLookingAtPerformer']];
-        headers = [headers [name '/isLookingAtAudience']];
-        headers = [headers [name '/isBeingLookedAtByPerformer']];
-        headers = [headers [name '/isBeingLookedAtByAudienceMember']];
-        headers = [headers [name '/isLookingAtVPScreen']];
+        headers = [headers strcat(subjectNames(i), '/Movement')];
+        headers = [headers strcat(subjectNames(i), '/isLookingAtPerformer')];
+        headers = [headers strcat(subjectNames(i), '/isLookingAtAudience')];
+        headers = [headers strcat(subjectNames(i), '/isBeingLookedAtByPerformer')];
+        headers = [headers strcat(subjectNames(i), '/isBeingLookedAtByAudienceMember')];
+        headers = [headers strcat(subjectNames(i), '/isLookingAtVPScreen')];
+    end
+    
+    headersLookingAt = {'Time'};
+    for i=1:subjectCount
+        for j=1:subjectCount
+            headersLookingAt = [headersLookingAt strcat(subjectNames{i}, '_at_', subjectNames{j})];
+        end
     end
 end

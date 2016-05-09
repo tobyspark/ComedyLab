@@ -73,8 +73,9 @@ offsets{1} = [0.446270, -0.805092, -0.390731; 0.874620, 0.484810, 0.000000; 0.18
 poseDataP1 = [poseData1; poseData2; poseData3];
 writeCSVFile(poseHeaders1, poseDataP1, 'TUESDAY 3pm 123.csv');
 
-[glmmHeaders glmmData] = resultsForGLMM(poseHeaders1, poseDataP1);
+[glmmHeaders glmmData lookingAtHeaders lookingAtData] = resultsForGLMM(poseHeaders1, poseDataP1);
 writeCSVFile(glmmHeaders, glmmData, 'Performance 1 Mocap.csv');
+writeCSVFile(lookingAtHeaders, lookingAtData, 'Performance 1 Mocap - LookingAt.csv');
 
 % Performance 2 Incantation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -125,8 +126,9 @@ offsets{10} = [-0.938092, 0.342410, -0.052328; -0.341968, -0.939549, -0.017452; 
 poseDataP2 = [poseData5; poseData6; poseData7];
 writeCSVFile(poseHeaders5, poseDataP2, 'TUESDAY 3pm 567.csv');
 
-[glmmHeaders glmmData] = resultsForGLMM(poseHeaders5, poseDataP2);
+[glmmHeaders glmmData lookingAtHeaders lookingAtData] = resultsForGLMM(poseHeaders5, poseDataP2);
 writeCSVFile(glmmHeaders, glmmData, 'Performance 2 Mocap.csv');
+writeCSVFile(lookingAtHeaders, lookingAtData, 'Performance 2 Mocap - LookingAt.csv');
 
 % Performance 2 Incantation w/ 'Virtual' Performance 1 Performer
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -178,8 +180,9 @@ end
 
 writeCSVFile(poseHeadersP2, poseDataP2, 'TUESDAY 3pm 567 With Virtual Performer.csv');
 
-[glmmHeaders glmmData] = resultsForGLMM(poseHeadersP2, poseDataP2);
+[glmmHeaders glmmData lookingAtHeaders lookingAtData] = resultsForGLMM(poseHeadersP2, poseDataP2);
 writeCSVFile(glmmHeaders, glmmData, 'Performance 2 Mocap With Virtual Performer.csv');
+writeCSVFile(lookingAtHeaders, lookingAtData, 'Performance 2 Mocap With Virtual Performer - LookingAt.csv');
 
 % Performance 3 Test Incantation for 15m00
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -334,5 +337,6 @@ offsets8{13} = [0.563601, -0.694594, -0.447093; 0.816443, 0.550698, 0.173648; 0.
 poseData = [poseData1; poseData2; poseData3; poseData4; poseData5; poseData6; poseData7; poseData8];
 writeCSVFile(poseHeaders, poseData, 'TUESDAY 5pm 002.csv');
 
-[glmmHeaders glmmData] = resultsForGLMM(poseHeaders, poseData);
+[glmmHeaders glmmData lookingAtHeaders lookingAtData] = resultsForGLMM(poseHeaders, poseData);
 writeCSVFile(glmmHeaders, glmmData, 'Performance 3 Mocap.csv');
+writeCSVFile(lookingAtHeaders, lookingAtData, 'Performance 3 Mocap - LookingAt.csv');
