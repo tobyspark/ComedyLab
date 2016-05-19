@@ -105,10 +105,10 @@ function [headers out headersLookingAt outLookingAt] = resultsForGLMM(poseHeader
         outLookingAtLine = [time];
         for subject = 1:subjectCount
             % \item[Movement] A measure of how much movement is being made by the head, computed from the head pose data. The value is a composite of distance travelled and rotation made in one time interval.
-            xIdx = 1 + (subject-1)*entriesPerSubject + 1;
-            zIdx = 1 + (subject-1)*entriesPerSubject + 3;
-            gxIdx = 1 + (subject-1)*entriesPerSubject + 8;
-            gzIdx = 1 + (subject-1)*entriesPerSubject + 10;
+            xIdx = zeroIndexForSubject(subject) + 1;
+            zIdx = zeroIndexForSubject(subject) + 3;
+            gxIdx = zeroIndexForSubject(subject) + 8;
+            gzIdx = zeroIndexForSubject(subject) + 10;
             
             % Can't compute difference for first frame
             if frame == 1
