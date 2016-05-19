@@ -204,7 +204,8 @@ function [headers out headersLookingAt outLookingAt] = resultsForGLMM(poseHeader
     
     headers = {'Time'};
     for i=1:subjectCount
-        headers = [headers strcat(subjectNames(i), '/Movement')];
+        headers = [headers strcat(subjectNames(i), '/Moved')];
+        headers = [headers strcat(subjectNames(i), '/Rotated')];
         headers = [headers strcat(subjectNames(i), '/isLookingAtPerformer')];
         headers = [headers strcat(subjectNames(i), '/isLookingAtAudience')];
         headers = [headers strcat(subjectNames(i), '/isBeingLookedAtByPerformer')];
