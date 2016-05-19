@@ -8,12 +8,13 @@ function [headers out headersLookingAt outLookingAt] = resultsForGLMM(poseHeader
 % Input: pose [time, persubject: [x y z rx ry rz ra gx gy gz]]
 %
 % Output: glmmData, lookingAtData
-%           glmmData is [time, persubject: [Movement lookingAtP lookingAtA pLookedAt aLookedAt]]
+%           glmmData is [time, persubject: [Moved Rotated lookingAtP lookingAtA pLookedAt aLookedAt]]
 %           lookingAtData is [time, persubject
 %
 %       Note: time value is passed through, can be dataset or mocap time
 %             For each audience member:
-%             Movement - continuous measure of movement in time interval, a composite of translation and rotation
+%             Moved - distance moved in time interval, in mm
+%             Rotated - angle rotated, in radians
 %             isLookingAtPerformer - boolean
 %             isLookingAtAudience - boolean
 %             isBeingLookedAtByPerformer - boolean
@@ -73,30 +74,6 @@ function [headers out headersLookingAt outLookingAt] = resultsForGLMM(poseHeader
         end
     end
     
-    % TASK: Find representative extents for translated and rotated amounts
-    
-    % Calculate all translated and rotated amounts
-    translatedMag = zeros(frameCount,subjectCount);
-    rotateMag = zeros(frameCount,subjectCount);
-    for i = 2:frameCount
-        for j = 1:subjectCount
-            xIdx = 1 + (j-1)*entriesPerSubject + 1;
-            zIdx = 1 + (j-1)*entriesPerSubject + 3;
-            translated = poseData(i, xIdx:zIdx) - poseData(i-1, xIdx:zIdx);
-            translatedMag(i,j) = norm(translated);
-        
-            gxIdx = 1 + (j-1)*entriesPerSubject + 8;
-            gzIdx = 1 + (j-1)*entriesPerSubject + 10;
-            rotated = poseData(i, gxIdx:gzIdx) - poseData(i-1, gxIdx:gzIdx);
-            rotatedMag(i,j) = norm(rotated);
-        end
-    end
-    
-    % Average the absolute values for each subject, 
-    %   then take the max of all subjects
-    translatedMagAv = max(mean(abs(translatedMag)));
-    rotatedMagAv = max(mean(abs(rotatedMag)));
-    
     % TASK: Produce dataset now we've pre-computed globals
     out = [];
     outLookingAt = [];
@@ -128,7 +105,26 @@ function [headers out headersLookingAt outLookingAt] = resultsForGLMM(poseHeader
         outLookingAtLine = [time];
         for subject = 1:subjectCount
             % \item[Movement] A measure of how much movement is being made by the head, computed from the head pose data. The value is a composite of distance travelled and rotation made in one time interval.
-            movement = translatedMag(frame,subject)/translatedMagAv + rotatedMag(frame,subject)/rotatedMagAv;
+            xIdx = 1 + (subject-1)*entriesPerSubject + 1;
+            zIdx = 1 + (subject-1)*entriesPerSubject + 3;
+            gxIdx = 1 + (subject-1)*entriesPerSubject + 8;
+            gzIdx = 1 + (subject-1)*entriesPerSubject + 10;
+            
+            % Can't compute difference for first frame
+            if frame == 1
+                moved = 0;
+                rotated = 0;
+            % Protect against missing mocap values (no hat can be at 0 0 0)
+            elseif isequal(poseData(frame, xIdx:zIdx), [0 0 0]) || isequal(poseData(frame-1, xIdx:zIdx), [0 0 0])
+                disp(['Missing mocap data for subject index' num2str(subject) ' frame ' num2str(frame)])
+                moved = 0;
+                rotated = 0;
+            else
+                movedVec = poseData(frame, xIdx:zIdx) - poseData(frame-1, xIdx:zIdx);
+                moved = norm(movedVec);
+                rotatedAxisAngle = vrrotvec(poseData(frame, gxIdx:gzIdx), poseData(frame-1, gxIdx:gzIdx));
+                rotated = rotatedAxisAngle(4);
+            end
             
             % \item[Is looking at Performer] For our purposes, gaze here is not direct eye contact, but rather a field of view from the observer?s head within which their attention is likely to be located. Note we test for looking at an Audience and Performer separately as we do not model occlusion.
             % Technique: 
@@ -192,7 +188,7 @@ function [headers out headersLookingAt outLookingAt] = resultsForGLMM(poseHeader
             
             isLookingAtVPScreen = inside;
             
-            outLine = [outLine movement isLookingAtPerformer isLookingAtAudience isBeingLookedAtByPerformer isBeingLookedAtByAudienceMember isLookingAtVPScreen];
+            outLine = [outLine moved rotated isLookingAtPerformer isLookingAtAudience isBeingLookedAtByPerformer isBeingLookedAtByAudienceMember isLookingAtVPScreen];
             outLookingAtLine = [outLookingAtLine lookingAtMatrix(subject, :)];
         end
         
