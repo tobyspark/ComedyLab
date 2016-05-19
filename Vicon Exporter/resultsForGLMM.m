@@ -31,6 +31,12 @@ function [headers out headersLookingAt outLookingAt] = resultsForGLMM(poseHeader
     subjectCount = (length(poseHeaders)-1)/entriesPerSubject;
     frameCount = size(poseData,1);
     
+    subjectNames = cell(subjectCount);
+    for i=1:subjectCount
+        name = strsplit(poseHeaders{2+(i-1)*entriesPerSubject},'/');
+        subjectNames{i} = name{1};
+    end
+    
     %% TASK: Calculate out inter-subject gaze data from pose data
     %  ie gazeData = [persubject: [distTo 1..n],[distFromGazeAxis 1..n]
     
@@ -116,7 +122,7 @@ function [headers out headersLookingAt outLookingAt] = resultsForGLMM(poseHeader
                 rotated = 0;
             % Protect against missing mocap values (no hat can be at 0 0 0)
             elseif isequal(poseData(frame, xIdx:zIdx), [0 0 0]) || isequal(poseData(frame-1, xIdx:zIdx), [0 0 0])
-                disp(['Missing mocap data for subject index' num2str(subject) ' frame ' num2str(frame)])
+                disp(strcat({'Missing mocap data for '}, subjectNames(subject), {' time '}, {num2str(poseData(frame, 1))}))
                 moved = 0;
                 rotated = 0;
             else
@@ -194,12 +200,6 @@ function [headers out headersLookingAt outLookingAt] = resultsForGLMM(poseHeader
         
         out = [out; outLine];
         outLookingAt = [outLookingAt; outLookingAtLine];
-    end
-    
-    subjectNames = cell(subjectCount);
-    for i=1:subjectCount
-        name = strsplit(poseHeaders{2+(i-1)*entriesPerSubject},'/');
-        subjectNames{i} = name{1};
     end
     
     headers = {'Time'};
