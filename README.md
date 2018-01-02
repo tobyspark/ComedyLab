@@ -13,8 +13,8 @@ Includes
 See also: Dataset viewer application
 - https://github.com/tobyspark/Comedy-Lab-Dataset-Viewer
 
-Further documentation
-- My thesis. I'm working on it.
+Full documentation
+- My PhD dissertation: http://tobyz.net/projects/phd
 
 DOI
 - [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.11793.png)](http://dx.doi.org/10.5281/zenodo.11793)
